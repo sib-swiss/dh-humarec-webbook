@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (H) {
+            H.className = H.className.replace(/\bgoogle\b/, 'google-js')
+        })(document.documentElement)
+    </script>
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>HumaReC Web Book</title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script src="/webbook/book/js/jquery-3.2.1.min.js"></script>
+    <script src="/webbook/book/js/custom.min.js"></script>
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+    <script>$('img').bind('contextmenu', function (e) {return false;});</script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet">
+    <link href="/webbook/book/css/main.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="/webbook/book/images/favicon.ico" rel="shortcut icon">
+    <link href="/webbook/book/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/webbook/book/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" class="btn-round" title="Go to top"><i class="fa fa-angle-up fa-custom" style="color:#fff" aria-hidden="true"></i></button>
+    <div class="menu-closed" id="curtain"></div>
+    <div class="header clearfix">
+      <div class="header-wrraper">
+      <h2 class="title-book">A Trilingual Manuscript of the New Testament in Digital Research [Web Book]</h2>
+        <h2><a class="expand" id="burger-menu"></a></h2>
+        <h2 class="chapter-title">
+          7.1 Codicological and paleographical features
+        </h2>
+      </div>
+    </div>
+    <div class="expands" id="overlay-element">
+        <div>
+            <a href="https://humarec.org/"><img alt="Humarec" src="/webbook/book/images/logo_home.jpg" style="width: 100%"></a>
+        </div>
+        <ol class="dropdown-content hide" id="drop-down">
+            <li><a class="menu-buttons" href="/webbook/book/index.html">Table of Contents</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/foreword.html">Foreword</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part1.html">Part I - Introduction</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap1.html">1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap2.html">2. The next step: HumaReC (2016-2018)</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part2.html">Part II - The Platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3.html">3. Manuscript transcription and visualization</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_1.html">- 3.1 The manuscript viewer: work with EVT</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_2.html">- 3.2 Towards handwritten text recognition</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4.html">4. Interactions and users</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_1.html">- 4.1 On the platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_2.html">- 4.2 Social media</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5.html">5. Continuous publication</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_1.html">- 5.1 On the platform: blog and transcriptions</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_2.html">- 5.2 Consolidation with the Web book</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap6.html">6. Reception and limitations</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part3.html">Part III - The Manuscript</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7.html">7. The object</a></li>
+            <li class="active"><a class="menu-buttons" href="/webbook/book/chapters/chap7_1.html">- 7.1.Codicological and paleographical features</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_2.html">- 7.2 Remarks about the production context</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8.html">8. The text of the letters of Paul</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_1.html">- 8.1 The Greek text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_2.html">- 8.2 The Latin text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_3.html">- 8.3 The Arabic text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_4.html">- 8.4 Mutual influences</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_5.html">- 8.5 Paratext</a></li>
+
+
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part4.html">Part IV - Conclusion</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/acknowledgement.html">Acknowledgement</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/bibliography.html">Bibliography</a></li>
+        <!--     <li><a class="menu-buttons" href="/webbook/book/chapters/annexe1.html">Annexe 1. List of alternative renderings</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/annexe2.html">Annexe 2. List of Islamic vocabulary</a></li> -->
+            <li><a class="menu-buttons"></a></li>
+            <li><a class="menu-buttons"></a></li>
+        </ol>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div class="content">
+        <section data-type="chapter" id="chapter7_1">
+          <h1 class="heading">
+            7.1 Codicological and paleographical features
+          </h1>
+
+          <div class="content chapter">
+         <div class="pagenumrestart page" data-type="part">
+          <h2 class="subheaders">
+               General
+              </h2>
+
+           <p>
+
+              <p> The manuscript once belonged to the St-Michael Monastery in Troina, Sicily (see <i>The later notes in the manuscript</i> below), thereafter, it became part of Cardinal Bessarion’s collection and was numbered 9.<sup><a data-type="noteref" href="#note7_1_1" id="note7_1_1-marker">1</a></sup> In the ancient Marciana fund described by Zanetti, it had the shelf-mark 11 among the Greek manuscripts (hence the identifier Z. 11) <a href="/webbook/book/chapters/bibliography.html#Zan740" target="_blank">[Zanetti 1740: 16]</a> while the number in the actual Greek collection is 379. </p>
+          <p>    The codex has 304 folios measuring 28,7x24cm and each column measures 21x5cm. The columns have 28 lines (some exceptions have 29 lines) and the codex was written on parchment.<sup><a data-type="noteref" href="#note7_1_2" id="note7_1_2-marker">2</a></sup> Thus, we find features specific to parchment such as follicle patterns, holes due to the stretching of the skin and other irregularities. </p>
+
+<figure class="vertical horizontal">
+                <img class="image"
+                src="http://humarec-viewer.vital-it.ch/data/input_data/images/hotspot/Gr-Z_0011-00379_hs_gr_247r_01.jpg" style="height:110px">
+                 <img class="image"
+                src="http://humarec-viewer.vital-it.ch/data/input_data/images/hotspot/Gr-Z_0011-00379_hs_ar_247v_01.jpg" style="height:110px">
+                <figcaption>
+                  Details of folios <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_247r" target="_blank">folio 247r</a> and <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_247v" target="_blank">folio 247v</a> © Marciana Library
+                </figcaption>
+              </figure>
+
+               <p>A few folios are missing at the beginning and end of the codex: the book of Acts only begins at Act 1:12 and Philemon is missing.<sup><a data-type="noteref" href="#note7_1_3" id="note7_1_3-marker">3</a></sup> The initial argumentum attests to the earlier presence of the missing letter (see <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_304v" target="_blank">folio 304v</a>). The foliotation in Arabic numerals (on the recto in the right corner) is more recent: the first folio bears the number 1.</p>
+               <p>Mioni provides details of the quires in the catalogue:</p>
+
+<aside class="highlight" data-type="sidebar">
+             I septem ff. (f. 7), 8 quaterniones (f. 71), I ternio (olim quaternio, f. 77), 16 quat. (f. 205), I septem ff. (f. 212), 8 quaterniones (f. 276), I septem ff. (f. 283), I quinque ff. (f. 288), 2 quat. (f. 304). <a href="/webbook/book/chapters/bibliography.html#Mio85" target="_blank">[Mioni 1985: 16].</a>
+</aside>
+<p>The manuscript presents one single hand – at least for each column.<sup><a data-type="noteref" href="#note7_1_4" id="note7_1_4-marker">4</a></sup> It is not obvious if the same scribe copied the three columns or if different scribes were dedicated to each alphabet (see <a href="/webbook/book/chapters/chap8.html">point 8.5</a>). The scripts are less carefully written in several instances. This is probably due to tiredness (see for example the Greek column in <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_210r" target="_blank">folio 210r</a>; 235v; 242v) or when the scribe attempts to gain precious space. This is the case when the Latin and the Arabic texts take more space than the Greek, the Greek text being copied first (see <a href="/webbook/book/chapters/chap8.html">chapter 8</a>): see the Arabic in <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_133v" target="_blank">133v</a>; and Latin in
+  <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_156v" target="_blank">156v</a> as examples. </p>
+
+
+             <p>The manuscript shares similarities with other manuscripts, particularly: </p>
+<ul>
+<li>The London British Library Harley 5786 (year 1153), a trilingual Greek-Latin-Arabic Psalter. Images of the manuscript are online on the <a href="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_5786" target="_blank">British Library website</a> (see also <a href="/webbook/book/chapters/bibliography.html#Lake" target="_blank">[Lake 1934-1939: no. 80 (plates 140, 141)]</a>). It was copied before 1153 and is considered as Sicilian in origin.
+<figure class="vertical horizontal">
+                <img class="image"
+                src="https://www.bl.uk/britishlibrary/~/media/bl/global/greek%20manuscripts/collection%20items/harley_ms_5786_f056r.jpg">
+                <figcaption>
+                  The Harley Trilingual Psalter, source <a href="https://www.bl.uk/collection-items/the-harley-trilingual-psalter" target="_blank">British Library</a>, public domain
+
+                </figcaption>
+              </figure>
+</li>
+
+<li>The Venice Marciana Gr. Z. 539 (303) (12th), a manuscript containing four Gospels in Greek and Arabic (GA 211 in the Gregory-Aland list). This manuscript aroused the interest of researchers working on a specific family of Greek New Testament manuscripts, family 13 <a href="/webbook/book/chapters/bibliography.html#Laf12" target="_blank">[Lafleur 2012: 128]</a>. Microfilms of the manuscript are available in the <a href="http://ntvmr.uni-muenster.de/" target="_blank">NT Virtual Manuscript Room</a> but this requires a registration to access them. </li>
+</ul>
+<p>In addition to BL Harley 5786 and Marciana Gr. Z. 539 (303), two other manuscripts should be noted: BNF supplément grec 911 and Naples Biblioteca Nazionale Gr. 20. Altogether these five manuscripts are testament to the multilingualism of Christianity in the South of Italy, particularly from the 11th to the 14th centuries <a href="/webbook/book/chapters/bibliography.html#Nef08" target="_blank">[Nef 2008;</a> <a href="/webbook/book/chapters/bibliography.html#Pie02" target="_blank">Piemontese 2002]</a>. This particular context and its scriptural production will be discussed in the next chapter. We will focus on BL Harley 5786 and Marciana Gr. Z. 539 (303) in order to give, if possible, comparative elements that can be useful for dating Marciana Gr. Z. 11 (379).</p>
+
+<p>BL Harley 5786 and Marciana Gr. Z. 539 (303) have both been evaluated as dating to the 12th century.<sup><a data-type="noteref" href="#note7_1_5" id="note7_1_5-marker">5</a></sup> By contrast, Marciana Gr. Z. 11 (379) is a 13th century manuscript according to the Marciana catalogues, a dating supported by the INTF.<sup><a data-type="noteref" href="#note7_1_6" id="note7_1_6-marker">6</a></sup> However, in his <i>Textkritik</i>, Gregory proposes the 13th or 14th century <a href="/webbook/book/chapters/bibliography.html#Gre00" target="_blank">[Gregory 1900: 271, no. 96]</a> while Rinck suggests the 11th century <a
+  href="/webbook/book/chapters/bibliography.html#Rin830" target="_blank">[Rinck 1830: 30-42, no. 109;]</a>.</p>
+<p>According to the paleographical elements developed below, we argue that Marciana Gr. Z. 11 (379) is also a Southern Italian manuscript from the 12th century. A 12th century date would place the manuscript’s origin during the Norman domination of Southern Italy. Scholars have already suggested that BL Harley 5786 was produced in the context of Roger II of Sicily’s court (1130-1154) <a href="/webbook/book/chapters/bibliography.html#Amb08" target="_blank">[Ambrosetti 2008: 243]</a>. The interactions between Norman, Arab and Byzantine cultures following the Norman conquest of Sicily were rich and fruitful, notably due to the rulers’ tolerance. Thus, this is a plausible context for the production of Marciana Gr. Z. 11 (379) (see <a href="/webbook/book/chapters/chap8.html">next chapter</a>).</p>
+
+
+
+
+            <h2 class="subheaders">
+                The Greek script <sup><a data-type="noteref" href="#note7_1_7" id="note7_1_7-marker">7</a></sup>
+              </h2>
+            <p>
+It is complicated to date the Greek script with certainty. As many scholars have stated:
+            </p>
+            <aside class="highlight" data-type="sidebar">[…] it remains extremely difficult, if not impossible, to be confident in determining within narrow limits the date of minuscule manuscripts between 1050 and 1350. <a href="/webbook/book/chapters/bibliography.html#Met81" target="_blank">[Metzger 1981: 50]</a></aside>
+            <p>The script of the text’s body was written in a brown ink, infra-linearly; round breathings<sup><a data-type="noteref" href="#note7_1_8" id="note7_1_8-marker">8</a></sup> are also noteworthy . This is an example of a minuscule script corresponding to Groningen’s description of the “codices vetusti”. The first type of “codices vetusti” is characterized by:</p>
+            <aside class="highlight" data-type="sidebar">[…] lesser harmony and eurhythmy: not all the characters are so regular in size, nor are they so upright; the letters are more spaced and the whole displays some restlessness; uncials appear in larger number, first the κ, λ, μ, ν, π, ε, η, later also the β, δ, υ, φ and ω. <a href="/webbook/book/chapters/bibliography.html#Gro67" target="_blank">[van Groningen 1967: 35]</a></aside>
+            <p>Furthermore, Groningen describes a second type where the influence of cursive is clear, as demonstrated by his illustrated table: </p>
+<figure class="vertical horizontal">
+            <img class="image"
+            src="/webbook/book/images/Groningen.jpeg">
+<figcaption>Snippet of Fig. 5. Characters in minuscule codices <a href="/webbook/book/chapters/bibliography.html#Gro67" target="_blank">[Groningen 1967: 34]</a></figcaption>
+          </figure>
+   <p>
+     The Greek script shares features associated with these two types and is characterized by the coexistence of prominently cursive features and uncial characters, an aspect that is common in later minuscules.</p>
+     <ul>
+     <li>
+   π can be written <img class="image"
+   src="/webbook/book/images/pi1.png" style="height:40px"> or <img class="image"
+   src="/webbook/book/images/pi2.png" style="height:40px">.</li>
+<li>σ is usually written <img class="image"
+src="/webbook/book/images/sigma1.png" style="height:40px"> but also appears as <img class="image"
+src="/webbook/book/images/sigma2.png" style="height:40px">.</li>
+<li>ω is sometimes written in the ‘pure’ form <img class="image"
+src="/webbook/book/images/omega1.png" style="height:40px"> but also often as an uncial <img class="image"
+src="/webbook/book/images/omega2.png" style="height:40px">.</li>
+<li>β is mostly written as a minuscule <img class="image"
+src="/webbook/book/images/beta1.png" style="height:40px"> but on some occasions as an uncial <img class="image"
+src="/webbook/book/images/beta2.png" style="height:40px"> <img class="image"
+src="/webbook/book/images/beta3.png" style="height:40px">. According to Canart, the latter appeared during the second half the 12th century <a href="/webbook/book/chapters/bibliography.html#Can91" target="_blank">[Canart 1991: 72]</a>.</li>
+<li>ε can be written <img class="image"
+src="/webbook/book/images/epsilon1.png" style="height:40px"> or <img class="image"
+src="/webbook/book/images/epsilon2.png" style="height:40px">, <img class="image"
+src="/webbook/book/images/epsilon3.png" style="height:40px">. The ‘modern’ form  <img class="image"
+src="/webbook/book/images/epsilon3.png" style="height:40px"> appeared in 1167 according to Canart <a href="/webbook/book/chapters/bibliography.html#Can91" target="_blank">[Canart 1991: 72]</a>.</li>
+<li>Even if the minuscule γ is generally dominant <img class="image"
+src="/webbook/book/images/gamma1.png" style="height:40px">,<img class="image"
+src="/webbook/book/images/gamma2.png" style="height:40px">, however the majuscule form also appears regularly <img class="image"
+src="/webbook/book/images/gamma3.png" style="height:40px">, <img class="image"
+src="/webbook/book/images/gamma4.png" style="height:40px">.</li>
+</ul>
+        <p>It is worth examining the fluidity in the use of minuscule, cursive and uncial forms. It should be mentioned that <i>diaeris</i> is not used widely in the manuscript, an aspect that becomes more common in the second half of the 12th century <a href="/webbook/book/chapters/bibliography.html#Bar31" target="_blank">[Barbour 1931: xxix]</a>. It can thus be placed in the above-mentioned category of “codices vetusti”, defined by Groningen as “from the middle of the Xth cent. till the middle of the XIIIth  cent.” <a href="/webbook/book/chapters/bibliography.html#Gro67" target="_blank">[Groningen 1967: 35]</a>.  Gardhausen’s “mittlere Minuskel” definition is also applicable with respect to this feature:</p>
+<aside class="highlight" data-type="sidebar">die mittleren Minuskel haben […] die uncialen oder semiuncialen Formen, die ihnen passend schienen, ohne Bedenken im Text verwendet <a href="/webbook/book/chapters/bibliography.html#Gar13" target="_blank">[Gardthausen 1913: 217]</a>.</aside>
+        <p>However, one aspect that seems to be specific to the Marciana manuscript is the use of the high τ. The small τ <img class="image"
+        src="/webbook/book/images/tau1.png" style="height:40px"> is also present but the majuscule character is dominant <img class="image"
+        src="/webbook/book/images/tau2.png" style="height:40px">: an aspect that that requires foregrounding. </p>
+        <p>The red ink used for the <i>tituli</i>, the majuscules and the liturgical notes is another noteworthy aspect; the red ink is also present in the Latin and Arabic columns and brings forth a debate about the Italian manuscripts. In his study on the Library of <a href="	https://it.wikipedia.org/wiki/Abbazia_di_Santa_Maria_del_Patire">St Mary of Patir Abbey</a>, Batiffol attempts to demonstrate the influence of the Constantinople <i>scriptoria</i> on the supposed <i>scriptorium</i> of the Patir Abbey. He describes several 10th to 12th century manuscripts and their styles.<sup><a data-type="noteref" href="#note7_1_9" id="note7_1_9-marker">9</a></sup> He describes a category of Byzantine manuscripts that made its way into the Patir <i>scriptorium</i>, the “style carminé”:</p>
+<aside class="highlight" data-type="sidebar">On la rendit plus abordable en réduisant l’enlumineur à l’emploi du carmin, et l’enluminure à un simple tracé. On eut alors des bandeaux et des initiales exclusivement au carmin : bandeaux en forme de frise, de balustrades, de rinceaux, etc. ; initiales, non plus zoomorphiques ni à vignettes, mais seulement fleuronnées […] Puis, pour étoffer cette décoration un peu maigre, les titres furent écrits au carmin, et non plus en onciales mais en capitales fleuries. <a href="/webbook/book/chapters/bibliography.html#Bat891" target="_blank">[Battifol 1891: 83]</a></aside>
+        <p>For Batiffol, manuscripts of this style appeared in the middle of the 11th century. Half a century later, Devreesse questions Batiffol’s purposes. In his opinion, Batiffol overestimates the role of the Patir Abbey. Many of the manuscripts cited by Batiffol were either imported from Constantinople directly or copied elsewhere in Southern Italy. Apart from the debate about the role of this particular <i>scriptorium</i>, Battifol provides examples of “style carminé” manuscripts that are of interest to our inquiry.</p>
+        <p>Vat. Gr. 1611<sup><a data-type="noteref" href="#note7_1_10" id="note7_1_10-marker">10</a></sup> and Vat. Gr. 2064, both from the 12th century, were written in Constantinople according to Batiffol <a href="/webbook/book/chapters/bibliography.html#Bat891" target="_blank">[Battifol 1891: 83]</a>, whereas Devreesse identifies their origin as Southern Italian.<sup><a data-type="noteref" href="#note7_1_11" id="note7_1_11-marker">11</a></sup>  The scripts of both manuscripts share similarities with Marciana Gr. Z. 11 (379) other than the “style carminé”. The aforementioned description of cursive and uncial features fits all three scripts, including the regular, but not exclusive, use of the majuscule forms of τ. Furthermore, similarities in the <i>tituli</i><sup><a data-type="noteref" href="#note7_1_12" id="note7_1_12-marker">12</a></sup> and the initials<sup><a data-type="noteref" href="#note7_1_13" id="note7_1_13-marker">13</a></sup> are also observable: the images available on the Vatican Digital Library are worth examining in these respects. The similarities between Marciana Gr. Z. 11 (379) and these 12th century witnesses are interesting. On the contrary, the comparison with the other multilingual objects, Marciana Gr. Z. 539 (303) and BL Harley 5786, shows that they have very different scripts.</p>
+        <p>Both Mioni and the INTF identify Marciana Gr. Z. 539 (303) as belonging to the 12th century. The minuscule script is less cursive compared to Marciana Gr. Z. 11 (379), it does not have the same use of majuscules in the text body, and it is also thicker; the script can be compared to Vat. Gr. 1992.<sup><a data-type="noteref" href="#note7_1_14" id="note7_1_14-marker">14</a></sup> The latter was copied by the monk Barthelemy of Rossano at the beginning of the 12th century (1104) and according to Batiffol it represents the regional “style carminé” type.</p>
+        <p>BL Harley 5786 presents yet other features: written by at least two different hands, it presents a clear regularity and has small “croches” at the end of some letters (see the μ or λ). This script is very close to Vat. Gr. 2290, a manuscript copied in Bovalino in 1197.<sup><a data-type="noteref" href="#note7_1_15" id="note7_1_15-marker">15</a></sup> Both manuscripts are part of Leroy and Canart’s study that attempts to describe the so-called “Reggio style”.<sup><a data-type="noteref" href="#note7_1_16" id="note7_1_16-marker">16</a></sup>  BL Harley 5786 and Vat. Gr. 2290 are also mentioned in a description of a so-called <i>litera neritina</i>, a script occurring in the Apulian town of Nardò and nearby <a href="/webbook/book/chapters/bibliography.html#Wil67" target="_blank">[Wilson 1967]</a>. All these manuscripts mentioned in this short article are from the second half of the 12th century or later.<sup><a data-type="noteref" href="#note7_1_17" id="note7_1_17-marker">17</a></sup>, furthermore they underline the diversity of the so-called “Reggio style”. For instance, BL Harley 5786 and Vat. Gr. 2290 are both reminiscent of the <i>Perlschrift</i> script type
+          <a href="/webbook/book/chapters/bibliography.html#Can77" target="_blank">[Leroy and Canart 1977: 243]</a><sup><a data-type="noteref" href="#note7_1_18" id="note7_1_18-marker">18</a></sup> or even of the “bouletée” script.<sup><a data-type="noteref" href="#note7_1_19" id="note7_1_19-marker">19</a></sup> However, other examples of the Reggio style can be quite different. Comparing <a href="https://digi.vatlib.it/view/MSS_Vat.gr.1646">Vat. Gr. 1646</a> and <a href="https://digi.vatlib.it/view/MSS_Urb.gr.64 ">Vat. Urb. Gr. 64</a>, Canart and Leroy state: “Il existe certainement des differences qui font au-delà des variations individuelles” and “l’impression d’ensemble n’est pas la même”
+          <a href="/webbook/book/chapters/bibliography.html#Can77" target="_blank">[Leroy and Canart 1977: 248]</a>. Similarly, differences in the same manuscript are also evident. In <a href="https://digi.vatlib.it/view/MSS_Vat.gr.2290">Vat. Gr. 2290</a>, the scripts used for the introductory materials preceding the Gospels texts (<i>Epistula ad Carpianum</i>, Eusebian Canon tables, <i>prolegomena</i>, tables of κεφαλαια) present features that are closer to Marciana Gr. Z. 11 (379) than the rest of the manuscript, including the high τ.</p>
+          <p>In brief, it can be noted that Marciana Gr. Z. 11 (379), Marciana Gr. Z. 539 (303) and BL Harley 5786 have significantly different Greek scripts. These are more regional in Marciana Gr. Z. 539 (303) and BL Harley 5786 and could perhaps be considered more “byzantine” in Marciana Gr. Z. 11 (379), but such diversity can be found amongst many other 12th century Southern Italian examples.</p>
+             <h2 class="subheaders">
+                The Latin script <sup><a data-type="noteref" href="#note7_1_20" id="note7_1_20-marker">20</a></sup>
+              </h2>
+            <p>The Latin script is a late Caroline minuscule of medium quality corresponding to the 12th or 13th century. It has several Italian features such as the <i>g</i> with one stroke going from the upper to the lower section: <img class="image"
+            src="/webbook/book/images/g1.png" style="height:40px">, <img class="image" src="/webbook/book/images/g2.png" style="height:40px">.
+            </p>
+            <p>Some aspects point to an early date, such as the <i>ae</i> diphtong written as <i>e caudata</i>  or the persistence of a minuscule <i>d</i> next to the uncial <i>d</i> , while other aspects are more gothic,<sup><a data-type="noteref" href="#note7_1_21" id="note7_1_21-marker">21</a></sup> such as the (rare) ligature between <i>d</i> and <i>e</i>: </p>
+            <figure class="vertical horizontal">
+              <img class="image" src="/webbook/book/images/ae.png" style="height:80px">
+              <img class="image" src="/webbook/book/images/dd.png" style="height:80px">
+              <img class="image" src="/webbook/book/images/de.png" style="height:80px">
+
+              <figcaption><i style="font-weight:bold">ae caudata</i> / <i style="font-weight:bold">d</i> and <i style="font-weight:bold">d</i> / ligature <i style="font-weight:bold">de</i> © Marciana Library </figcaption>
+
+            </figure>
+            <p>The use of red ink is similar to the Greek column. It is used for the <i>tituli</i>, the initials and the numbering referring to the <i>capitula</i> (<img class="image" src="/webbook/book/images/capitulanb.png" style="height:40px">). </p>
+            <p>The main difference compared to the Psalter, which also shows a late Caroline minuscule,<sup><a data-type="noteref" href="#note7_1_22" id="note7_1_22-marker">22</a></sup> is that the script of the latter is of better quality, as exemplified by the regularity of the spaces between the letters. It is difficult to be precise regarding the date of both scripts.</p>
+             <h2 class="subheaders">
+                The Arabic script
+              </h2>
+            <p>The Arabic script appears to be Eastern naskhī, according to Piemontese, it is “ha qualità calligrafica ariosa” <a href="/webbook/book/chapters/bibliography.html#Pie02" target="_blank">[Piemontese 2002: 461]</a>. The script presents diacritic marks with occasional omissions and useless additions. For the majority of the text, there is no point above the <i>tā’ marbūṭa</i>. The hamza is usually omitted with some rare exceptions (e.g. folio 156r, l. 9 and l. 27).
+            </p>
+            <p>Even if it is an Eastern script, on certain occasions the Andalusi-Maghrebi ڢ/ف system is used (e.g. ف for <i>qāf</i> in: e.g. <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_250v" target="_blank">folio 250v</a> l. 13 فام for قام; <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_209v" target="_blank">‎209v</a> l. 11 افبل for اقبل;‎ ف for <i>fā’</i> in: <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_213v" target="_blank">213v</a> l. 7 ڢهو for فهو‎; <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_128v" target="_blank">128v</a> l. 13 يڢعلون for يفعلون) <a href="/webbook/book/chapters/bibliography.html#Der06" target="_blank">[Déroche 2006: 220-221]</a>. As later discussed, the two other witnesses to the same Arabic text, Vat. Lat. 12900 and Madrid BN 4971, are of Western origin (see <a href="/webbook/book/chapters/chap8_3.html">point 8.3)</a>; both use the ڢ/ف system.<sup><a data-type="noteref" href="#note7_1_23" id="note7_1_23-marker">23</a></sup> The question arises as to whether the occasional use of the Andalusi-Maghrebi diacritics in Marciana Gr. Z. 11 (379) comes from the manuscript the scribe used as a copy. </p>
+            <p>It is also noteworthy that a system of disambiguation between homographic pairs is sometimes used <a href="/webbook/book/chapters/bibliography.html#Der06" target="_blank">[Déroche 2006: 221-222]</a>. Small <i>ḥā’</i> are written below the letter <i>ḥā’</i> in e.g. folios <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_125v" target="_blank">125v</a> l. 2 and <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_158r" target="_blank">158r</a> l. 16.<sup><a data-type="noteref" href="#note7_1_24" id="note7_1_24-marker">24</a></sup> </p>
+            <p>It displays a restricted use of <i>tashkīl</i>: the short vowels, <i>tanwīn</i> and <i>shadda</i> are occasionally present.</p>
+            <p>The use of red ink is similar to the two other columns, it is used for the <i>tituli</i> and the punctuation, written with two strokes (<img class="image" src="/webbook/book/images/punctuation.png" style="height:40px">). </p>
+            <p>In comparison, the Arabic script in Marciana Gr. Z. 539 (303), also a <i>naskhī</i> script,<sup><a data-type="noteref" href="#note7_1_25" id="note7_1_25-marker">25</a></sup> offers complete vocalization. A system of disambiguation is also used more frequently and with more letters. As in Marciana Gr. Z. 11 (379), the ڢ/ف system is occasionally used. </p>
+            <p>The Arabic script in BL Harley 5786, another <i>naskhī</i>  script,<sup><a data-type="noteref" href="#note7_1_26" id="note7_1_26-marker">26</a></sup> has only occasional <i>tashkīl</i> as does Marciana Gr. Z. 11 (379). However, <i>tashkīl</i> often seems to have been written by a later hand. The disambiguation system is also present and as with Marciana Gr. Z. 11 (379), the ڢ/ف system is occasionally used.</p>
+            <p>All three witnesses have scripts that can be described as <i>naskhī</i>, which is indeed a broad category given that these examples appear significantly different. These Arabic scripts prevent one from drawing precise conclusions about their age. </p>
+            <h2 class="subheaders">
+               The later notes in the manuscript
+             </h2>
+             <p>Finally, it is important to highlight that the manuscript contains several notes in the Sicilian dialect, written with the help of the Greek alphabet: these can be found in folios 2r, 198r and <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_252v" target="_blank">252v</a>.<sup><a data-type="noteref" href="#note7_1_27" id="note7_1_27-marker">27</a></sup> These notes, which are not from the same hand, are dated as belonging to the 14th century. The <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_252v" target="_blank">252v</a> note mentions that the codex belongs to the St-Michael Monastery in Troina, Sicily, information that is also stated by a Greek inscription on folio 8r (in a very similar hand).</p>
+             <p>The note on folio 2r is also interesting: it indicates that a person by the name of Brascus from Messina visited the Pope by taking a boat and traveling to Aigues-Mortes; this particular geographical information means that this note was written between 1314-1374, when the Pope resided in Avignon.<sup><a data-type="noteref" href="#note7_1_28" id="note7_1_28-marker">28</a></sup></p>
+             <h2 class="subheaders">
+                Conclusion
+              </h2>
+              <p>The study of the scripts in the manuscript does not provide precise date elements although they correspond to scripts that were in use during the 12th century. The comparison to other Greek witnesses may point to the second half of the 12th century. Even if the scripts in the three manuscripts: Marciana Gr. Z. 11 (379), Marciana Gr. Z. 539 (303) and  BL Harley 5786, are significantly different, this does not necessarily mean that these objects are not contemporary. As previously examined, a multitude of Greek scripts were in use in the South of Italy at the time, even those belonging to the “style carminé” category highlighted by Batiffol (see above). It is possible that the Marciana Gr. Z. 539 (303) manuscript, which is close to the witnesses copied by the monk Barthelemy of Rossano at the beginning of the 12th century, comes from the first part of the 12th century while Marciana Gr. Z. 11 (379) and BL Harley 5786 come from the second part of the 12th century. There are no concrete elements that support a later date.
+              </p>
+              <p>Having been copied in the 12th century, possibly during the second half thereof, Marciana Gr. Z. 11 (379) is part of the cultural production that occurred at the crossroads of the Norman and Latin Catholic, Byzantine-Orthodox and Arab-Islamic cultures during the Norman rule in Sicily. This specific context will be discussed in the next chapter.</p>
+            </div>
+            </div>
+            <div class="footnotes" data-type="footnotes">
+
+            <p data-type="footnote" id="note7_1_1">
+             <sup><a href="#note7_1_1-marker">1</a></sup>
+             Mioni considers that a note in the gard-leaf was written by Bessarion himself <a href="/webbook/book/chapters/bibliography.html#Mio85" target="_blank">[Mioni 1985: 16]</a>.
+           </p>
+           <p data-type="footnote" id="note7_1_2">
+            <sup><a href="#note7_1_2-marker">2</a></sup>
+            About the use of parchment, see <a href="/webbook/book/chapters/bibliography.html#Can78" target="_blank">[Canart 1978: 116]</a>.
+          </p>
+          <p data-type="footnote" id="note7_1_3">
+           <sup><a href="#note7_1_3-marker">3</a></sup>
+      Philemon is the last letter. One surprising feature of Marciana Gr. Z. 11 (379) is the position of Hebrews, between 2 Thess and 1 Tim. See <a href="/webbook/book/chapters/chap8.html">chapter 8</a>.
+         </p>
+         <p data-type="footnote" id="note7_1_4">
+          <sup><a href="#note7_1_4-marker">4</a></sup>
+Exceptions in Latin, where the <i>capitula</i> are quite different from the rest of the Latin text: 100v-101r; 106v-107v; 116v; 118r; 119v-120r; 122v-124v (here <i>concordia epistularum Pauli</i>); 185r-186v; 206r-207v; 216v-217v; 228r-229r; 236r-237r; 244v-245v; 251v-252r; 257r-260r; 282r-283r; 291v-292r; 298v-299r. That the <i>capitula</i> were filled in in a later phase is supported by this fact: in 91v, there is a introduction phrase <i>incipit capitulam (sic) sancti petri prime</i> followed in 92r by a closing phrase <i>expliciunt capitula</i> but the space in between was left blank.
+        </p>
+        <p data-type="footnote" id="note7_1_5">
+         <sup><a href="#note7_1_5-marker">5</a></sup>
+Psalter BL Harley 5786: see <a href="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_5786">British Library</a>; <a href="/webbook/book/chapters/bibliography.html#Lake" target="_blank">[Lake 1934-1939: no. 80]</a>; <a href="/webbook/book/chapters/bibliography.html#Rah14" target="_blank">[Rahlfs 1914: 111]</a>. Marciana Gr. Z. 539 (303): see <a href="ntvmr.uni-muenster.de/liste?docID=30211">NTVMR</a>; <a href="/webbook/book/chapters/bibliography.html#Mio85" target="_blank">[Mioni 1985: 433]</a>.
+       </p>
+       <p data-type="footnote" id="note7_1_6">
+        <sup><a href="#note7_1_6-marker">6</a></sup>
+ 	<a href="/webbook/book/chapters/bibliography.html#Zan740" target="_blank">[Zanetti 1740: 16]</a>; <a href="/webbook/book/chapters/bibliography.html#Mio85" target="_blank">[Mioni 1985: 16]</a>;
+  <a href="ntvmr.uni-muenster.de/liste?docID=30460">NTVMR</a>.
+      </p>
+      <p data-type="footnote" id="note7_1_7">
+       <sup><a href="#note7_1_7-marker">7</a></sup>
+I thank Didier LaFleur (IRHT, CNRS) for the discussion about the Greek paleographical features.
+     </p>
+     <p data-type="footnote" id="note7_1_8">
+      <sup><a href="#note7_1_8-marker">8</a></sup>
+“Square breathing marks occur in codices written before the year 1000, whereas only round breathings are founds after 1300” <a href="/webbook/book/chapters/bibliography.html#Met81" target="_blank">[Metzger 1981: 49]</a></aside>
+    </p>
+    <p data-type="footnote" id="note7_1_9">
+     <sup><a href="#note7_1_9-marker">9</a></sup>
+      	See the extended critic of Gardthausen against Batiffol’s observations <a href="/webbook/book/chapters/bibliography.html#Gar13" target="_blank">[Gardthausen 1913: 253-257]</a>.
+</p>
+<p data-type="footnote" id="note7_1_10">
+ <sup><a href="#note7_1_10-marker">10</a></sup>
+  	See the images in the <a href="https://digi.vatlib.it/view/MSS_Vat.gr.1611">Vatican Digital Library</a>.
+</p>
+<p data-type="footnote" id="note7_1_11">
+ <sup><a href="#note7_1_11-marker">11</a></sup>
+ Vatican Gr. 1611 is placed among the “other witnesses” of the 12th century <a href="/webbook/book/chapters/bibliography.html#Dev55" target="_blank">[Devreesse 1955: 23]</a>. The other categories of his classifications of the South Italian Greek manuscripts are: “Manuscrits modèles de l’écriture de Grottaferrata”; “manuscrits gréco-lombards”; “manuscrits ‘campaniens’”; “manuscrits ‘en as de pique’”; “manuscrits de Reggio et de Sicile”. The category “Autres témoins” following directly the category “manuscrits de Reggio et de Sicile” has led to some confusion and sometimes, later scholars refers to manuscripts in the category “other” as Reggio manuscripts. See <a href="/webbook/book/chapters/bibliography.html#Can77" target="_blank">[Canart and Leroy 1977: 242, n. 2]</a>.
+</p>
+<p data-type="footnote" id="note7_1_12">
+ <sup><a href="#note7_1_12-marker">12</a></sup>
+ See the <i>tituli</i> on the first folio of each letter and in Vat. Gr. 1611: folio 1r or folio 129v below.
+</p>
+<p data-type="footnote" id="note7_1_13">
+ <sup><a href="#note7_1_13-marker">13</a></sup>
+  See the initials O in <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_134v" target="_blank">134v</a> and the equivalent in Vat. Gr. 2021: images 192; or the shape of other initials.
+</p>
+<p data-type="footnote" id="note7_1_14">
+ <sup><a href="#note7_1_14-marker">14</a></sup>
+  	See images in <a href="https://digi.vatlib.it/view/MSS_Vat.gr.1992">Vatican Digital Library</a>; <a href="/webbook/book/chapters/bibliography.html#Lake" target="_blank">[Lake VIII, no. 303, pl. 552, 553, 554, 563]</a>. The manuscript is also among the “other witnesses” of Devreesse <a href="/webbook/book/chapters/bibliography.html#Dev55" target="_blank">[Devreesse 1955: 39]</a>.
+</p>
+<p data-type="footnote" id="note7_1_15">
+ <sup><a href="#note7_1_15-marker">15</a></sup>
+ Reproduced by Devreesse <a href="/webbook/book/chapters/bibliography.html#Dev55" target="_blank">[Devreesse 1944: 40]</a>. See also <a href="/webbook/book/chapters/bibliography.html#Bar31" target="_blank">[Barbour 1931: 7]</a>; <a href="https://digi.vatlib.it/view/MSS_Vat.gr.2290"> Vatican Digital Library</a>; <a href="/webbook/book/chapters/bibliography.html#Lake" target="_blank">[Lake VIII, no. 330, pl. 601, 602]</a>.
+</p>
+<p data-type="footnote" id="note7_1_16">
+ <sup><a href="#note7_1_16-marker">16</a></sup>
+ “Des éléments convergents indiquent que le groupe de manuscrits étudié est originaire du sud de la Calabre et du nord-est de la Sicile, plus précisément de la région sous la mouvance du monastère du Saint-Sauveur de Messine. on a conservé l'appellation de style de Reggio" <a href="/webbook/book/chapters/bibliography.html#Can77" target="_blank">[Canart and Leroy 1977: 241]</a>.
+</p>
+<p data-type="footnote" id="note7_1_17">
+ <sup><a href="#note7_1_17-marker">17</a></sup>
+ It is necessary to mention here that the date 1153 in BL Harley 5786 does not have unanimous support. E.g. Devreesse: “La date [...] paraît douteuse” <a href="/webbook/book/chapters/bibliography.html#Dev54" target="_blank">[Devreesse 1954: 306]</a>. See <a href=" http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_5786_f173v">folio 173v of the Psalter</a>.
+</p>
+<p data-type="footnote" id="note7_1_18">
+ <sup><a href="#note7_1_18-marker">18</a></sup>
+ See e.g. <a href="https://en.wikipedia.org/wiki/Theodore_Psalter#/media/File:Theodore_Psalter,_Pslam_26,_1066.jpg">the Theodore Psalter</a>.
+</p>
+<p data-type="footnote" id="note7_1_19">
+ <sup><a href="#note7_1_19-marker">19</a></sup>
+ See e.g. <a href="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc214812">the Paris Psalter</a>.
+</p>
+<p data-type="footnote" id="note7_1_20">
+ <sup><a href="#note7_1_20-marker">20</a></sup>
+  	I thank Marc Smith (ENC; EPHE) for the discussion about the Latin paleographical features.
+</p>
+<p data-type="footnote" id="note7_1_21">
+ <sup><a href="#note7_1_21-marker">21</a></sup>
+ See the introduction to <i>Protogothic script</i> in Brown <a href="/webbook/book/chapters/bibliography.html#Bro90" target="_blank">[Brown 1990: 72-73]</a> and the plate 25 (<i>Continental protogothic book script</i>), which shows interesting similar features. It is a manuscript from the 12th century (BL Egerton 3055).
+</p>
+<p data-type="footnote" id="note7_1_22">
+ <sup><a href="#note7_1_22-marker">22</a></sup>
+  	At least written by six different hands according to the British Library catalogue, see <a href="/webbook/book/chapters/bibliography.html#Pie02" target="_blank">[Piemontese 2002: 456]</a>.
+</p>
+<p data-type="footnote" id="note7_1_23">
+ <sup><a href="#note7_1_23-marker">23</a></sup>
+ See a forthcoming of Monferrer-Sala (“The fragmentary ninth/tenth century Andalusi Arabic translation of the Epistle to the Galatians revisited”).
+</p>
+<p data-type="footnote" id="note7_1_24">
+ <sup><a href="#note7_1_24-marker">24</a></sup>
+   Similar in the bilingual manuscript Paris BNF Gr. 2293, see the description of the Arabic script in <a href="/webbook/book/chapters/bibliography.html#Por03" target="_blank">[Pormann 2003: 140]</a>.
+</p>
+<p data-type="footnote" id="note7_1_25">
+ <sup><a href="#note7_1_25-marker">25</a></sup>
+ Piemontese describes the <i>naskhī</i> script as “di carattere rotondo” like <a href="https://digi.vatlib.it/view/MSS_Vat.ar.84">Vat. Ar. 84 (year 1043)</a> <a href="/webbook/book/chapters/bibliography.html#Pie02" target="_blank">[Piemontese 2002: 461]</a>.
+</p>
+<p data-type="footnote" id="note7_1_26">
+ <sup><a href="#note7_1_26-marker">26</a></sup>
+ Two or three different hands <a href="/webbook/book/chapters/bibliography.html#Pie02" target="_blank">[Piemontese 2002: 457]</a>.
+</p>
+<p data-type="footnote" id="note7_1_27">
+ <sup><a href="#note7_1_27-marker">27</a></sup>
+ See <a href="/webbook/book/chapters/bibliography.html#Sol29" target="_blank">[Sola 1929]</a> and <a href="/webbook/book/chapters/bibliography.html#Parl62" target="_blank">[Parlangèli 1962: 465]</a> that provides transcription of the notes. See also <a href="/webbook/book/chapters/bibliography.html#Mio85" target="_blank">[Mioni 1985: 16]</a>.
+</p>
+<p data-type="footnote" id="note7_1_28">
+ <sup><a href="#note7_1_28-marker">28</a></sup>
+  	This specific time window is elaborated by <a href="/webbook/book/chapters/bibliography.html#Sol29" target="_blank">[Sola 1929: 408]</a>.
+</p>
+
+            </div>
+        </section>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="maia-aux">
+        <div class="previous">
+          <a href="/webbook/book/chapters/chap7.html">
+          <p class="footer-caption">
+            previous
+          </p>
+          <p class="chapter-link">
+            Chapter 7. The object
+          </p></a>
+        </div>
+        <div class="next">
+          <a href="/webbook/book/chapters/chap7_2.html">
+          <p class="footer-caption">
+            next
+          </p>
+          <p class="chapter-link">
+            7.2 Remarks about the production context
+          </p></a>
+        </div>
+          <p class="footer-link">
+              Copyright © Digital Humanities + | Swiss Institute of Bioinformatics 2016 - 2018 | CC BY-NC-ND 4.0 International License. </p>
+          <div class="footer-link"><a href="https://github.com/humarec/webbook"><i class="fa fa-github" style="font-size:30px"></i></a></div>
+      </div>
+    </div>
+
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+  </body>
+</html>

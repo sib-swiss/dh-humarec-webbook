@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (H) {
+            H.className = H.className.replace(/\bgoogle\b/, 'google-js')
+        })(document.documentElement)
+    </script>
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>HumaReC Web Book</title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script src="/webbook/book/js/jquery-3.2.1.min.js"></script>
+    <script src="/webbook/book/js/custom.min.js"></script>
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+    <script>$('img').bind('contextmenu', function (e) {return false;});</script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet">
+    <link href="/webbook/book/css/main.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="/webbook/book/images/favicon.ico" rel="shortcut icon">
+    <link href="/webbook/book/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/webbook/book/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" class="btn-round" title="Go to top"><i class="fa fa-angle-up fa-custom" style="color:#fff" aria-hidden="true"></i></button>
+    <div class="menu-closed" id="curtain"></div>
+    <div class="header clearfix">
+      <div class="header-wrraper">
+       <h2 class="title-book">A Trilingual Manuscript of the New Testament in Digital Research [Web Book]</h2>
+        <h2><a class="expand" id="burger-menu"></a></h2>
+        <h2 class="chapter-title">
+          Part I - Introduction
+        </h2>
+      </div>
+    </div>
+    <div class="expands" id="overlay-element">
+        <div>
+            <a href="https://humarec.org/"><img alt="Humarec" src="/webbook/book/images/logo_home.jpg" style="width: 100%"></a>
+        </div>
+        <ol class="dropdown-content hide" id="drop-down">
+            <li><a class="menu-buttons" href="/webbook/book/index.html">Table of Contents</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/foreword.html">Foreword</a></li>
+            <li class="active"><a class="menu-buttons" href="/webbook/book/chapters/part1.html">Part I - Introduction</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap1.html">1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap2.html">2. The next step: HumaReC (2016-2018)</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part2.html">Part II - The Platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3.html">3. Manuscript transcription and visualization</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_1.html">- 3.1 The manuscript viewer: work with EVT</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_2.html">- 3.2 Towards handwritten text recognition</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4.html">4. Interactions and users</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_1.html">- 4.1 On the platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_2.html">- 4.2 Social media</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5.html">5. Continuous publication</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_1.html">- 5.1 On the platform: blog and transcriptions</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_2.html">- 5.2 Consolidation with the Web book</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap6.html">6. Reception and limitations</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part3.html">Part III - The Manuscript</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7.html">7. The object</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_1.html">- 7.1.Codicological and paleographical features</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_2.html">- 7.2 Remarks about the production context</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8.html">8. The text of the letters of Paul</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_1.html">- 8.1 The Greek text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_2.html">- 8.2 The Latin text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_3.html">- 8.3 The Arabic text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_4.html">- 8.4 Mutual influences</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_5.html">- 8.5 Paratext</a></li>
+
+
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part4.html">Part IV - Conclusion</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/acknowledgement.html">Acknowledgement</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/bibliography.html">Bibliography</a></li>
+       <!--      <li><a class="menu-buttons" href="/webbook/book/chapters/annexe1.html">Annexe 1. List of alternative renderings</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/annexe2.html">Annexe 2. List of Islamic vocabulary</a></li> -->
+            <li><a class="menu-buttons"></a></li>
+            <li><a class="menu-buttons"></a></li>
+        </ol>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+              <section data-type="part" id="part1">
+                <blockquote data-type="epigraph">
+            <p class="quote">
+              Yes, there is something utopian at the core of digital humanities:</p>
+ <p class="quote">The open, the unfixed, the contingent, the infinite, the expansive, the no place.
+
+            </p> <p class="quote-author"> A Digital Humanities Manifesto </p>
+            </blockquote>
+            <h1 class="heading"> <span class="label">Part
+            I.</span> Introduction </h1>
+            <div class="content chapter"> <div
+            class="pagenumrestart page">
+            <p> <em>The central HumaReC research
+            question is based on an inquiry into a unique test-case, a
+            trilingual New Testament manuscript written in Greek, Latin and
+            Arabic: how is Humanities research reshaped and transformed by the
+            digital rhythm of data production and publication? The project aims
+            to develop a new Humanities research model that will allow for the
+            continuous publication of data and analyses while providing a space
+            for evaluations. This will all be done in dialog with an expert
+            editorial board and a scientific publisher, Brill, as well as with
+            the users of our research platform. The editing and study of the
+            Proto-Pauline letters in the trilingual New Testament manuscript,
+            Marciana Gr. Z. 11 (379), will be used as the test-case for the
+            development of these new practices.</em></p> <p>The advent of
+            digital Humanities has transformed the scope and rhythm of research
+            beyond printed materials, a completely new research paradigm has
+            arisen. Publishing formats can now range from short syntheses in
+            blogs and draft versions of papers to social media posts and videos
+            – all of which can occur before the research is even completed and
+            peer-reviewed. Furthermore, many projects are completed online from
+            beginning to end; various academic institutions, universities and
+            libraries, all increasingly support these kinds of digital
+            undertakings. Next to the shortened timeframe between research and
+            publication, new publishing formats offer many other advantages:</p>
+            <aside class="highlight" data-type="sidebar">
+            <p>The integration of
+            writing, other forms of media (images, sounds, videos) and links to
+            other resources.</p>
+            <p>The flexibility of digital support allows
+            for a focus on the reactions of users and the ability to adapt
+            research directions and results if required.</p>
+            <p>Digital
+            research projects allow for easy ‘openness’ compared to traditional
+            writing formats.</p>
+            <p>By allowing for an online presence, the
+            visibility of items that research previously neglected is greatly
+            improved, as exemplified by the Arabic New Testament in general and
+            the Marciana Gr. Z. 11 (379) in particular. This trilingual
+            manuscript was never studied in depth.<sup><a data-type="noteref" href="#noteI_1"
+            id="noteI_1-marker">1</a></sup> The HumaReC project will
+            have a special focus on the Pauline letters as a continuation of
+            previous research.</p>  </aside>
+
+            <p>Although there are several advantages, there are also concerns and challenges such as the question of how to ensure the authority of works published in Open Access, as we will see in the next chapters.</p>
+<p>The main HumaReC principles are presented in Part I, starting with the project’s genesis and how it is a continuation of another, initial project on an Arabic manuscript of Paul. Secondly, the proposed HumaReC model is examined: it attempts to respond to issues and challenges induced by the digital turn in Humanities.</p>
+    <p><a href="/webbook/book/chapters/part2.html">Part II</a> of the web book is dedicated to the online HumaReC platform and its various aspects. <a href="/webbook/book/chapters/part3.html">Part III</a> focuses on an examination of the manuscript at the core of this project: Marciana Gr. Z. 11 (379).</p>
+
+      </div>
+      </div>
+                  <div class="footnotes" data-type="footnotes">
+                      <p data-type="footnote" id="noteI_1">
+                        <sup><a href="#noteI_1-marker">1</a></sup> See <a href="/webbook/book/chapters/part3.html">part III</a> for state of research.
+                      </p>
+
+                  </div>
+    </section>
+    </div>
+    <div class="footer">
+      <div class="maia-aux">
+        <div class="previous">
+          <a href="/webbook/book/chapters/foreword.html">
+          <p class="footer-caption">
+            previous
+          </p>
+          <p class="chapter-link">
+            Foreword
+          </p></a>
+        </div>
+        <div class="next">
+          <a href="/webbook/book/chapters/chap1.html">
+          <p class="footer-caption">
+            next
+          </p>
+          <p class="chapter-link">
+            Chapter 1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)
+          </p></a>
+        </div>
+          <p class="footer-link">
+              Copyright © Digital Humanities + | Swiss Institute of Bioinformatics 2016 - 2018 | CC BY-NC-ND 4.0 International License. </p>
+          <div class="footer-link"><a href="https://github.com/humarec/webbook"><i class="fa fa-github" style="font-size:30px"></i></a></div>
+      </div>
+    </div>
+
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+  </body>
+</html>

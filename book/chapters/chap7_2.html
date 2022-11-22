@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (H) {
+            H.className = H.className.replace(/\bgoogle\b/, 'google-js')
+        })(document.documentElement)
+    </script>
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>HumaReC Web Book</title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script src="/webbook/book/js/jquery-3.2.1.min.js"></script>
+    <script src="/webbook/book/js/custom.min.js"></script>
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+    <script>$('img').bind('contextmenu', function (e) {return false;});</script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet">
+    <link href="/webbook/book/css/main.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="/webbook/book/images/favicon.ico" rel="shortcut icon">
+    <link href="/webbook/book/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/webbook/book/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" class="btn-round" title="Go to top"><i class="fa fa-angle-up fa-custom" style="color:#fff" aria-hidden="true"></i></button>
+    <div class="menu-closed" id="curtain"></div>
+    <div class="header clearfix">
+      <div class="header-wrraper">
+       <h2 class="title-book">A Trilingual Manuscript of the New Testament in Digital Research [Web Book]</h2>
+        <h2><a class="expand" id="burger-menu"></a></h2>
+        <h2 class="chapter-title">
+          7.2 Remarks about the production context
+        </h2>
+      </div>
+    </div>
+    <div class="expands" id="overlay-element">
+        <div>
+            <a href="https://humarec.org/"><img alt="Humarec" src="/webbook/book/images/logo_home.jpg" style="width: 100%"></a>
+        </div>
+        <ol class="dropdown-content hide" id="drop-down">
+            <li><a class="menu-buttons" href="/webbook/book/index.html">Table of Contents</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/foreword.html">Foreword</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part1.html">Part I - Introduction</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap1.html">1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap2.html">2. The next step: HumaReC (2016-2018)</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part2.html">Part II - The Platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3.html">3. Manuscript transcription and visualization</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_1.html">- 3.1 The manuscript viewer: work with EVT</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_2.html">- 3.2 Towards handwritten text recognition</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4.html">4. Interactions and users</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_1.html">- 4.1 On the platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_2.html">- 4.2 Social media</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5.html">5. Continuous publication</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_1.html">- 5.1 On the platform: blog and transcriptions</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_2.html">- 5.2 Consolidation with the Web book</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap6.html">6. Reception and limitations</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part3.html">Part III - The Manuscript</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7.html">7. The object</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_1.html">- 7.1.Codicological and paleographical features</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_2.html">- 7.2 Remarks about the production context</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8.html">8. The text of the letters of Paul</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_1.html">- 8.1 The Greek text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_2.html">- 8.2 The Latin text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_3.html">- 8.3 The Arabic text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_4.html">- 8.4 Mutual influences</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_5.html">- 8.5 Paratext</a></li>
+
+
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part4.html">Part IV - Conclusion</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/acknowledgement.html">Acknowledgement</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/bibliography.html">Bibliography</a></li>
+       <!--      <li><a class="menu-buttons" href="/webbook/book/chapters/annexe1.html">Annexe 1. List of alternative renderings</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/annexe2.html">Annexe 2. List of Islamic vocabulary</a></li> -->
+            <li><a class="menu-buttons"></a></li>
+            <li><a class="menu-buttons"></a></li>
+        </ol>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+        <div class="content">
+        <section data-type="chapter" id="chapter7_2">
+          <h1 class="heading">
+            7.2 Remarks about the production context
+          </h1>
+
+          <div class="content chapter">
+         <div class="pagenumrestart page" data-type="chapter">
+
+
+              <h2 class="subheaders">Multilingualism in New Testament Greek manuscripts</h2>
+ <p>Many multilingual manuscripts illustrate the historical encounter between various cultures of different languages, notably those considered as Eastern and Western. This recorded multilingualism is evident in texts from the Middle Ages, often in those that are sacral including manuscripts of the New Testament and other biblical books. Within the Byzantine Empire’s sphere of influence, the Greek New Testament may contain various other languages such as Coptic, Latin, Arabic, Old Church Slavonic, Armenian and Turkish.<sup><a data-type="noteref" href="#note7_2_1" id="note7_2_1-marker">1</a></sup> Multilingual manuscripts also exist independently from the Greek version, as demonstrated for instance by the high number of Coptic-Arabic Bible manuscripts <a href="/webbook/book/chapters/bibliography.html#Sch19" target="_blank">[Schulthess 2019: 159-160]</a>. However, the main focus of this present article will be New Testament manuscripts in Greek, Latin and Arabic.</p>
+<p>Parker lists twenty-three Graeco-Latin New Testament manuscripts (including lectionaries) <a href="/webbook/book/chapters/bibliography.html#Par92" target="_blank">[Parker 1992: 60</a>; see also <a href="/webbook/book/chapters/bibliography.html#Hou16" target="_blank">Houghton 2016: 27-28]</a>; to this the online <i>Liste</i> adds the bilingual lectionaries ℓ925, ℓ1347, and ℓ1349.<sup><a data-type="noteref" href="#note7_2_2" id="note7_2_2-marker">2</a></sup> Apart from Marciana Gr. Z. 11 (379), only one manuscript is from the 12th century, Florence Bibl. Medicea Laurenziana Conv. Soppr. 150 (= GA 620),<sup><a data-type="noteref" href="#note7_2_3" id="note7_2_3-marker">3</a></sup> while Vat. Barb. gr. 541 (= GA 165) dates to the 13th century (year 1292). The latter was classified by Devreesse as belonging to the 13th century manuscripts of Calabria and Sicily. Devreesse notes that the “style rappelle celui de Reggio” <a href="/webbook/book/chapters/bibliography.html#Dev55" target="_blank">[Devreesse 1955: p.42, n. 8]</a> (see point 7.1).  Later on the number of manuscripts becomes more important, as Houghton underlines: “Between the late thirteenth and fifteenth centuries, twelve Greek-Latin bilinguals demonstrate humanist interest in the original language” <a href="/webbook/book/chapters/bibliography.html#Hou16" target="_blank">[Houghton 2016: 209]</a>.</p>
+<p>Parker’s list of Graeco-Arabic manuscripts contains sixteen manuscripts, twelve of which are lectionaries although it should be revised and increased: today the <a href="http://ntvmr.uni-muenster.de/liste" target="_blank">online <i>Liste</i></a> contains eight Graeco-Arabic continuous texts and fourteen lectionaries. Venice Marciana Gr. Z. 539 (303) (= GA 211), as previously described (see 7.1), as well as Paris BNF Suppl. Gr. 911, year 1043 (= GA 609) are among these Graeco-Arabic manuscripts, these will be discussed further below. Parker mentions the trilingual manuscript Marciana Gr. Z. 11 (379) but excludes it from further study:<sup><a data-type="noteref" href="#note7_2_4" id="note7_2_4-marker">4</a></sup></p>
+<aside class="highlight" data-type="sidebar">Trilingual manuscripts of the New Testament seem to be very few in number. There are only 460 (Greek-Latin-Arabic), and ℓ1605 + ℓ1993 (Coptic-Greek-Arabic) <a href="/webbook/book/chapters/bibliography.html#Par92" target="_blank">[Parker 1992: 61]</a>.
+</aside>
+<p>Scholars have argued that several multilingual Biblical manuscripts were produced in the court of Roger II of Sicily or, more generally, in South Italy under the Norman rulers (see below). The following five <i>codices</i> might be evidence thereof: Venice Marciana Gr. Z. 11 (379); London BL Harley 5786 and Venice Marciana Gr. Z. 539 (303) are three manuscripts described previously in <a href="/webbook/book/chapters/chap7_2.html" target="_blank">section 7.2</a>; in addition to these both Paris BNF Suppl. Gr. 911 and Naples Biblioteca Nazionale Gr. 20 should be considered. Do these five documents create a homogeneous group?</p>
+<p>Paris BNF Suppl. Gr. 911<sup><a data-type="noteref" href="#note7_2_5" id="note7_2_5-marker">5</a></sup>  is more archaic compared to the others: its colophon mentions the year 1041. According to Géhin, the Southern Italian origin is evinced by the Greek and Arabic scripts’ features (e.g. use of the Maghrebi ڢ/ف system) <a href="/webbook/book/chapters/bibliography.html#Geh97" target="_blank">[Géhin 1997;</a> see also <a href="/webbook/book/chapters/bibliography.html#Pie02" target="_blank">Piemontese 2002: 452]</a>. Géhin highlights the following: “Le principal intérêt du Supplément grec 911 est d’être pour l’instant le seul manuscript arabo-grec issu de cette région qui soit antérieur à l’arrivée des Normands” <a href="/webbook/book/chapters/bibliography.html#Geh97" target="_blank">[Géhin 1997: 174]</a>. Other scholars have questioned the Western origin of this manuscript, preferring the copy origin as closer to where it was kept afterwards, namely the Holy Sepulchre in Jerusalem <a href="/webbook/book/chapters/bibliography.html#Urb07" target="_blank">[Urban 2007;</a> <a href="/webbook/book/chapters/bibliography.html#Mon13" target="_blank">Monferrer Sala 2013;</a> see also <a href="/webbook/book/chapters/bibliography.html#Roi04" target="_blank">Roisse 2004: 229]</a>. In comparison, Devreesse considers the manuscript as “gréco-lombard” <a href="/webbook/book/chapters/bibliography.html#Dev55" target="_blank">[Devreesse 1955: 30]</a>. It is noteworthy to mention here that Hikmat Kashouh has placed the Arabic text of BNF Suppl. Gr. 911 in the same category as the Marciana Gr. Z. 539 (303).<sup><a data-type="noteref" href="#note7_2_6" id="note7_2_6-marker">6</a></sup> This aspect will be discussed in the study focus on the Arabic text (<a href="/webbook/book/chapters/chap8_3.html" target="_blank">section 8.3</a>), however it is worth noting that it is possible to demonstrate that the text of Marciana Gr. Z. 11 (379) is close to Vat. Lat. 12900, which is a Latin-Arabic manuscript. Interestingly, the Graeco-Arabic manuscript Marciana Gr. Z. 539 (303) has a Gospels text that is similar to an earlier Graeco-Arabic manuscript, BNF Suppl. Gr. 911, and the Graeco-Latin-Arabic manuscript Marciana Gr. Z. 11 (379) has a Pauline text similar to an earlier Latin-Arabic manuscript, Vat. Lat. 12900.</p>
+<p>Naples Biblioteca Nazionale Gr. 20 is a Greek Psalter (probably dating to the 11th century) with a Latin translation in the lower margin and an Arabic translation in the right margin. This layout does not correspond to the defined columns of the bilingual and trilingual manuscripts mentioned above. However, this does not exclude a similar production milieu <a href="/webbook/book/chapters/bibliography.html#Por03" target="_blank">[Pormann 2003: 153]</a>.</p>
+<p>An important question is of course the motivations underlying the production of such multilingual objects. In a British Library blog article, Peter Toth defines three categories:</p>
+<aside class="highlight" data-type="sidebar">Greek multilingual manuscripts can best be classified into three sometimes overlapping categories: 1. A number of items contain texts in Greek and other languages almost incidentally, only to meet purely practical aims in a specific multicultural environment. 2. Other documents were produced to satisfy scholarly or study purposes, serving as aids and textbooks to teach and learn Greek and/or other languages. 3. The third group of manuscripts was executed in many languages in order to bear a hidden or sometimes very overt polemical or propagandistic agenda <a href="/webbook/book/chapters/bibliography.html#Tot17" target="_blank">[Toth 2017]</a>.</aside>
+<p>The key word here is “overlapping” since it is often assumed that the existence of the above mentioned multilingual manuscripts supports arguments for liturgical practices in the three languages, Greek, Latin and Arabic, in Norman Sicily <a href="/webbook/book/chapters/bibliography.html#Pie02" target="_blank">[Piemontese 2002: 445;</a> <a href="/webbook/book/chapters/bibliography.html#Nef08" target="_blank">Nef 2008: 267-268;</a> <a href="/webbook/book/chapters/bibliography.html#Ail10" target="_blank">Aillet 2010: V, §46]</a>. Pormann says about Marciana Gr. Z. 11 (379) that it “was made for liturgical use as can be seen from the marginal notes that indicate the times for the reading of the different sections” <a href="/webbook/book/chapters/bibliography.html#Por03" target="_blank">[Pormann 2003: 151]</a>, this probably refers to the Greek reading’s marks. In reference to BL Harley 5786, he writes: “This psalter was clearly used for liturgical purposes as can be seen from a marginal note to psalm LXVIII on fol. 87a” <a href="/webbook/book/chapters/bibliography.html#Por03" target="_blank">[Pormann 2003: 152]</a>. However, it is necessary to remember that such liturgical notes, even placed in the margin, can be copied from an original.</p>
+<p>Interestingly, in his blog article Toth places the Psalter BL Harley 5786 in the “Propagandistic multilingualism” category:</p>
+<aside class="highlight" data-type="sidebar">A mid-12th century trilingual Greek, Latin and Arabic Psalter from Sicily illustrates an intricate propagandistic message. The manuscript contains the trilingual text in the ancient layout of three separate columns, but its function was probably much more than fulfilling the practical needs of a multilingual liturgical environment or serving as a textbook of an eccentric scholar. It was designed as a tool in the political propaganda of the Norman dynasty, ruling an essentially trilingual Sicily in the 12th century. Its threefold layout with one and the same text in Greek, Latin and Arabic testifies to a society in which multiple language groups had come together under a new Norman rule <a href="/webbook/book/chapters/bibliography.html#Tot17" target="_blank">[Toth 2017]</a>. </aside>
+<p>Is it compatible with a possible liturgical use? Should we exclude the possibility of a pedagogical or scientific purpose? As Houghton underlines, after the late 13th century Greek-Latin Biblical production reflects a “humanist interest in the original language” <a href="/webbook/book/chapters/bibliography.html#Hou16" target="_blank">[Houghton 2016: 209]</a>. Could this have started earlier in the productive context of the Norman king’s court? A partial response regarding Marciana Gr. Z. 11 (379) can be provided by closely studying its text (chapter 8). However, a historical excursus is required to confirm that Norman Sicily is the most plausible context of production and to clarify the situation of Christians during this time.</p>
+<h2 class="subheaders">The Normans in Sicily in the 12th century</h2>
+<p>It is far beyond the scope of this study to provide a complete picture of Norman Sicily. Based on current research, a necessary overview will be provided with a specific focus on the changes that may have influenced the Christian communities.</p>
+<p>During the 9th and 10th centuries Southern Italy faced instabilities due to the struggles between the principality of Benevento, the Arabs and the Byzantine Empire <a href="/webbook/book/chapters/bibliography.html#Lou95" target="_blank">[Loud 1995]</a>. The Muslims progressively invaded the Sicilian island from 827 to 902 <a href="/webbook/book/chapters/bibliography.html#Metc09" target="_blank">[Metcalfe 2009]</a>, it was first ruled by the Tunisian Aghlabid dynasty and afterwards by the Fatimids. The rule over Sicily was combined with expeditions to the mainland, the Muslims raiding independently or as mercenaries. In 947, the Fatimid caliph Ismail al-Mansur appointed al-Hasan al-Kalbi, who became Emir of Sicily. The Kalbid dynasty ruled Sicily until the Norman conquest.</p>
+<p>As Metcalfe explains, the Christian situation under the Aghlabid rulers seems to have followed a “classical” Islamic system: “Those who submitted to Muslim authority paid the <i>jizya</i><sup><a data-type="noteref" href="#note7_2_7" id="note7_2_7-marker">7</a></sup> and became <i>dhimmīs</i> – non-Muslim monotheist under Islamic law” <a href="/webbook/book/chapters/bibliography.html#Metc09" target="_blank">[Metcalfe 2009: 32;</a> see also <a href="/webbook/book/chapters/bibliography.html#Dal06" target="_blank">Dalli 2006: 154]</a>.<sup><a data-type="noteref" href="#note7_2_8" id="note7_2_8-marker">8</a></sup> The contact with Byzance was not cut and “it is strongly presumed that there was widespread continuity with the Byzantine practices […]” <a href="/webbook/book/chapters/bibliography.html#Metc09" target="_blank">[Metcalfe 2009: 34]</a> seemingly in various intensities:</p>
+<aside class="highlight" data-type="sidebar">As ground was lost to the Aghlabids in the west, the Christians became more concentrated in the east, particularly in the mountainous strongholds of the north-east, the shortest distance from Byzantine south Italy with which there was always some communication […]. […] Christianity survived even if the number of functioning monasteries and churches fell into critical levels outside the north-east <a href="/webbook/book/chapters/bibliography.html#Metc09" target="_blank">[Metcalfe 2009: 35]</a>.</aside>
+<p>Thereafter, the global situation for Christians could have been at different tension levels according to the conflict/truce situation between the Fatimids and the Byzantines, further affected by occasional internal revolts. Nora Lafi has synthetized how the governance system was based on cities:</p>
+<aside class="highlight" data-type="sidebar">Amari souligne tout d’abord qu’au moins pendant les premières décennies après la conquête, les villes chrétiennes gardèrent leurs institutions municipales, en continuité avec l’ordre précédent. […] C’est là aussi le début d’une caractéristique importante du système fiscal urbain en contexte musulman : l'individu de religion différente est protégé par le statut personnel du dhimmî, mais c'est la communauté confessionnelle qui répond collectivement de la collecte des taxes, alors que l’individu musulman répond personnellement <a href="/webbook/book/chapters/bibliography.html#Lafi05" target="_blank">[Lafi 2005: 6]</a>.</aside><sup><a data-type="noteref" href="#note7_2_9" id="note7_2_9-marker">9</a></sup>
+<p>As for the Byzantines, they consolidated their position in the Southern mainland under Leo VI the Wise (866-912) <a href="/webbook/book/chapters/bibliography.html#Kar67" target="_blank">[Karlin-Hayter 1967]</a> and later on, the independent provinces of Apulia and Calabria fell under one authority, becoming the Catepanate of Italy (965-1071) <a href="/webbook/book/chapters/bibliography.html#Lou95" target="_blank">[Loud 1995: 632]</a> where the Greek rulers coexisted with Latin Christians. In comparison to the “Norman <i>Regno</i>, with mosques, Greek monasteries and Latin bishops all coexisting”, Kreutz describes that “[i]n tenth-century southern Italy, the scene appears more jumbled but equally coexistent – and less self consciously so” <a href="/webbook/book/chapters/bibliography.html#Kre11" target="_blank">[Kreutz 2011: 128-129;</a> see also <a href="/webbook/book/chapters/bibliography.html#Mar94" target="_blank">Martin 1994: 91]</a>.</p>
+<p>This map illustrates the situation before the Norman conquests:<sup><a data-type="noteref" href="#note7_2_10" id="note7_2_10-marker">10</a></sup></p>
+<figure class="vertical horizontal">
+                <img class="image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Italy_1000_AD.svg/713px-Italy_1000_AD.svg.png">
+                <figcaption>
+                  Italy 1000 AD, source <a href="https://en.wikipedia.org/wiki/File:Italy_1000_AD.svg" target="_blank">Wikimedia Commons</a> (CC BY-SA 2.5)
+                </figcaption>
+              </figure>
+
+<p>The Normans came into the picture from the beginning of the 11th century: first as mercenaries serving either Byzantines or Lombards, the Normans began their conquests in the years 1040. With the taking of Bari in 1071, the Normans, led by Roger Guiscard de Hauteville, put an end to the final Byzantine presence in Italy. Robert together with Roger “Bosso”, his younger brother later known as Roger I of Sicily, began the invasion of Sicily in 1061; in 1072, Robert proclaimed Roger as Count of Sicily; and in 1091, the conquest of Sicily was finally complete. Under the rule of Roger I’s son, Roger II of Sicily became count of Sicily in 1105, Duke of Apulia and Calabria in 1127 and finally King of Sicily in 1130: Sicily and southern Italy were united. Roger II died in 1154. His reign was followed by that of William I, so-called “William the Bad”, and then William II, or “William the Good”. The Hauteville family ruled the Kingdom of Sicily until the arrival of the Swabian rulers and the accession of Frederic II to the throne through his marriage to Constance of Sicily (1198).</p>
+<figure class="vertical horizontal">
+                <img class="image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kingdom_of_Sicily_1154.svg/903px-Kingdom_of_Sicily_1154.svg.png">
+                <figcaption>
+                  Kingdom of Sicily 1154, source <a href="https://commons.wikimedia.org/wiki/File:Kingdom_of_Sicily_1154.svg" target="_blank">Wikimedia Commons</a> (CC BY-SA 3.0)
+                </figcaption>
+              </figure>
+<p>The Norman conquest of Southern Italy is an important landmark in European Middle Age history, it is related to many significant events of the time such as the Crusades and the Latinization of the Mediterranean world that cannot be detailed here. The next section highlights elements of the languages that were in use in the Norman kingdom. It will focus on the question of church practices in this context but the phenomenon of encounters between Greek, Latin and Arabic is much broader. The Royal administration<sup><a data-type="noteref" href="#note7_2_11" id="note7_2_11-marker">11</a></sup> should be mentioned here since it produced documents in the three languages. The scientific production of Roger II’s court and his followers is also noteworthy. During the 12th century, Sicily was an important place of translation of Arabic and Greek sciences and philosophy into Latin, these were done next to original works<sup><a data-type="noteref" href="#note7_2_12" id="note7_2_12-marker">12</a></sup> such as Muhammad al-Idrisi’s famous geographical work, the <i>Tabula Rogeriana</i>.</p>
+<h2 class="subheaders">The <i>populus trilinguis</i></h2>
+<p>Were the people on the island of Sicily a <i>populus trilinguis</i>, as Peter of Eboli described them in <i>Liber ad honorem Augusti</i><sup><a data-type="noteref" href="#note7_2_13" id="note7_2_13-marker">13</a></sup> <a href="/webbook/book/chapters/bibliography.html#Joh02" target="_blank">[Johns 2002: 284]</a>?</p>
+<figure class="vertical horizontal">
+                <img class="image"
+                src="/webbook/book/images/e-codices_bbb-0120-2_0101r_max_details.jpg">
+                <figcaption>
+                  Bern, Burgerbibliothek, Cod. 120.II detail f. 101r, source <a href="http://www.e-codices.ch/en/bbb/0120-2/101r/0/Sequence-2734" target="_blank">e-codices</a> CC BY-NC 4.0)
+                </figcaption>
+              </figure>
+
+<p>That the three languages Greek, Latin and Arabic were used in parallel is a fact. As mentioned above, an important aspect is the Norman administration’s production of official documents into the three languages <a href="/webbook/book/chapters/bibliography.html#Joh02" target="_blank">[see Johns 2002]</a>. However, does this mean that the general population mastered several languages? Or were the Muslims speaking Arabic, the Byzantine Christians speaking Greek and the Normans and mainlanders speaking Latin? Although this is a multidimensional question that requires an appropriately detailed answer, to remain focused on the main topic at hand, the question can be scaled back to the following: did Christians understand and/or use Arabic in the Kingdom of Sicily? If yes, how extensive was the Arabicization of Christian life?</p>
+<p>Scholars underline the various degrees of Arabicization among the Christian population under Muslim rule:</p>
+<aside class="highlight" data-type="sidebar">At the further reaches of Muslim rule – in the Val Démone in particular – later evidence for languages and anthroponyms suggests that the indigenous population doggedly tried to maintain their own dialects and naming traditions […] Otherwise, the status of Arabic as the prestigious cultural and inter-communal spoken language of the island gave rise to a bilingual Christian community. […] Put crudely, the closer they were together physically, such as in western Sicily and some main towns, the more Arabicised and Islamicised they became over time <a href="/webbook/book/chapters/bibliography.html#Metc09" target="_blank">[Metcalfe 2009: 40]</a>.</aside>
+<p>Johns depicts a similar process concerning the Val di Mazara:</p>
+<aside class="highlight" data-type="sidebar">We are not dealing with two distinct communities – Greek Christian and Arab Muslim – but with a scale of acculturation ranging from Greek Christians and Arab Muslims at the two extremes, but with most of the population of the island falling somewhere in the middle <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[Johns 1995: 152]</a>.</aside>
+<p>These varying degrees of Arabicization continued to be a reality after the Norman conquest:</p>
+<aside class="highlight" data-type="sidebar">As a result of the Norman conquest, until about 1140, the Greek church certainly enjoyed a considerable revival in Sicily, and the reemergence of Arabized and Islamized Greek Christians should most probably be attributed to this reprise, rather than to any policy of proselytism <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[Johns 1995: 152]</a>.<sup><a data-type="noteref" href="#note7_2_14" id="note7_2_14-marker">14</a></sup>  </aside>
+<p>The existence of Arabized Greek Christians lead some scholars to speak of “Melkites” <a href="/webbook/book/chapters/bibliography.html#Bre90" target="_blank">[Bresc 1990]</a> or of “Mozarabs” <a href="/webbook/book/chapters/bibliography.html#Nef08" target="_blank">[Nef 2008]</a>.<sup><a data-type="noteref" href="#note7_2_15" id="note7_2_15-marker">15</a></sup>  However, this does not necessarily mean that there was any liturgical life in Greek and Arabic (or in Arabic only) – even if this would have been a convenient origin for the manuscript. In this respect the example of Mozarab Christians in Al-Andalus is interesting. While the Arabicization of Christians was important, Latin never lost its liturgical status <a href="/webbook/book/chapters/bibliography.html#Ail10" target="_blank">[Aillet 2010: chap. 5]</a>. Furthermore, if they exist the number of Arabic Biblical manuscripts of Mozarab origin is relatively small compared to other traditions (see <a href="/webbook/book/chapters/chap8_3.html" target="_blank">section 8.3</a>).</p>
+<p>Above all, the existence of Arabized Greek Christians may explain the existence of documents such as the bilingual Gospels manuscripts Paris BNF Suppl. Gr. 911 and the later Venice Marciana Gr. Z. 539 (303): but what about the presence of Latin alongside Greek and Arabic?</p>
+<p>Even if the Norman conquerors took oaths of allegiance to Rome, the Normans played a twofold role regarding the Greek and Latin churches in Sicily. On one hand, the fact that they did not “systematically undert[ake] to Latinise the Greek Church is evident, because part of this Church survived for centuries” [Herde 2002: 218] and the Greek church “enjoyed a considerable revival” until 1140 <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[Johns 1995: 143]</a>. On the other hand, the Normans established new western bishops – however the bishops remained under the royal authority <a href="/webbook/book/chapters/bibliography.html#Hou02" target="_blank">[Houden 2002: 19]</a>. Also of importance for Latinization was the immigration from the mainland, notably in the wake of Adelaide, Roger’s third wife <a href="/webbook/book/chapters/bibliography.html#Hou02" target="_blank">[Houden 2002: 19]</a>. Latinization was a slow process, as Hubert Houben explains:</p>
+<aside class="highlight" data-type="sidebar">It is misleading to claim, as has sometimes been done, that the Normans pursued a determined policy of “re-latinisation” or “re-catholicisation” in southern Italy. Indeed, they not only patronized Latin ecclesiastical institutions, but Greek ones too. It was only over the course of a century and a half of Norman rule that there was a slow but irreversible decline of the Greek element, because of the advance, and in the end the preponderance, of Latin language and culture [Houben 2002b: 321].</aside>
+<p>The reign of Roger II simultaneously represents the protection of a Graeco-Arabic heritage and a shift into Latin domination, with the “relegat[ion] of the non-Christians (and soon also the non-Latin Christians) to a marginalised social position” <a href="/webbook/book/chapters/bibliography.html#Hou02b" target="_blank">[Houben 2002b: 338]</a>.<sup><a data-type="noteref" href="#note7_2_16" id="note7_2_16-marker">16</a></sup>  One can ask then where the trilingual manuscript finds itself on this scale. Does the presence of Latin reflect a “re-Latinization” process? Is the manuscript meant to be used as a pedagogic tool in order to promote Latin?</p>
+<p>Is the position of the columns of importance with regards to strengthening this suggestion or not? Does the Greek not hold the place of honor being placed first? On the contrary, is Latin seen as the reference placed in the middle? For comparison, among Parker’s list of bilingual manuscripts copied after the 10th century, eight have the Greek on the left and three the Latin on the left. Probably more important than the position of the columns is the fact that the Greek text was copied first (it has a regular column with constant borders, see <a href="/webbook/book/chapters/chap8_3.html" target="_blank">section 8.3</a>) and that there are instances where the Latin column is left blank, for example when the Greek paratext is longer.<sup><a data-type="noteref" href="#note7_2_17" id="note7_2_17-marker">17</a></sup> </p>
+<figure class="vertical horizontal">
+                <img class="image"
+                src="/webbook/book/images/Gr-Z_0011-00379_108r.jpg">
+                <figcaption>
+                  Marciana Gr. Z. 11 (379) Folio 108r © Marciana Library
+                </figcaption>
+              </figure>
+
+<p>Furthermore, in at least two instances, Titus 1:9 and 1:11: the Latin text was left blank while the Arabic column has a translation.<sup><a data-type="noteref" href="#note7_2_18" id="note7_2_18-marker">18</a></sup> </p>
+<figure class="vertical horizontal">
+                <img class="image"
+                src="/webbook/book/images/Gr-Z_0011-00379_300r.jpg">
+                <figcaption>
+                  Marciana Gr. Z. 11 (379) Titus 1:9 on folio 300r © Marciana Library
+                </figcaption>
+              </figure>
+
+<p>Although these elements may provide reasons to doubt that the manuscript was used as a tool for promoting Latin pedagogically or politically, it would somewhat premature to exclude such a possibility and we should keep this in mind for the rest of investigation.</p>
+<h2 class="subheaders">The court of Roger II</h2>
+<p>This overview of the linguistic landscape may explain the existence of bilingual Biblical texts that could have been used in Arabized Greek communities. However, it hardly explains the usefulness of trilingual objects such as the Psalter or our manuscript Marciana Gr. Z. 11. Where was the parallel usage of Greek, Latin and Arabic customary? We have seen that the “re-Latinization” of the Norman kingdom provides clues without being completely convincing but it can be shown that by tracking the trilingual context leads to one specific place.</p>
+<p>One famous example is the Cappella Palatina in Palermo, situated in the Royal Palace. It was commissioned by Roger II of Sicily in 1132 and devoted in the year 1140. The mosaics were finished in 1143. The chapel is a mix of Norman, Arabic and Byzantine styles and the epigraphic elements reflect such confluence: “the Greek and Latin inscriptions of the mosaics are set against the Arabic texts of the painted ceilings of the nave and two aisles, of the doors and of the moveable objects used within the chapel” <a href="/webbook/book/chapters/bibliography.html#Joh15" target="_blank">[Johns 2015: 125-126]</a>. Near the door of the chapel, a plaque commemorates the ordering of a water clock, written in Latin, Greek and Arabic:</p>
+<figure class="vertical horizontal">
+                <img class="image"
+                src="https://upload.wikimedia.org/wikipedia/commons/2/2e/0604_-_Palermo_-_Cappella_palatina_-_Iscrizione_trilingue_x_orologio_idraulico%2C_1142%2C_re_Ruggero_-_Foto_Giovanni_Dall%27Orto%2C_28-Sept-2006.jpg">
+                <figcaption>
+                  Trilingual inscription in the Palazzo dei Normanni in Palermo, near the Cappella Palatina. Picture by Giovanni Dall'Orto, September 28 2006, source<a href="https://commons.wikimedia.org/wiki/File:0604_-_Palermo_-_Cappella_palatina_-_Iscrizione_trilingue_x_orologio_idraulico,_1142,_re_Ruggero_-_Foto_Giovanni_Dall%27Orto,_28-Sept-2006.jpg" target="_blank"> Wikimedia Commons </a>
+                </figcaption>
+              </figure>
+
+<p>Also of importance is the memorial inscription in the Palace that in Greek, Latin, Arabic and Hebrew provides a record of the moving of Anna’s remains from the cathedral to the San Michele Church, Anna being the mother of Grisandius, described as “clericus regis”. The memorial states that a procession of Greek and Latin priests took place. Put in relation to the quadrilingual inscription, it bears witnesses to linguistic and religious diversity <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[Johns 1995: 141]</a>.</p>
+<p>The question is thus raised whether in this context an Arabic rite was followed. Johns, who considers that the trilingual Psalter was created in the same Cappella Palatina context, states the following about the liturgical notes in the Arabic column of the manuscript:</p>
+<aside class="highlight" data-type="sidebar">It is, however, most improbable that an Arabic rite, liturgically distinct from the Latin catholic and the Greek orthodox rites, should have existed in twelfth-century Sicily. Indeed, the Arabic marginalia in Harley 5786, which constitute the only evidence independent of Ludolph’s report for the existence of an Arabic liturgy in Sicily,<sup><a data-type="noteref" href="#note7_2_19" id="note7_2_19-marker">19</a></sup> confirm that the psalms followed the order of the Latin rite. This suggests that the differences and disagreements mentioned by Ludolph were not liturgical but merely linguistic, at least with regard to the Latin and the Saracen rites. Indeed, the same may be true of the Greek rite, and the Greek priests in the Cappella Palatina and in the procession which accompanied Anna’s remains from the cathedral to s. Michele may well have celebrated the liturgy in the Greek tongue, but according to the order of the Latin catholic rite <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[John 1995: 142-143]</a>.</aside>
+<p>If such elements of trilingualism are present around the Royal Palace church, it is probably because there was an intention to promote Christianity in the three languages of the kingdom:</p>
+<aside class="highlight" data-type="sidebar">The Cappella Palatina may perhaps have been the laboratory for a daring experiment in trilingual ecumenicalism, but this amounted to little more than a proclamation of the policy of populus trilinguis, a policy which had little real effect outside the immediate circle of the royal court <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[John 1995: 144]</a>.</aside>
+<p>We would then indeed face a case of the overlapping of two categories mentioned by Peter Toth, of multilingualism in manuscripts as serving “purely practical aims in a specific multicultural environment” and as serving a “propagandistic agenda” <a href="/webbook/book/chapters/bibliography.html#Tot17" target="_blank">[Toth 2017]</a>. Thus the manuscript Marciana Gr. Z. 11 (379) is most likely to have been produced in the same context. However, several steps are still required before being able to make such a conclusion. It is important to uncover more of the nature of the text copied in the manuscript: we will see that the Arabic translation presents some surprises (see <a href="/webbook/book/chapters/chap8_3.html" target="_blank">section 8.3</a>). Finally, the study of the paratext also contains important elements (see <a href="/webbook/book/chapters/chap8_5.html" target="_blank">8.5</a>).</p>
+</div>
+</div>
+<div class="footnotes" data-type="footnotes">
+  <p data-type="footnote" id="note7_2_1">
+   <sup><a href="#note7_2_1-marker">1</a></sup>
+   In decreasing number. For details, see the chapter <i>Towards the codicology of a bilingual codex</i> <a href="/webbook/book/chapters/bibliography.html#Par92" target="_blank">[Parker 1992: 50-69]</a>.
+ </p>
+ <p data-type="footnote" id="note7_2_2">
+  <sup><a href="#note7_2_2-marker">2</a></sup>
+  P99 also appears if one includes “g-l” because the manuscript contains a Greek-Latin glossary. Parker actually lists 24 manuscripts because he considers the supplement folios of 05 as a different witness. Finally, Parker takes 1918 into account: “this manuscript is not described as bilingual in Aland, Liste. But it is the same codex as 866b. In fact, it has the Latin text as far as F5, l. 8 […]” <a href="/webbook/book/chapters/bibliography.html#Par92" target="_blank">[Parker 1992: 60]</a>.
+</p>
+<p data-type="footnote" id="note7_2_3">
+ <sup><a href="#note7_2_3-marker">3</a></sup>
+ A recent article suggests that the manuscript was copied in Crete during the 13th century <a href="/webbook/book/chapters/bibliography.html#Spe17" target="_blank">[Speranzi 2017: 204]</a>.
+</p>
+<p data-type="footnote" id="note7_2_4">
+ <sup><a href="#note7_2_4-marker">4</a></sup>
+ Marciana Gr. Z. 11 (379) (GA 460) appears in the <a href="http://ntvmr.uni-muenster.de/liste" target="_blank">online <i>Liste</i></a> if you select “g-l” and “g-l-arb” but not “g-arb”.
+</p>
+<p data-type="footnote" id="note7_2_5">
+ <sup><a href="#note7_2_5-marker">5</a></sup>
+ Images of the manuscript available online on the <a href="https://gallica.bnf.fr/ark:/12148/btv1b110040650/" target="_blank">Gallica website</a>.
+</p>
+<p data-type="footnote" id="note7_2_6">
+ <sup><a href="#note7_2_6-marker">6</a></sup>
+ “Graf refers to Codex BnF, Suppl. Grec. 911 (hereafter: jA3) and places it amongst the manuscripts translated from Greek […]. Graf fails to see any relationship between this manuscript and Venice, Biblioteca Nazionale Marciana, Gr. 539 (1) (hereafter: jA1) […] The postulation of both Urbán and Monferrer-Sala must be questioned. This study shows that Géhin was correct when he argued that the Arabic version, as it is found in jA3, is a re-work of earlier Arabic texts. It was revised on various occasions and was originally translated from Syriac and not Greek” <a href="/webbook/book/chapters/bibliography.html#Kas12" target="_blank">[Kashouh 2012: 186 and 189]</a>. Please note that the correct shelf-mark and collection number of GA 211 is Venice, Biblioteca Nazionale Marciana, Gr. Z. 539 (303).
+In contrast, the Greek texts are not similar. Marciana Gr. Z. 539 (303) (GA 211) is considered as part of the Ferrar group (f13) <a href="/webbook/book/chapters/bibliography.html#Laf12" target="_blank">[Lafleur 2012: 127-129]</a>, which is not the case for BNF Suppl. Gr. 911 (GA 609) [Géhin 1997: 167].
+</p>
+
+<p data-type="footnote" id="note7_2_7">
+ <sup><a href="#note7_2_7-marker">7</a></sup> See the <a href="https://en.wikipedia.org/wiki/Jizya" target="_blank">Wikipedia article</a>.
+
+</p>
+<p data-type="footnote" id="note7_2_8">
+ <sup><a href="#note7_2_8-marker">8</a></sup>
+ The Jewish presence was also important in Sicily, with more than 1’500 Jews in Palermo <a href="/webbook/book/chapters/bibliography.html#Dal06" target="_blank">[Dalli 2006: 154;</a> <a href="/webbook/book/chapters/bibliography.html#Bre01" target="_blank">Bresc 2001]</a>.
+</p>
+<p data-type="footnote" id="note7_2_9">
+ <sup><a href="#note7_2_9-marker">9</a></sup>
+ Michele Amari was a 19th century historian who wrote the reference work <i>Storia dei Musulmani di Sicilia</i> (Amari, <i>Storia dei Musulmani di Sicilia</i>. Florence: Le Monnier, 2002-2003, 3 vol.)
+</p>
+<p data-type="footnote" id="note7_2_10">
+ <sup><a href="#note7_2_10-marker">10</a></sup>
+ Regarding Salerno’s special position, see chapter 6 in <a href="/webbook/book/chapters/bibliography.html#Kre11" target="_blank">[Kreutz 2011]</a>.
+</p>
+<p data-type="footnote" id="note7_2_11">
+ <sup><a href="#note7_2_11-marker">11</a></sup>See
+ <a href="/webbook/book/chapters/bibliography.html#Enz02" target="_blank">[Enzensberger 2002]</a> and <a href="/webbook/book/chapters/bibliography.html#Joh02" target="_blank">[Johns 2002]</a>.
+</p>
+<p data-type="footnote" id="note7_2_12">
+ <sup><a href="#note7_2_12-marker">12</a></sup>
+ See <a href="/webbook/book/chapters/bibliography.html#Lin80" target="_blank">[Lindberg 1980: 58;</a> <a href="/webbook/book/chapters/bibliography.html#Ras93" target="_blank">Rashed 1993]</a>.
+</p>
+<p data-type="footnote" id="note7_2_13">
+ <sup><a href="#note7_2_13-marker">13</a></sup>
+ca. 1195-ca. 1197. Description on the <a href="http://www.e-codices.unifr.ch/en/bbb/0120-2/101r/0/Sequence-2734" target="_blank">e-codices website</a>: “The so-called <i>Liber ad honorem Augusti</i> by Peter of Eboli […] an epic poem in Latin in about 1700 distichs that has survived only in this manuscript, is divided into three books. The first two books describe the prehistory of Sicily and its conquest by the Staufers; the third book contains a poem in praise of the parents — Emperor Henry VI and his wife Constance, daughter and heir of King Roger II of Sicily — of the famous Hohenstaufen Emperor Frederick II, who was born on 26 December 1194 in Jesi near Ancona”.
+</p>
+<p data-type="footnote" id="note7_2_14">
+ <sup><a href="#note7_2_14-marker">14</a></sup>
+ See also Johns’ article about the inscriptions in the Cappella Palatina <a href="/webbook/book/chapters/bibliography.html#Joh15" target="_blank">[Johns 2015]</a>.
+</p>
+<p data-type="footnote" id="note7_2_15">
+ <sup><a href="#note7_2_15-marker">15</a></sup>
+ “Si on ne peut donc réellement parler de mozarabes au sens strict de communauté identifiables – puisqu’elles sont invisibles comme telles dans nos sources –, des chrétiens de langue arabe sont clairement documentés dans la Sicile médiévale des XIe-XIIe siècles jusqu’au milieu du XIVe siècles” <a href="/webbook/book/chapters/bibliography.html#Nef08" target="_blank">[Nef 2008: 279]</a>.
+</p>
+<p data-type="footnote" id="note7_2_16">
+ <sup><a href="#note7_2_16-marker">16</a></sup>
+ This change is reflected in the administration itself: “Before Roger II of Sicily became king the documents issued in his name were compiled almost exclusively in Greek (with a few in Arabic), and a Latin section to his chancery was only set up in the wake of the take-over of the mainland in 1127-8. However, of the surviving documents from the chancery of his grand-son William II, 92% are in Latin, and only 8% in Greek and Arabic” <a href="/webbook/book/chapters/bibliography.html#Lou02" target="_blank">[Loud 2002: 4]</a>.
+</p>
+<p data-type="footnote" id="note7_2_17">
+ <sup><a href="#note7_2_17-marker">17</a></sup>
+ The paratexts of the three columns function independently, as we will explain in the <a href="/webbook/book/chapters/chap8_5.html" target="_blank">section 8.5</a>.
+</p>
+<p data-type="footnote" id="note7_2_18">
+ <sup><a href="#note7_2_18-marker">18</a></sup>
+See <a href="/webbook/book/chapters/chap8_3.html" target="_blank">8.3</a> for more details.
+</p>
+<p data-type="footnote" id="note7_2_19">
+ <sup><a href="#note7_2_19-marker">19</a></sup>
+  In 1330, Ludolph of Suchen wrote about Christians in Sicily and described three rites: a <i>ritum Latinum</i>, a <i>ritum Greacorum</i> and a <i>ritum Sarracenorum</i> that were practiced <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[Johns 1995: 142;</a> <a href="/webbook/book/chapters/bibliography.html#Nef08" target="_blank">Nef 2008: 255]</a>. This passage in <i>De itinere Terrae Sanctae liber</i> is difficult to evaluate, as there was no important Arabic community anymore on the island. Johns suggests Ludolph may have observed “a small group of ex-Muslim palace slaves or Arabic-speaking converts from Judaism” <a href="/webbook/book/chapters/bibliography.html#Joh95" target="_blank">[Johns 1995: 142, n. 47]</a>.
+</p>
+
+</div>
+
+         </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="maia-aux">
+        <div class="previous">
+          <a href="/webbook/book/chapters/chap7_1.html">
+          <p class="footer-caption">
+            previous
+          </p>
+          <p class="chapter-link">
+            7.1 Codicological and paleographical features
+          </p></a>
+        </div>
+        <div class="next">
+          <a href="/webbook/book/chapters/chap8.html">
+          <p class="footer-caption">
+            next
+          </p>
+          <p class="chapter-link">
+            Chapter 8. The text of the letters of Paul
+          </p></a>
+        </div>
+          <p class="footer-link">
+              Copyright © Digital Humanities + | Swiss Institute of Bioinformatics 2016 - 2018 | CC BY-NC-ND 4.0 International License. </p>
+          <div class="footer-link"><a href="https://github.com/humarec/webbook"><i class="fa fa-github" style="font-size:30px"></i></a></div>
+      </div>
+    </div>
+
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+  </body>
+</html>

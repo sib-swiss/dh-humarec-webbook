@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (H) {
+            H.className = H.className.replace(/\bgoogle\b/, 'google-js')
+        })(document.documentElement)
+    </script>
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>HumaReC Web Book</title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script src="/webbook/book/js/jquery-3.2.1.min.js"></script>
+    <script src="/webbook/book/js/custom.min.js"></script>
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+    <script>$('img').bind('contextmenu', function (e) {return false;});</script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet">
+    <link href="/webbook/book/css/main.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="/webbook/book/images/favicon.ico" rel="shortcut icon">
+    <link href="/webbook/book/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/webbook/book/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" class="btn-round" title="Go to top"><i class="fa fa-angle-up fa-custom" style="color:#fff" aria-hidden="true"></i></button>
+    <div class="menu-closed" id="curtain"></div>
+    <div class="header clearfix">
+      <div class="header-wrraper">
+       <h2 class="title-book">A Trilingual Manuscript of the New Testament in Digital Research [Web Book]</h2>
+        <h2><a class="expand" id="burger-menu"></a></h2>
+        <h2 class="chapter-title">
+          8.3 The Arabic text
+        </h2>
+      </div>
+    </div>
+    <div class="expands" id="overlay-element">
+        <div>
+            <a href="https://humarec.org/"><img alt="Humarec" src="/webbook/book/images/logo_home.jpg" style="width: 100%"></a>
+        </div>
+        <ol class="dropdown-content hide" id="drop-down">
+            <li><a class="menu-buttons" href="/webbook/book/index.html">Table of Contents</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/foreword.html">Foreword</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part1.html">Part I - Introduction</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap1.html">1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap2.html">2. The next step: HumaReC (2016-2018)</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part2.html">Part II - The Platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3.html">3. Manuscript transcription and visualization</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_1.html">- 3.1 The manuscript viewer: work with EVT</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_2.html">- 3.2 Towards handwritten text recognition</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4.html">4. Interactions and users</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_1.html">- 4.1 On the platform</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_2.html">- 4.2 Social media</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5.html">5. Continuous publication</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_1.html">- 5.1 On the platform: blog and transcriptions</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_2.html">- 5.2 Consolidation with the Web book</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap6.html">6. Reception and limitations</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part3.html">Part III - The Manuscript</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7.html">7. The object</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_1.html">- 7.1.Codicological and paleographical features</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_2.html">- 7.2 Remarks about the production context</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8.html">8. The text of the letters of Paul</a></li>
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_1.html">- 8.1 The Greek text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_2.html">- 8.2 The Latin text</a></li>
+            <li class="active"><a class="menu-buttons" href="/webbook/book/chapters/chap8_3.html">- 8.3 The Arabic text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_4.html">- 8.4 Mutual influences</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_5.html">- 8.5 Paratext</a></li>
+
+
+
+            <li><a class="menu-buttons" href="/webbook/book/chapters/part4.html">Part IV - Conclusion</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/acknowledgement.html">Acknowledgement</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/bibliography.html">Bibliography</a></li>
+       <!--      <li><a class="menu-buttons" href="/webbook/book/chapters/annexe1.html">Annexe 1. List of alternative renderings</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/annexe2.html">Annexe 2. List of Islamic vocabulary</a></li> -->
+            <li><a class="menu-buttons"></a></li>
+            <li><a class="menu-buttons"></a></li>
+        </ol>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div class="content">
+        <section data-type="chapter" id="chapter8_3">
+          <h1 class="heading">
+            8.3 The Arabic text
+          </h1>
+
+           <div class="content chapter">
+         <div class="pagenumrestart page" data-type="part">
+             <h2 class="subheaders">
+                 Introduction
+             </h2>
+             <p>
+                 The Arabic translation contained in the manuscript is a particularly interesting case, as we will see
+                 in this chapter.</p>
+             <p>
+                 The Arabic translation was made from a Latin text of the Vulgate. This can be shown by several cases
+                 where the Arabic translation follows Vulgate readings. We see in the following example that the Arabic text كما كتب is clearly a translation of the Latin
+                 <i>sicut scriptum est</i>:</p>
+         <ul>
+             <li><h2>Gal 3:6 (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_210v" target="_blank">folio 210v</a>)</h2>
+                 <aside><span style="color: #993300;">καθῶς ἀβραὰμ</span> ἐπίστευσε τῶ θεῶ καὶ ἐλογίσθη αὐτῶ εἰς δικαιοσύνην</aside>
+                 <aside><span style="color: #ff6600;">Sicut scriptum est</span> Abraham credidit deo et reputatum est illi ad iustitiam</aside>
+                 <aside><span lang="hi-IN"><span style="color: #ff6600;">كما كتب</span> ان ابرهيم امن بالله و عُدّ له ذلك صلَاحًا </span></aside></li></ul>
+
+
+                <p> However, the <i>Vorlage</i> is not the Latin text that we find in the middle column of the manuscript. Indeed,
+                 the two texts disagree at several occasions.<sup><a data-type="noteref" href="#note8_4_1" id="note8_4_1-marker">1</a></sup></p>
+             <ul><li>
+                 <h2>1 Cor 1:6 (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_156r" target="_blank">folio 156r</a>)</h2>
+                 <aside>καθὼς τὸ μαρτύριον <span style="color: #993300;">τοῦ θεοῦ</span> ἐβεβαιώθη ὑμῖν</aside>
+                 <aside>sicut testimonium <span style="color: #993300;">dei</span> confirmatum est in vobis</aside>
+                 <aside><span lang="hi-IN">كما اثبتت شهاده <span style="color: #ff6600;">المسيح</span> فيكم</span></aside></li>
+             </ul>
+             <p>Here we see that the Arabic text disagrees with the Latin text as well as with the Greek text. In fact, the reading <i>testimonium christi</i> is the common reading in Vulgate manuscripts and the one reflected in the Arabic translation.</p>
+             <p>  We will discuss further the question of the relationships between the three columns in the next point <a href="/webbook/book/chapters/chap8_5.html">8.5</a>.</p>
+             <h2 class="subheaders">Specific features</h2>
+             <p>The translation presents some specific features. It uses very frequently extensions, also called
+                 alternative renderings, that is "the use of two or even three translation equivalents for a single
+                 unit of the source text" <a href="/webbook/book/chapters/bibliography.html#Vol15" target="_blank">[Vollandt 2015: 53]</a>.
+                 This phenomenon is quite current in Arabic translations: we can mention the Pentateuch text in Sin. Ar.
+                 2 <a href="/webbook/book/chapters/bibliography.html#Vol15" target="_blank">[Vollandt 2015: 190]</a> or the Gospel text in Vat. Ar. 13 <a href="/webbook/book/chapters/bibliography.html#Kas12" target="_blank">[Kashouh 2012:154]</a>.</p>
+             <p>
+
+                For example, in Galatians 1:15, <i>gratiam suam</i> is translated by the two elements منازعه و مذاهب الشتات (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_208v" target="_blank">folio 208v</a>). In Galatians 1:13,
+                 <i>et expugnabam illam</i> is translated by و كنتُ اعاديها و احنق عليها (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_208r" target="_blank">folio 208r</a>).
+                 </p>
+
+          <p> Another feature is the presence of what we can call with care "Islamic" vocabulary. The list of examples grows constantly. Here some striking cases:</p>
+             <ul>
+                 <li><i>awliyāʾ</i>, plural form of <i>walī</i>, means “friend”, “protector”, but by extension the “friend of God”
+                     and is
+                     commonly used by Muslims to indicate an Islamic saint <a href="/webbook/book/chapters/bibliography.html#EI2Wal" target="_blank">[EI2: Walī]</a>. <i>awliyāʾ</i> is added at least in 1 Cor 1:30 and Gal
+                     5:24
+                     to qualify the ones that are in/to Christ.
+                 </li>
+                 <li>
+                     The use of the term <i>dīn</i> to translate <i>fide</i> (1 Thes 3:2 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_248v" target="_blank">folio 248v</a>]) is puzzling; <i>dīn‎</i> means generally “religion”
+                     but
+                     has a particular importance in Islam (79 times in Quran); it takes the sense of “righteous way of
+                     life”
+                     (which includes and implies faith) <a href="/webbook/book/chapters/bibliography.html#EI2Din" target="_blank">[EI2: Dīn]</a>. Less surprising for a translation of <i>fides</i> would have been <i>īmān</i>,
+                     “faith”.
+                 </li>
+                 <li>
+                     The addition of <i>aymu allāh</i> “I swear by God” (Gal 1:10 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_208r" target="_blank">folio 208r</a>]) is not usual in Christian literature, as
+                     Tisserant underlined: “Le serment أيم اللّه étonne sous une plume chrétienne” <a href="/webbook/book/chapters/bibliography.html#Tis10" target="_blank">[Tisserant 1910]</a>.<sup><a data-type="noteref" href="#note8_4_2" id="note8_4_2-marker">2</a></sup> We can also mention
+                     the
+                     use of <i>ḥāshā lillāh</i> “God forbid” (Gal 2:17 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_210r" target="_blank">folio 210r</a>] and Gal 3:21 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_211v" target="_blank">folio 211v</a>]).
+                 </li>
+                 <li>
+                     The use of <i>kāfir</i> for <i>impium</i> (Rom 4:5) or <i>infidelem</i> (1 Cor 7:1).
+                 </li>
+                 <li>
+                     Finally, the use of the root <i>sh-r-ʿ</i> is remarkable: it is used to translate <i>predicavimus</i> (1 Thes
+                     2:9 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_247v" target="_blank">folio 247v</a>])
+                     and <i>predicationis</i> (1 Cor 1:21 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_157r" target="_blank">folio 157r</a>]), as well as <i>evangelium</i> (Ga 1:11 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_208r" target="_blank">folio 208r</a>] and Gal 2:2 [<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_209r" target="_blank">folio 209r</a>]). In the last case, we find
+                     the
+                     noun <i>šarīʿa</i>, which means “(religious) law” [Calder and Hooker 1960-2005]. The use of the term <i>šarīʿa</i> for “Gospel”
+                     surprises the modern reader as well as the scholar who is used to work with Eastern Christian Arabic
+                     literature: one would expect here <i>injīl</i>‎ or <i>bušrā</i>. However, in Gal 2:2, <i>šarīʿa</i> comes along with <i>bušrā</i> following the model of an alternative rendering described above.
+                     This could indicate that the word <i>šarīʿa</i> is understood as a simple synonym for <i>bušrā</i> and does not
+                     reflect any connotation to the law.
+                 </li>
+                 <li>Other examples will be added to this list.</li>
+             </ul>
+
+             <p>The presence of "Islamic" vocabulary is often underlined by scholars studying the Andalusian Christian Arabic text production. This is the case for example in so-called Gospel translation of Isḥāq ibn Balašku (see <a href="/webbook/book/chapters/bibliography.html#Arb05" target="_blank">[Arbache et Roisse 2005]</a>; <a href="/webbook/book/chapters/bibliography.html#Kas16" target="_blank">[Kassis 2016: XXIV-XXXV]</a>). The observation is similar for the Andalusian Psalm translations.<sup><a data-type="noteref" href="#note8_4_3" id="note8_4_3-marker">3</a></sup> Potthast states about the prose translations: </p>
+
+             <aside class="highlight" data-type="sidebar">Beide Übersetzungen weisen ein Vokabular
+                 auf, das stark islamisch geprägt ist. Überhaupt fällt bei der Lektüre von
+                 arabischsprachigen christlich-andalusischen Schriften auf, dass man sich sprachlich
+                 nicht von den Muslimen abgesetzt hat. Zwar ist der Stil oft nur
+                 Mittelarabisch, aber der Versuch, sich des Hocharabischen zu bedienen, ist
+                 erkennbar; dabei wurde sogar ein koranisches Arabisch zum Vorbild genommen. <a
+                         href="/webbook/book/chapters/bibliography.html#Pot13" target="_blank">[Potthast 2013:
+                     63-64]</a></aside>
+
+             <p>We will see in the next point how it comes that the Arabic text in Marciana Gr. Z. 11 (379) shares similarities with "Mozarabic" texts.</p>
+             <h2 class="subheaders">One version, three manuscripts</h2>
+             <p>The current research is aware of two other manuscripts containing a Pauline translation from Latin to
+                 Arabic (<a href="/webbook/book/chapters/bibliography.html#Gra44" target="_blank">[Graf 1944: 179-180]</a>; <a href="/webbook/book/chapters/bibliography.html#Pot11" target="_blank">[Potthast 2011]</a>):</p>
+             <ul>
+             <li>in <em>Vat. Lat. 12900</em>, a small fragment of Galatians (Gal 1:1-15; 3:6-24), a well-known manuscript because it was long
+                 estimated to the 9th century. I will come back to this point later.
+             </li>
+             <li>in <em>Madrid Biblioteca Nacional 4971</em>. The manuscript contains folios of different ages, which were put
+                 together before 1542 as a note states.
+             </li>
+             </ul>
+            <p> A comparison of the three shows that we face a single version of
+             Latin origin.
+             </p>
+
+             <table class="pagebreak-before" id="table_1version_2mss">
+                 <caption>
+                     <strong>Gal 1:3-5. Comparison of the three manuscripts<sup><a data-type="noteref" href="#note8_4_4" id="note8_4_4-marker">4</a></sup></strong>
+                 </caption>
+
+                 <tbody>
+                 <tr>
+                     <td style="text-align: right">
+                             كان التفضل عليكم و السلام من الله ابينا و الرب يسوع <span style="color: #993300;">المسيح</span> الذى بذل نفسه لاجل ذنوبنا
+                         <span style="color: #993300;">ــــــــــــــ</span> من هذا العالم السو الحاضر على <span style="color: #993300;">قدر</span> ارادة الله ابينا
+                         <span style="color: #993300;">له</span> العذة فى عالم العوالم امين
+                     </td>
+                     <td>
+Vat. Lat. 12900
+                     </td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+
+                             كان التفضل عليكم و السلم مں الله ابينا و الرب يسوع <span style="color: #993300;">المسيح</span> الذي بذل نفسه لاجل ذنوبنا
+                         <span style="color: #993300;">ان يخلّصنا</span> مں هذا العالم السو الحاضر على <span style="color: #993300;">قدر</span> ارادة اللّه ابينا
+                         <span style="color: #993300;">له</span> العزه ڡى عالم العوالم امن
+
+                     </td>
+                     <td>
+                             Marc. Gr. Z. 11 (379) (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_207v" target="_blank">folio 207v</a>)
+                     </td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+
+                             كان التَفْضِلُ عَلَيَكُمْ و السَّلْمُ مِن اللّٰه أَبينَا وَ الَّربِ يَسُوعِ
+                         <span style="color: #993300;">ـــــــ</span> الَّذِي بَذَلَ نَفْسُهُ لأَجْلِ ذُنُوبِنَا <span style="color: #993300;">أَنْ يُخَلِّصُنَا</span> مِنْ هَذَا العَالَمِ السَوْءِ الحَاضِرِ عَلَى
+                         <span style="color: #993300;">ــــ</span> إِرَادَةِ  اللّٰهِ أَبِينَا <span style="color: #993300;">للَّذِي</span> العِزَّةُ فِي عَالَمِ العَوَالِم أمِين
+                     </td>
+                     <td>
+                           Madrid BN 4971
+                     </td>
+                 </tr>
+                 <span style="color: #993300;">
+                 </tbody>
+             </table>
+             <p>The texts are almost similar. However, it is interesting to see that no witness is totally identical and that every of them shares
+                 peculiarities with the two other independently. The omission of ان يخلّصنا is to find in the Vat. Lat. 12900 only whereas المسيح (and قدر) is absent in Madrid BN 4971 and not in the other two manuscripts. These observations may suggest that we do not have a linear textual history between the three manuscripts but that other textual stages could have existed.</p>
+
+             <h3 class="subsubheaders">Comparison Marc. Gr. 11 (379)-Vat. Lat. 12900</h3>
+             <p>If we compare more precisely almost two chapters of Galatians in the Vatican manuscript and in the
+                 Marcianan one, the differences are very limited (<a href="https://humarec.org/images/blog/blog_VL12900.pdf" target="_blank">pdf available</a>).
+                 There are only changes in the vocabulary, changes that seem to be just stylistic.</p>
+             <table class="pagebreak-before" id="table_monitoring_symptoms">
+                 <caption>
+                     <strong>Differences in the two manuscripts</strong>                 </caption>
+                 <thead>
+                 <tr>
+                     <th style="text-align: right">
+                         <em>Marc. Gr. 11 (379)</em>
+                     </th>
+                     <th>
+                         <em>Vat. Lat. 12900</em>
+                     </th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr>
+                     <td style="text-align: right">
+                         بشرناكم
+                     </td>
+                     <td>
+                         اخبرناكم
+                     </td>
+                     <td>Gal 1:18 (cf. <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_208v" target="_blank">folio 208v</a>)</td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+                         فصّح
+                     </td>
+                     <td>
+                         وضح
+                     </td>
+                     <td>Gal 3:11 (cf. <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_211r" target="_blank">folio 211r</a>)</td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+                         اغلق
+                     </td>
+                     <td>
+                         اطبق
+                     </td>
+                     <td>Gal 3:22 (cf. <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_211v" target="_blank">folio 211v</a>)</td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+                         بمشيته و امتنانه
+                     </td>
+                     <td>
+                         بمنته
+                     </td>
+                     <td>Gal 1:15 (cf. <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_208v" target="_blank">folio 208v</a>)</td>
+                 </tr>
+                 </tbody>
+             </table>
+             <p>Two remarks regarding the table and its examples:
+             <ol>
+             <li>Often the two elements that are different are very similar graphically. This is the case for the examples in Gal 3:11 and Gal 3:22.
+             </li>
+             <li>We observe a minimal use of alternative rendering in the Vatican manuscript, see the last example in Gal 1:15.
+             </li>
+             </ol>
+                <p>Finally, there is variation in the proper names; I will come back to this later.</p>
+
+             <h3 class="subsubheaders">Comparison Marc. Gr. 11 (379)-Madrid BN 4971</h3>
+             <p>We observe more textual variations between the Marcianan manuscript and the manuscript Madrid BN 4971
+                 (see <a href="https://humarec.org/images/blog/blog_MBN4971.pdf" target="_blank">pdf of Rom 1</a>). The differences seem to be stylistic as well.</p>
+             <table class="pagebreak-before" id="table_monitoring_symptoms">
+                 <caption>
+                     <strong>Differences in the two manuscripts</strong>                 </caption>
+                 <thead>
+                 <tr>
+                     <th style="text-align: right">
+                         <em>Marc. Gr. 11 (379)</em>
+                     </th>
+                     <th>
+                         <em>Madrid BN 4971</em>
+                     </th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr>
+                     <td style="text-align: right">
+                         لا تفسق افتفسق
+                     </td>
+                     <td>
+                         لَا زِنَا أَفَتَزْن
+                     </td>
+                     <td>Rom 2:22 </td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+                         عذرٌ و لا حُجهٌ
+                     </td>
+                     <td>
+                         عُذْر
+                     </td>
+                     <td>Rom 1:20 (cf. <a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_126v" target="_blank">folio 126v</a>)</td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+                         و لا وفا و لا رقّه
+                     </td>
+                     <td>
+                         و لَا وَفَآءٌ و لا رَأْفَةٌ و لا قُدرَهٌ و لا رقَةٌ
+                     </td>
+                     <td>Rom 1:31</td>
+                 </tr>
+
+                 </tbody>
+             </table>
+
+             <p>As in the previous comparison, we observe different choices of vocabulary. In addition, we see that at
+                 some places, one witness has extension when the other has not.</p>
+             <p>
+                 It is worth noting the presence in the Madrid manuscript of scribal interventions that offer alternative
+                 translations for some words, additions or indications of "errors".</p>
+             <aside class="highlight" data-type="sidebar">Dabei muss man zwischen zwei Arten von Korrekturen unterscheiden: Zum einen werden einzelne Wörter durch einen Überstrich
+                 als falsch gekennzeichnet. In einigen Fällen lassen sich hier Fehler des
+                 Kopisten, etwa Wort- oder Zeilenverdopplungen erkennen. In einigen
+                 Fällen scheint dagegen eine echte Lesartvariante vorzuliegen, wobei die
+                     präferierte Lesart als Glosse ergänzt wurde. Zum anderen finden sich als
+                 Glossen auch Alternativen zu nicht als falsch angegebenen Wörtern. <a href="/webbook/book/chapters/bibliography.html#Pot11" target="_blank">[Potthast 2011: 74]</a></aside>
+                 <p>In the above mentioned example Rom 1:31, we have in Arabic four elements to translate only <i>sine
+                     misericordia</i> in Latin. The scribe
+                 reduces the translation to two elements by marking out the last two لا قُدرَهٌ و لا رقَةٌ. This choice brings the text closer to the Marcianan version.
+                     Several scribal interventions seem in fact to conciliate the two texts.
+                 There is for example the case in Rom 1:17: the scribe adds the mention of the Prophet Ḥabaqūq, a mention that is
+                 present in the Marcianan manuscript (النبى حبقوق).</p>
+             <p>Potthast argues that the scribal interventions are not based on another textual witness <a href="/webbook/book/chapters/bibliography.html#Pot11" target="_blank">[Potthast 2011: 74]</a> but bringing the Marcianan manuscript in the discussion shows that the notes may have been made from another existent source.</p>
+
+             <p>
+                 Occasionally, the differences between the two texts are more important than just one word here and there.
+
+                 An example is in Rom 2:22:
+                 </p>
+             <table class="pagebreak-before" id="table_1version_2mss">
+
+                 <tbody>
+                 <caption>
+                     <strong>Translation of Rom 2:22</strong>                 </caption>
+                 <tr>
+                     <td>
+                         <i>qui abominaris idola sacrilegium facis</i>                     </td>
+                     <td>
+                         Vulgate                     </td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+                         يا من تتجنّب الوثن اتخرب البيت المقدّس                     </td>
+                     <td>
+                         Marc. Gr. Z. 11 (379) (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_207v" target="_blank">folio 207v</a>)
+                     </td>
+                 </tr>
+                 <tr>
+                     <td style="text-align: right">
+
+                         يَا مَنْ تَتَجَنَب الوَثَنَ أَفَتَكْفُرُ و تَعْتَقِدُ التَعْطِيلَ
+                     </td>
+                     <td>
+                         Madrid BN 4971
+                     </td>
+                 </tr>
+
+
+                 </tbody>
+             </table>
+             <p>The translation in the Marcianan manuscript shows for <i>sacrilegium facis</i>: اتخرب البيت المقدّس "do you
+                 rob the holy house?". This translation corresponds surprisingly more to the Greek text, which has here
+                 ἱεροσυλεῖς, than to the Latin text.</p>
+
+             <p>Yet in the Madrid manuscript we find أَفَتَكْفُرُ و تَعْتَقِدُ التَعْطِيلَ "Are you infidel and do you
+                 support blasphemy?" This translation is clearly closer to <i>sacrilegium facis</i>.</p>
+
+             <p>This raises questions about a potential revision. Was the text of Madrid BN 4971 revised to become
+                 closer to the Vulgate? Or at the opposite was the text of Marciana Gr. Z. 11 (379) revised against the
+                 Greek (see also the chapter <a href="/webbook/book/chapters/chap8_5.html">8.5</a>)? This point clearly
+                 needs further investigation.
+             </p>
+             <p> Finally, we observe also some lexical decisions that influence the reading more deeply. In the two
+                 manuscripts we can note the use of both words
+                 <i>tawrāt</i> and <i>nāmūs</i> to translate <i>lex</i> (that is νόμος in Greek). However, in Romans 2
+                 there is a clear preference for <i>tawrāt</i>  in Madrid BN 4971: in 9 different places we find تَوْرَية or تَوْرَاة
+                 while Marciana Gr. Z. 11 (379) has ناموس.</p>
+             <p><i>nāmūs</i> is a loanword from the Greek νόμος; it probably entered into the religious and philosophical Arabic vocabulary through the biblical translations into Arabic <a href="/webbook/book/chapters/bibliography.html#EI2Nam" target="_blank">[EI2: Nāmūs]</a>. At the opposite, the word <i>tawrāt</i> is part of the Ḳurʾānic vocabulary (used 18 times, with the spelling  تورية
+); it designates with the <i>injīl</i> the Scriptures that were revealed to the Jews and Christians before the Islam <a href="/webbook/book/chapters/bibliography.html#EI2Taw" target="_blank">[EI2: Tawrāt]</a>. We can consider the two terms as synonyms. However, we see that they do not have a similar textual legacy and that at some points, revisors/scribes have consciously chosen one term against the other.</p>
+
+
+             <table class="pagebreak-before" id="table_monitoring_symptoms">
+                 <caption>
+                     <strong>Use of <i>tawrāt</i> and <i>nāmūs</i> in Rom 2</strong>                 </caption>
+                 <thead>
+                 <tr>
+                     <th>
+                     </th>
+                     <th style="text-align: right">
+                         <em>Madrid BN 4971</em>
+                     </th>
+                     <th style="text-align: right">
+                         <em>Marc. Gr. 11 (379)</em>
+                     </th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr>
+                     <td>
+                        9 times
+                     </td>
+                     <td style="text-align: right">
+                         تَوْرَية  / تَوْرَاة                     </td>
+                     <td style="text-align: right">ناموس</td>
+                 </tr>
+                 <tr>
+                     <td>4 times</td>
+
+                     <td style="text-align: right">
+                         تَوْرَية                     </td>
+                     <td style="text-align: right">
+                         توراه
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>once</td>
+
+                     <td style="text-align: right">
+                         نَامُوس                     </td>
+                     <td style="text-align: right">
+                         ناموس                     </td>
+                 </tr>
+
+                 </tbody>
+             </table>
+             <br/>
+
+             <p>The last aspect that we want to point out in this comparison is the use of <i>ġrīqīyūn</i> in Madrid BN
+                 4971. It is the direct transliteration of the Latin
+                 <i>Graeci</i> (in the Greek text Ἕλληνες). In Marciana Gr. Z. 11 (379), we find <i>yūnānīyūn</i>. This
+                 lexical choice is part of the argumentation of Potthast: </p>
+
+                 <aside class="highlight" data-type="sidebar">Auch an anderen Stellen wird deutlich, dass die Übersetzung nicht in dem Maß wie
+                 andere andalusische Texte islamische Konzeptionen beinhaltet. So wurde
+                     das lat. <i>Graeci</i> als <i>ġrīqīyūn</i> statt als <i>yūnānīyūn</i> arabisiert. <a href="/webbook/book/chapters/bibliography.html#Pot11" target="_blank">[Potthast 2011: 82]</a></aside>
+
+             <p> He states about the text of Madrid BN 4971 in his conclusion:</p>
+
+             <aside class="highlight" data-type="sidebar">Der Übersetzer des <i>Corpus paulinum</i> hat sich bei
+                 seiner Arbeit aber im Vergleich zu anderen christlich-arabischen Texten
+                 bemüht, Übersetzungen zu wählen, die keine islamischen Konnotationen
+                 zulassen, so dass die Paulusübersetzung nur rein sprachlich arabisiert
+                 erscheint, sonst aber sehr nahe an lateinischen Traditionen bleibt. <a href="/webbook/book/chapters/bibliography.html#Pot11" target="_blank">[Potthast 2011: 83]</a></aside>
+
+                <p> We disagree with Potthast: We have underlined <a
+                         href="/webbook/book/chapters/chap8_4.html#8">above</a> the presence of "Islamic" vocabulary in the
+                 translation – sometimes even more in Madrid BN 4971 than in Marcianan Gr. Z. 11 (379) as in the case of Rom 2 and <i>tawrāt</i> / <i>nāmūs</i>. </p>
+
+             <h3 class="subsubheaders">Proper nouns: Eastern influences?</h3>
+
+             <p>
+                 It can be said that despite several differences that we have presented the witnesses show a relatively stable text. The context of production of the manuscripts that may have been quite different (e.g. between Al-Andalus and Sicily) did not influence much the text.
+                 Yet the case of the proper nouns shows something different. In fact, names differ considerably in the manuscripts. We give in the table a few examples, which are not comprehensive.
+             </p>
+
+             <table class="pagebreak-before" id="table_monitoring_symptoms">
+                 <caption>
+                     <strong>Variations in proper nouns: examples</strong>                 </caption>
+
+
+                 <thead>
+                 <tr>
+                     <th>Vulgate</th>
+                     <th style="text-align: right">Marc. Z. 379</th>
+                     <th style="text-align: right">Vat. Lat. 12900</th>
+                     <th style="text-align: right">MBN 4971</th>
+                     <th style="text-align: right">Eastern MSS</th></tr>
+             </thead>
+                 <tbody>
+                 <tr style="background-color:#FBF8EF">
+                     <td>Paulus</td>
+                     <td style="text-align: right">بلوس</td>
+                     <td style="text-align: right">بلوش</td>
+                     <td style="text-align: right">بلوش</td>
+                     <td style="text-align: right">بلوس<sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note2" id="chapter8_4_table_note2-marker">2</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note3" id="chapter8_4_table_note3-marker">3</a></sup></td>
+                 </tr>
+
+                 <tr style="background-color:#FBF8EF">
+                     <td>Galatiae</td>
+                     <td style="text-align: right">غلاطيه</td>
+                     <td style="text-align: right">غلاذية</td>
+                     <td></td>
+                     <td style="text-align: right">غلاطية<sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup></td>
+                 </tr>
+                 <tr style="background-color:#FBF8EF">
+                     <td>Iohannes</td>
+                     <td style="text-align: right">يحنى</td>
+                     <td></td>
+                     <td style="text-align: right">يحيا</td>
+                     <td style="text-align: right">يوحنا<sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note2" id="chapter8_4_table_note2-marker">2</a></sup></td>
+                 </tr>
+                 <tr style="background-color:#FBF8EF">
+                     <td>Gaius</td>
+                     <td style="text-align: right">غايوس</td>
+                     <td></td>
+                     <td style="text-align: right">غايش</td>
+                     <td style="text-align: right">غايوس<sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note2" id="chapter8_4_table_note2-marker">2</a></sup></td>
+                 </tr>
+                 <tr style="background-color:#FBF8EF">
+                     <td>Erastus</td>
+                     <td style="text-align: right">اَرَسطُس</td>
+                     <td></td>
+                     <td style="text-align: right">ارشتوش</td>
+                     <td style="text-align: right">ارسطوس<sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note2" id="chapter8_4_table_note2-marker">2</a></sup></td>
+                 </tr>
+                 <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+
+                 </tr>
+
+
+                 <tr style="background-color:#EFF8FB">
+                     <td>Cephas</td>
+                     <td style="text-align: right">كيفاس</td>
+                     <td></td>
+                     <td style="text-align: right">كيفا</td>
+                     <td style="text-align: right">الصفا<sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note3" id="chapter8_4_table_note3-marker">3</a></sup></td>
+                 </tr>
+                 <tr style="background-color:#EFF8FB">
+                     <td>Tertius</td>
+                     <td style="text-align: right">تارتيّوس</td>
+                     <td></td>
+                     <td style="text-align: right">ثرسيوس</td>
+                     <td style="text-align: right">طرطيوس <sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note2" id="chapter8_4_table_note2-marker">2</a></sup></td>
+                 </tr>
+                 <tr style="background-color:#EFF8FB">
+                     <td>Lucius</td>
+                     <td style="text-align: right">لوجيوس</td>
+                     <td></td>
+                     <td style="text-align: right">لوسيوس</td>
+                     <td style="text-align: right">لوقيوس<sup><a data-type="noteref" href="#chapter8_4_table_note1" id="chapter8_4_table_note1-marker">1</a></sup> <sup><a data-type="noteref" href="#chapter8_4_table_note2" id="chapter8_4_table_note2-marker">2</a></sup></td>
+                 </tr>
+                 <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td><sup><a href="#chapter8_4_table_note1-marker" id="chapter8_4_table_note1">1</a></sup> e.g. Sin. Ar. 151 <br/>
+                         <sup><a href="#chapter8_4_table_note2-marker" id="chapter8_4_table_note2">2</a></sup> e.g. Sin. Ar. 155 <br/>
+                         <sup><a href="#chapter8_4_table_note3-marker" id="chapter8_4_table_note3">3</a></sup> e.g. Vat. Ar. 13 <br/></td>
+                 </tr>
+
+
+                 </tbody>
+             </table>
+
+
+             <p>In our opinion the Marcianan manuscript has nouns that are closer to an Eastern tradition and/or pronunciation. Here elements (in
+                 <span style="background-color:#FBF8EF">orange</span> in the table) going in this direction:
+                 <ul>
+             <li>The Arabicized form of <i>Galatia</i> is written with <i>ṭāʼ</i> in Marciana Gr. Z. 11 (379) as in other Eastern manuscript, against a form with
+                 <i>ḏāl</i> in the Vat. Lat. 12900.</li>
+             <li> We see that the Marcianan manuscript prefers in general transcribing the Latin nouns with help of <i>sīn</i> while the two other manuscripts present forms with
+                 <i>šīn</i>
+                 (e.g. <i>bulūs</i>/<i>bulūš</i>). Confusion between /s/ and /š/ can be traced in Andalusian Arabic.<sup><a data-type="noteref" href="#note8_4_5" id="note8_4_5-marker">5</a></sup>
+                 </li>
+             <li> The Arabicized noun of <i>Iohannes</i> يحنى is closer to the Eastern form يوحنا than يحيا that we find in Gal 2:9 in Madrid BN 4971. يحيا does actually correspond to the Ḳurʾānic name of John.
+                 </li>
+         </ul>
+
+             <p>But not all proper nouns are close to the Eastern tradition in Marciana Gr. Z. 11 (379); other examples
+                 are close to the Latin (see <span style="background-color:#EFF8FB">blue</span> in table).</p>
+             <ul>
+                 <li> We do not find a variation of الصفا for <i>Cephas</i> as it is often the case in Eastern translations.
+
+                 </li>
+                 <li> The form لوجيوس that occurs in Rom 16.21 needs to be outlined. The presence of a <i>jīm</i> instead of the Latin transcription with <i>sīn</i> or an Eastern transcription with
+                     <i>qāf</i> is intriguing. May it come from an Italian or Sicilian pronunciation of the ⟨c⟩ as ⟨tʃ⟩?
+
+                 </li>
+
+             </ul>
+             <h2 class="subheaders">
+                 How old is the translation?
+             </h2>
+
+             <p>
+                 Now that we have an idea of the available material regarding the translation, can we estimate when the
+                 translation was first made? It is complicated to rely on the manuscripts for the datation.</p>
+             <p> In fact, the dates of the manuscripts are not established. Marciana Gr. Z. 11 (379) is mostly estimated
+                 to the
+                 13th century. However, there are elements leading to the 12th century. We discuss this question <a
+                         href="/webbook/book/chapters/chap7_2.html">here</a>. The date of Vat. Lat. 12900 is much
+                 discussed. It was long considered as one of the oldest evidence of an Andalusian Christian textual
+                 production in Arabic after the estimation of Tisserant to the 9th century <a
+                         href="/webbook/book/chapters/bibliography.html#Tis10" target="_blank">[Tisserant 1910]</a>.
+                 This date was strongly called into question (see <a href="/webbook/book/chapters/bibliography.html#Kon76" target="_blank">[van Koningsveld 1976]</a>; <a href="/webbook/book/chapters/bibliography.html#Ail10" target="_blank">[Aillet 2010: chapter 5]</a>). However
+                 some scholars are still defending an early date <a href="/webbook/book/chapters/bibliography.html#Dot13" target="_blank">[D'Ottone 2013]</a>. Regarding the Madrid BN 4971, it
+                 contains several old parchment folios but the Pauline letters are written on the younger paper folios,
+                 presumably copied in 1542 <a href="/webbook/book/chapters/bibliography.html#Pot13" target="_blank">[Potthast 2013: 67-69]</a>.
+             </p>
+             <p>Actually, the only fixed point regarding the translation is to find by the Muslim theologian Ibn Ḥazm in
+                 his work <i>Kitāb al-fiṣal fī-l-milal wa-l-ahwāʾ wa-l-niḥal</i> <a href="/webbook/book/chapters/bibliography.html#Haz99" target="_blank">[Ibn Ḥazm 1899]</a>, which was written around the year
+                 1030 (between 1027 and 1048 <a href="/webbook/book/chapters/bibliography.html#Pue12" target="_blank">[Puerta Vílchez 2012]</a>.
+                 In this work, Ibn Ḥazm gives six quotations of the Pauline letters ; two of them are closely related to
+                 our Latin version, 1 Cor 1:22-26 and Phil 2:6 (see <a href="/webbook/book/chapters/bibliography.html#Pot13" target="_blank">[Potthast 2013: 202-205]</a> and in <a href="/webbook/book/chapters/bibliography.html#Lja03" target="_blank">[Ljamai 2003: 223-225]</a>). Here the example of 1
+                 Cor 1:22-23:</p>
+<table>
+             <caption>
+                 <strong>Comparison Ibn Ḥazm's <i>K. al-fiṣal</i>, Marc. Gr. Z. 11 (379) and Madrid BN 4971</strong>                 </caption>
+
+             <tbody>
+             <tr>
+                 <td style="text-align: right">
+                     <span style="color: #993300;">ــــ</span> اليهود <span style="color: #993300;">يطلبون</span> الايات و <span style="color: #993300;">اليونانيون</span> يطلبون الحكمة و نحن نشرع ان المسيح صلب و هذا القول عند اليهود فتنة
+                     <span style="color: #993300;">ـــــ</span> و عند <span style="color: #993300;">الاجناس</span> جهل و نقص                  </td>
+                 <td>
+                     <em>Ibn Ḥazm</em>                 </td>
+             </tr>
+             <tr>
+                 <td style="text-align: right">
+                     لان اليهود <span style="color: #993300;">يسـءلون</span> الايات و <span style="color: #993300;">اليونانين</span> يطلبون الحكمه و نحن نشرع ان المسيح صلب و هذا القول عند اليهود فتنه الزلق و عند
+                     <span style="color: #993300;">اليونانين</span> جهل و نقصٌ                  </td>
+                 <td>
+                     <em>Marc. Gr. Z. 11 (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Cor&page=Gr-Z_0011-00379_157r" target="_blank">folio 157r</a>)</em>         </td>
+             </tr>
+             <tr>
+                 <td style="text-align: right">
+                     ــــ اليهود <span style="color: #993300;">يسلون</span> الايات و <span style="color: #993300;">غيريقين</span> يطلبون الحكمة و نحن نشرع ان المسيح صلب و هذا القول عند اليهود فتنة الزلق و عند
+                     <span style="color: #993300;">الاجناس</span> جهل و نقص                  </td>
+                 <td>
+                     <em>Madrid BN 4971</em>                </td>
+             </tr>
+
+             </tbody>
+</table>
+    <p> First, the closeness between the three texts is striking; the differences (in <span style="color: #993300;">dark red</span>) are minimal. Ibn Ḥazm was then aware of at least parts of this
+        Pauline translation. Second, some elements in the comparison are of great interest.</p>
+
+<ul>
+    <li>In the Marcianan manuscript, we find twice the designation <i>yūnānīyūn</i>: it corresponds to the Greek text,
+        which presents Ἕλληνες in verses 22 and 23. The Madrid manuscript and the text of <i>al-Fiṣal</i> are closer to the Latin text by using in verse 23
+        <i>al-ajnās</i>
+        in attend to translate the Latin <i>gentibus</i>. In the verse 22 however, <i>al-Fiṣal</i> has <i>yūnānīyūn</i> like in the Marcianan manuscript while
+        Madrid BN 4971 has <i>ġrīqīyūn</i>. This echoes aspects that we have presented above regarding <a href="/webbook/book/chapters/chap8_4.html#23">possible
+            revisions</a> and the
+        <a href="/webbook/book/chapters/chap8_4.html#10">choice of vocabulary</a>. It is very difficult to be assertive but we can formulate the hypothesis: here the text in the manuscript
+        Marciana Gr. Z. 11 (379) was corrected against the Greek; similarly Madrid BN 4971 presents a correction that replaces the term <i>yūnānīyūn</i>
+        by <i>ġrīqīyūn</i> (to be closer to the Latin?). The text in <i>al-Fiṣal</i> may in this perspective be the oldest one.
+    </li>
+    <li>Finally, at the end of this excerpt, Paul says that the Christ crucified is foolishness to Greeks; The notion of "foolishness" (<i>stulticia</i> in Latin, μωρία in Greek) is translated here by
+        <i>jahl wa naqṣ</i>, that is "ignorance and deficiency". This translation is not obvious, one might have expected حمق (Sin. Ar. 155) or سافهة (Vat. Ar. 13). The introduction of the notion of "ignorance"<sup><a data-type="noteref" href="#note8_4_6" id="note8_4_6-marker">6</a></sup> has theological implication in the understanding of this verse.<sup><a data-type="noteref" href="#note8_4_7" id="note8_4_7-marker">7</a></sup>
+        This is the case at least if we understand "ignorance" as ἀγνωσία, that is the lack of knowledge, a meaning that seems to be supported by the addition of
+        <i>naqṣ</i> "deficiency". Yet μωρία is not the opposite or the lack of the knowledge according to Paul but the opposite of the wisdom if we read 1 Cor 3:19. In addition, the Arabic root جهل may evoke the term
+        <i>jāhiliyya</i>, an important concept designating the time before the revelation of the Prophet Muhammad and its promulgation <a
+                href="/webbook/book/chapters/bibliography.html#EI2Dja" target="_blank">[EI2: Djāhiliyya]</a>. An analysis of 1 Cor 1:17-31 in the translation and of its vocabulary is here needed to understand the broader implications.
+
+        It is interesting to see that this translation is maintained as such through the traditions.
+
+    </li>
+</ul>
+
+             <p>This being said, can we then pretend to draw a general history of the version? Let us sum up the
+                 information that we have collected.</p>
+             <figure class="vertical horizontal">
+                 <img
+                         src="https://humarec.org/images/blog/carte.jpg">
+                 <figcaption>
+                   Elements for the textual history of the version
+
+                 </figcaption>
+             </figure>
+
+             <p>
+
+                 Our starting point was the manuscript Marciana Gr. Z. 11 (379) and its translation of the letters of
+                 Paul based on a Latin
+                 <i>Vorlage</i>.
+                 Two other manuscripts contain a similar text:
+                 Vat. Lat. 12900 and Madrid Biblioteca Nacional 4971. We clearly have three witnesses for one version.
+                 However, we have observed differences that can indicate to our opinion:</p>
+             <ul>
+                 <li>It is likable that there is no direct connection between the manuscripts but that other stages of
+                     the
+                     text existed.
+                 </li>
+                 <li>Some of the corrections may indicate a conscious revision work of the text. It is necessary to
+                     investigate the changes between the manuscripts further to determinate more precisely the process.
+                 </li></ul>
+             <p>
+In addition, it is very important to have in mind contemporary textual production and the possible relationships.
+                 We have seen that Ibn Ḥazm was – at least partially – aware of this Pauline translation. Here we should
+                 also mention other texts interesting for our study:</p>
+             <ul>
+                 <li>the Gospel translation of Isḥāq ibn Balašku, probably made in the 10th century <a
+                         href="/webbook/book/chapters/bibliography.html#Kas16" target="_blank">[Kassis 2016]</a>.</li>
+                 <li>
+                     the so-called Leiden Glossary, a Latin-Arabic Glossary preserved in one manuscript (manuscript
+                     Leiden
+                     Universiteitsbibliotheek Or. 231), probably made in the 12th century in Toledo <a
+                         href="/webbook/book/chapters/bibliography.html#Kon76" target="_blank">[van Koningsveld
+                     1976]</a>.</li>
+
+             </ul>
+             <p> Both texts of Andalusian origin present similarities with the Arabic Pauline translation from
+                 Latin.</p>
+             <p>
+                 Of course, it is also necessary to have in mind the Pauline translation of Eastern origin and to not
+                 exclude influences between them.</p>
+             <p>
+
+                 Regarding the chronology, the only fixed point we have is the <i>Fiṣal</i> of Ibn Ḥazm, written around
+                 the years 1030.
+                 We also have a date in the Madrid manuscript confirming that the manuscript was written before 1542.
+                 But between these two points we have nothing precise.
+                 The Vatican manuscript was first estimated to the 9th century but the date is currently disputed.
+                 It is also not very clear if the Marcianan manuscript was made under the Norman rule or later. The
+                 dating of the Isḥāq's Gospel translation and of the Glossary is also subject to discussion.
+
+             </p>
+             <p>As a provisional conclusion we can say that it is for now impossible to retrace the precise textual
+                 history of the version but that we have several elements to relate to. It also shows that the Arabic
+                 Pauline translation of Latin origin is not an isolated phenomenon but takes place in a broader context
+                 of text and manuscript production.
+             </p>
+             <p>In the next chapter, we will investigate the influences that the three columns may have had on each other.
+             </p>
+
+
+         </div>
+               <div class="footnotes" data-type="footnotes">
+                   <p data-type="footnote" id="note8_4_1">
+                       <sup><a href="#note8_4_1-marker">1</a></sup> During the SNTS Meeting 2017 in the New Testament textual criticism seminar, we have presented a table of Latin readings in the Marciana Gr. Z. 11 (379). We have marked with a zero when the Arabic text (column "arabe 460") does not correspond to the Latin text.
+                       <a href="https://humarec.org/images/blog/annexe_textelatin.pdf" target="_blank">Link to the table</a>.
+                   </p>
+
+                   <p data-type="footnote" id="note8_4_2">
+                       <sup><a href="#note8_4_2-marker">2</a></sup> Tisserant's article is about Vat. Lat. 12900, a Latin-Arabic fragment of Galatians containing the same version: see above <a
+                           href="/webbook/book/chapters/chap8_4.html#10">One version, three manuscript</a>.
+
+                   </p>
+                   <p data-type="footnote" id="note8_4_3">
+                       <sup><a href="#note8_4_3-marker">3</a></sup> Potthast distinguish three Andalusian translations of the Psalms: one in prose in Vat. Ar. 5, an younger prose version in British Library add. 9060 and the translation Ḥafṣ b. Albar al-Qūṭī <a href="/webbook/book/chapters/bibliography.html#Pot13" target="_blank">[Potthast 2013: 63-67]</a>.
+
+                   </p>
+                   <p data-type="footnote" id="note8_4_4">
+                       <sup><a href="#note8_4_4-marker">4</a></sup> The present analysis was done without consultation of the images of Madrid BN 4971. We rely for now on the secondary literature. In his article about Romans, Potthast gives part of Galatians in a footnote <a href="/webbook/book/chapters/bibliography.html#Pot11" target="_blank">[Potthast 2011: 76]</a>; other excerpts of Pauline letters in Madrid BN 4971 are to find in <a href="/webbook/book/chapters/bibliography.html#Pot13" target="_blank">[Potthast 2013: 203]</a> and in <a href="/webbook/book/chapters/bibliography.html#Lja03" target="_blank">[Ljamai 2003: 223-225]</a>.
+
+                   <p data-type="footnote" id="note8_4_5">
+                       <sup><a href="#note8_4_5-marker">5</a></sup> "[Andalusian Arabic] materials contain a significant number of presumable confusions between /s/ and /š/ [...] Their explanation can be found in the Rm. substratum of the Iberian Peninsula, which had an unvoiced sibilant [Ś], perceived as /š/ by Arabic speakers [...]". <a href="/webbook/book/chapters/bibliography.html#Cor12" target="_blank">[Corriente 2012: § 1.2.15.3]</a>
+
+                   </p>
+                   <p data-type="footnote" id="note8_4_6">
+                       <sup><a href="#note8_4_6-marker">6</a></sup> It is also to find in Sin. Ar. 151 with جاهلة.</a>
+
+                   </p>
+                   <p data-type="footnote" id="note8_4_7">
+                       <sup><a href="#note8_4_6-marker">7</a></sup>In the other verses as well, μωρία/<i>stulticia</i> is translated by جهل (in 1 Cor 1:18.21.23 and 2:14) or جهالة (in 1 Cor 3:19).</a>
+
+                   </p>
+            </div>
+        </section>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="maia-aux">
+        <div class="previous">
+          <a href="/webbook/book/chapters/chap8_3.html">
+          <p class="footer-caption">
+            previous
+          </p>
+          <p class="chapter-link">
+            8.3 The Latin text
+          </p></a>
+        </div>
+        <div class="next">
+          <a href="/webbook/book/chapters/chap8_5.html">
+          <p class="footer-caption">
+            next
+          </p>
+          <p class="chapter-link">
+            8.5 Mutual influences
+          </p></a>
+        </div>
+          <p class="footer-link">
+              Copyright © Digital Humanities + | Swiss Institute of Bioinformatics 2016 - 2018 | CC BY-NC-ND 4.0 International License. </p>
+          <div class="footer-link"><a href="https://github.com/humarec/webbook"><i class="fa fa-github" style="font-size:30px"></i></a></div>
+      </div>
+    </div>
+
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+  </body>
+</html>

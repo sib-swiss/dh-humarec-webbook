@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (H) {
+            H.className = H.className.replace(/\bgoogle\b/, 'google-js')
+        })(document.documentElement)
+    </script>
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>HumaReC Web Book</title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script src="/webbook/book/js/jquery-3.2.1.min.js"></script>
+    <script src="/webbook/book/js/custom.min.js"></script>
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+    <script>$('img').bind('contextmenu', function (e) {return false;});</script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet">
+    <link href="/webbook/book/css/main.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="/webbook/book/images/favicon.ico" rel="shortcut icon">
+    <link href="/webbook/book/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/webbook/book/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+<button onclick="topFunction()" id="myBtn" class="btn-round" title="Go to top"><i class="fa fa-angle-up fa-custom" style="color:#fff" aria-hidden="true"></i></button>
+  <div class="menu-closed" id="curtain"></div>
+    <div class="header clearfix">
+      <div class="header-wrraper">
+       <h2 class="title-book">A Trilingual Manuscript of the New Testament in Digital Research [Web Book]</h2>
+        <h2><a class="expand" id="burger-menu"></a></h2>
+        <h2 class="chapter-title">
+          8.1 The Greek text
+        </h2>
+      </div>
+    </div>
+<div class="expands" id="overlay-element">
+    <div>
+        <a href="https://humarec.org/"><img alt="Humarec" src="/webbook/book/images/logo_home.jpg" style="width: 100%"></a>
+    </div>
+    <ol class="dropdown-content hide" id="drop-down">
+        <li><a class="menu-buttons" href="/webbook/book/index.html">Table of Contents</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/foreword.html">Foreword</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part1.html">Part I - Introduction</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap1.html">1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap2.html">2. The next step: HumaReC (2016-2018)</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part2.html">Part II - The Platform</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3.html">3. Manuscript transcription and visualization</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_1.html">- 3.1 The manuscript viewer: work with EVT</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_2.html">- 3.2 Towards handwritten text recognition</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4.html">4. Interactions and users</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_1.html">- 4.1 On the platform</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_2.html">- 4.2 Social media</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5.html">5. Continuous publication</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_1.html">- 5.1 On the platform: blog and transcriptions</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_2.html">- 5.2 Consolidation with the Web book</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap6.html">6. Reception and limitations</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part3.html">Part III - The Manuscript</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7.html">7. The object</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_1.html">- 7.1.Codicological and paleographical features</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_2.html">- 7.2 Remarks about the production context</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8.html">8. The text of the letters of Paul</a></li>
+
+            <li class="active"><a class="menu-buttons" href="/webbook/book/chapters/chap8_1.html">- 8.1 The Greek text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_2.html">- 8.2 The Latin text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_3.html">- 8.3 The Arabic text</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_4.html">- 8.4 Mutual influences</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_5.html">- 8.5 Paratext</a></li>
+
+
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part4.html">Part IV - Conclusion</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/acknowledgement.html">Acknowledgement</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/bibliography.html">Bibliography</a></li>
+             <!--<li><a class="menu-buttons" href="/webbook/book/chapters/annexe1.html">Annexe 1. List of alternative renderings</a></li>
+            <li><a class="menu-buttons" href="/webbook/book/chapters/annexe2.html">Annexe 2. List of Islamic vocabulary</a></li>-->
+        <li><a class="menu-buttons"></a></li>
+        <li><a class="menu-buttons"></a></li>
+    </ol>
+</div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div class="content">
+        <section data-type="chapter" id="chapter8_1">
+          <h1 class="heading">
+            8.1 The Greek text
+          </h1>
+
+           <div class="content chapter">
+         <div class="pagenumrestart page" data-type="part">
+             <h2 class="subheaders">
+                 Previous research
+             </h2>
+<p>
+  As mentioned previously and as will be demonstrated in the next sections, all three texts in the three columns are independent textual traditions. The Greek text, 460 in the Gregory-Aland list (hereafter GA 460), is the only text that has been researched. However, the level of information remains limited and the manuscript itself was never specifically a research object.</p>
+  <p>
+Several pages are dedicated to the manuscript in Rinck’s 1830 <i>Lucabratio critica</i> (codex 109 <a href="/webbook/book/chapters/bibliography.html#Rin830" target="_blank">[Rinck 1830: 30-40]</a>). It is mostly a comparison between GA 460 and two Greek manuscripts: codex Cyprius (GA 017) and another manuscript that I was not able to track down (a manuscript owned by Petivius (Denis Pétain) and used by Zacagnius for his Euthalian edition, “Alexandrino Vaticanum 179”?). They are seen as belonging to mixed categories, with some readings referred to as “classem orientalem” and others “classem occidentalem”. </p>
+<p>In Scrivener’s work, GA 460 is numbered 96 in the Acts and Catholics letters classification; in the letters of Paul list it is numbered 109 <a href="/webbook/book/chapters/bibliography.html#Scr861" target="_blank">[Scrivener: 193, 203]</a>. According to Scrivener, the eleventh century manuscript<sup><a data-type="noteref" href="#note8_1_1" id="note8_1_1-marker">1</a></sup> is “an important copy, [which] is often resembling Cod. 142 [= minuscule GA 618, Modena, Bibl. Estense G. 243, a.F.1.28. (III B 17)]” <a href="/webbook/book/chapters/bibliography.html#Scr861" target="_blank">[Scrivener: 193]</a>. </p>
+<p>Gregory dates the manuscript to the 13th or 14th century and qualifies the text as “nicht schlecht” <a href="/webbook/book/chapters/bibliography.html#Gre00" target="_blank">[Gregory 1900: 271, no. 96]</a>.</p>
+<p>In Hermann von Soden’s work the manuscript has the number α397 <a href="/webbook/book/chapters/bibliography.html#Sod11" target="_blank">[von Soden 1911: 232]</a>. All book groups, Acts, Catholic letters and Pauline letters, are placed in the category <i>Ia</i> (more precisely <i>Ia3</i>). The category <i>Ia</i> is a broad one, as von Soden himself explains:</p>
+<aside class="highlight" data-type="sidebar">Wie in Ac Kath bezeichne ich mit diesem Siglum alle nicht zu <i>Ib</i> oder <i>Ic</i> gehörige Zeugen der Rezension <i>I</i>. Sie bilden keine <i>Ib</i> und <i>Ic</i> parallele Sonderform des von <i>H</i> und <i>K</i> sich abhebenden Textes, sonder jeder oder Gruppen derselben bieten ihn in einer individuellen Nuance, die entstanden ist durch eingedrungene <i>K</i>-Lesarten, Reminiszenzen, Fehler oder auch Einwirkungen von Übersetzungen […].  <a href="/webbook/book/chapters/bibliography.html#Sod11" target="_blank">[von Soden 1911: 1936]</a><sup><a data-type="noteref" href="#note8_1_2" id="note8_1_2-marker">2</a></sup>  </aside>
+<p>This provides scant information about the text since the category <i>Ia3</i> is “the largest group von Soden recognizes in Paul”.<sup><a data-type="noteref" href="#note8_1_3" id="note8_1_3-marker">3</a></sup>  </p>
+<p>The manuscript is not mentioned in the Alands’ book <i>The Text of the New Testament</i> <a href="/webbook/book/chapters/bibliography.html#Ala95" target="_blank">[Aland 1995]</a>. In the <i>Textwert</i> <a href="/webbook/book/chapters/bibliography.html#Ala91" target="_blank">[Aland 1991]</a>, the results are mixed. The percentage of readings that have been done with the Majority text in GA 460 is sufficient to place it into the category of Majority text manuscripts, which include “all the manuscripts which read the Majority text in 60 and 70 percent <i>or more</i> of the text passages (including subgroups of the Byzantine text)” <a href="/webbook/book/chapters/bibliography.html#Ala95" target="_blank">[Aland 1995: 323]</a>. Indeed, in the case of the Proto-Pauline letters, an analysis of 160 readings shows only a limited number that do not belong to the Majority Text.<sup><a data-type="noteref" href="#note8_1_4" id="note8_1_4-marker">4</a></sup> Notable here is 1 Corinthians: 32 Majority readings out of 55 text passages (58% Majority text), the text may belong to the category of “all the manuscripts that must be considered for a major critical edition and deserve more careful attention. There are the codices which read the Majority text in <i>no more</i> than 60 percent of the test passage (or, perhaps better: 50 percent)” <a href="/webbook/book/chapters/bibliography.html#Ala95" target="_blank">[Aland 1995: 325]</a>. Thus by these definitions it is clear that GA 460 is at the edge of the different categories.</p>
+<p>In the <i>Supplementary List</i> and <i>the Main List</i> of the <i>Textwerk</i> <a href="/webbook/book/chapters/bibliography.html#Ala91" target="_blank">[Aland 1991: vol. 1]</a>, only Romans and 1 Corinthians are considered. The <i>Supplementary List</i> compares each manuscript with every other manuscript in the total number of text passages. The <i>Main List</i> does the comparison after excluding the majority readings (and the singular readings), focusing on the agreements with the “old text”. Therefore it is important to consult both lists. Barbara Aland underlines it as follows: “as a general rule, if the same manuscripts rank high on both lists for a given control manuscript, it may be assumed that the two are related to each other” <a href="/webbook/book/chapters/bibliography.html#Ala95" target="_blank">[Aland 1995: 325]</a>.</p>
+<p>In the case of GA 460, the results are very different for Romans and for 1 Corinthians. With respect to 1 Corinthians only a few manuscripts appear in both lists. Some of them have very few comparable text passages (e.g. GA 460 and GA 2441 agree 100% in both lists but only 8 of 55 text passages were comparable because of the <i>lacunae</i> in GA 2441). Taking a larger number of passages into consideration, the manuscripts GA 049, GA 2772 and GA 2516 can be included but they do not rank particularly high and the number of passages is still rather low.<sup><a data-type="noteref" href="#note8_1_5" id="note8_1_5-marker">5</a></sup> In the case of Romans, many manuscripts are high-ranked in both lists. The complete list will not be provided here but see e.g. GA 1501<sup><a data-type="noteref" href="#note8_1_6" id="note8_1_6-marker">6</a></sup>  or GA 424, GA 479 and GA 1752.<sup><a data-type="noteref" href="#note8_1_7" id="note8_1_7-marker">7</a></sup> The fact that we find an important number of manuscripts in high agreement seems to indicate that in Romans at least the text is clearly byzantine. </p>
+<h2 class="subheaders">
+    New elements
+</h2>
+<p>The work of the Alands provides a wealth of information, to which the following material can be added. During the transcription work, attention was focused on the variants by comparing the text to the NA28 edition and by listing other distinct readings that were compared to other NT editions such as Tischendorf’s NT and to specific manuscripts such as GA 1 or GA 620. The important readings are underlined in the manuscript viewer with the help of a note (green point). Additionally, the variants of the following excerpts have been listed: Rom 1:1-32; 11:1-24; 1 Cor 1:1-25; 5:1-11; Gal 1:1-18; 4:3-21; and 1 Thess 1:1-10; 2:1-13. In total, 105 readings were gathered together in the <a href="/webbook/book/chapters/annex1.htm" target="_blank">annex table</a> (1 = the witness supports the reading; 0 = the witness does not support the reading). The quantitative values in the table have their limitations and the listing of these variants does not aim to draw definitive conclusions for the manuscript grouping. For now, some elements that the table highlights will be focused on with specific attention the trilingual aspect of the manuscript.</p>
+<ul><li><a href="/webbook/book/chapters/annex1.htm" target="_blank">Link to the table of Greek readings</a></li></ul>
+<p>Regarding the witnesses consistently cited in Nestle-Aland, the first observation is that the text is close to the Majority text (93 of 105 readings). Contrary to observations in the Textwert summarized above, the parallels in Romans are not as strong as in other letters (19 of 23 readings). In this case the text is closer to diverse manuscripts such minuscules GA 2464 (22 of 23 readings), GA 1241, GA 1505<sup><a data-type="noteref" href="#note8_1_8" id="note8_1_8-marker">8</a></sup> and the codex Angelicus (L or GA 020) with 21 of 23 readings in common. The closeness to L appears in the other letters as well (in total 92 of 105 readings). In Galatians and 1 Thessalonians, the text is close to the codex Mosquensis I (K or GA 018) (the codex lacks Rom 10:18 to 1 Cor 6:13 and 1 Cor 8:8-11). The similarities to GA 020 and GA 018 tend to confirm the Byzantine nature of the text as both codices are considered “purely Byzantine witnesses” <a href="/webbook/book/chapters/bibliography.html#Ala95" target="_blank">[Aland 1995: 113]</a>.<sup><a data-type="noteref" href="#note8_1_9" id="note8_1_9-marker">9</a></sup></p>
+<p>Several other witnesses not cited in the Nestle-Aland are worth closer inspection. In Gal 1:21, we find an unusual reading that omits the mention of Cilicia.<sup><a data-type="noteref" href="#note8_1_10" id="note8_1_10-marker">10</a></sup> This omission is not mentioned in Nestle-Aland but was noticed by Tischendorf in two other minuscules next to GA 460: in GA 642 and GA 2816.<sup><a data-type="noteref" href="#note8_1_11" id="note8_1_11-marker">11</a></sup> If we compare both to 460, we see that GA 642 has 91 of 105 readings in common. The comparison to GA 2816 also ranks highly (87 of 105). However, Romans again has fewer similarities. In the same library as GA 2816, the Basel University Library, another minuscule is worthy of particular attention: minuscule GA 1. The comparison shows that GA 460 and GA 1 agree on many readings in the four letters and they present the best agreement rate in the table with 94 of 105 readings agreeing (89.5 %). The manuscript dated to the 12th century by the INTF contains the entire New Testament (except the Book of Revelation); the Alands placed the Pauline letters in Category V. </p>
+<p>Finally, if we compare GA 460 with other Greek-Latin manuscripts, we see that there are few similarities to the manuscripts that were described as “Western” (GA 06, GA 010, GA 012). Furthermore GA 460 is not particularly close to Greek-Latin diglot GA 629 (except in Galatians), but it is close to GA 620 (92 of 105) and GA 628 (90 of 105). Additionally, the Latin texts of these two manuscripts also present similarities (see below), in GA 620 particularly. Aland placed GA 620 in Category V and it is dated to the 12th century by the INTF. The origin of the manuscript is uncertain even though the Greek-Latin circles of Creta have been suggested. <a href="/webbook/book/chapters/bibliography.html#Spe17" target="_blank">[Speranzi 2017: 179]</a></p>
+<h2 class="subheaders">
+  Focus on some readings
+</h2>
+<p>In conclusion, we see that GA 460 is a representative of the Byzantine text-type but including alien readings. The readings that differ from the Byzantine text are highlighted in blue in the table. Two readings are important and deserve closer inspection:</p>
+<ul>
+  <li>1 Cor 1:6 μαρτύριον τοῦ θεοῦ (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_156r" target="_blank">folio 156r</a>)</li>
+  <p>A great majority of witnesses, Majority text included, have here μαρτύριον τοῦ Χριστοῦ. GA 460 and a few other witnesses (B* F G 81. 1175 sa<sup>ms</sup>) have μαρτύριον τοῦ θεοῦ. This reading is intriguing as GA 460 does not share particular similarities with the codices B, F, G, GA 81 nor GA 1175. The first question that might arise is whether GA 460 was influenced by the Latin column, which presents <i>testimonium dei</i>. The presence of <i>testimonium dei</i> in the Latin is also unusual (see <a href="/webbook/book/chapters/chap8_2.html" target="_blank">8.2. Latin text</a>).</p>
+<li>1 Thes 2:7 νήπιοι (<a href="http://humarec-viewer.vital-it.ch/#doc=Paul_transcript_1Thes&page=Gr-Z_0011-00379_247v" target="_blank">folio 247v</a>)</li>
+<p>This reading has been much discussed by scholars because of the difficulty in understanding νήπιοι in this context [Metzger 1994: 561-2]. Important witnesses have νήπιοι (ℵ* B C* D* F G I Ψ* 104*. 326<sup>c</sup> it vg<sup>cl.ww</sup> sa<sup>ms</sup> bo), while the Byzantine text and other witnesses have ἤπιοι (ℵc A C2 D2 K L P Ψ<sup>c</sup> 0278. 33. 81. 104<sup>c</sup>. 326*. 365. 630. 1241. 1505. 1739. 1881 𝔐 vg<sup>st</sup> (sy) sa<sup>mss</sup>). At first sight, it is surprising to find νήπιοι in GA 460 but νήπιοι is also present in manuscripts mentioned above such as GA 620 and 628. νήπιοι is a reading that is present in the earlier Latin versions (<i>parvuli</i>) (<a href="/webbook/book/chapters/bibliography.html#Hou16" target="_blank">[Houghton 2016: 174]</a>, other have <i>lenes</i> that corresponds to ἤπιοι) as well as in the Latin column.</p>
+<p>These two readings are both unusual and unexpected in a text of Byzantine colour. It is noteworthy that they find a Latin equivalent in the Latin column. In other places where the text moves away from the Byzantine text, it has an equivalent in the Latin column: see the readings in 1 Cor 5:5: Rom 11:13; 1 Cor 1:6. One may wonder if it reflects certain mutual influences of the columns. This point is further discussed in <a href="/webbook/book/chapters/chap8_4.html" target="_blank">8.4. Mutual influences</a>.</p>
+<p>Finally, it must be mentioned that GA 460 is cited in the Nestle-Aland for having two additional readings in Titus 1:9 and 1:11. This goes beyond the scope of the present study but the verses as found in GA 460 can be transcribed as follows:</p>
+<aside style="font-family:times;" class="highlight" data-type="sidebar"><li>Tit 1:9 (folio 300r):</li>
+[…] ἀντεχέμενον τοῦ κὰ<br/>
+τὰ τὴν διδαχὴν πιστοῦ λόγου<br/>
+ἴνα δυνατὸς εἴ · καὶ παρακα<br/>
+λεῖν · ἐν τη διδασκαλία τῆ ὑ<br/>
+γιαἰνούση · καὶ τοὺς ἀντι<br/>
+λέγοντας ἐλέγχειν · <u>μὴ χει<br/>
+ροτονεῖν διγάμους · μὴδὲ<br/>
+διακόνους αὐτους ποιεῖν<br/>
+μὴδὲ γυναίκας ἔχειν ἐκ δι<br/>
+γαμίας · μὴδὲ προσἐρχέσ<br/>
+θωσαν ἔν τῶ θυσιαστηρίω ·<br/>
+λειτουργεῖν τὸ θείον · τοὺς<br/>
+ἄρχοντας τοὺς ἀδικοκρίτας<br/>
+καὶ ἄρπαγας · καὶ ψεύστας<br/>
+καὶ ἀνελεήμονας · ἔλεγχε<br/>
+ὡς θ͠υ διάκονος · </u>[…]
+</aside>
+<aside  style="font-family:times;" class="highlight" data-type="sidebar">
+<li>Tit 1:11 (folio 300r and 300v):</li>
+[…] οὐς δεὶ ἐπιστομίζειν<br/>
+[300v] οἵτινες · ὅλους οἴκους ἀνα<br/>
+τρέπουσι[ν] · διδάσκοντες · ἂ <br/>
+μὴ δεῖ αἰσχ[ρ]οῦ κέρδους χάριν :<br/>
+<u>τὰ τέκνα · οἱ τοὺς ἰδίους γονῆς<br/>
+οἱβρίζοντες · ἧ τύπτοντες · ἐ<br/>
+πιστόμιζε · καὶ ἐλεγχε · καὶ νουθέτη<br/>
+ὠς π͠ηρ τέκνα · καὶ εἰρήνης ἐπί <br/>
+σκοπος :</u> […]<sup><a data-type="noteref" href="#note8_1_12" id="note8_1_12-marker">12</a></sup>
+
+</aside>
+<figure class="vertical horizontal">
+                <img class="image"
+                src="/webbook/book/images/tit1-11.jpg">
+                <figcaption>
+              Titus 1:11 Folio 300v © Marciana Library
+                </figcaption>
+              </figure>
+
+<p>In both cases, the Latin column was left empty. The Arabic column shows a translation of the Greek text. This kind of peculiarity will be discussed in <a href="/webbook/book/chapters/chap8_4.html" target="_blank">section 8.4</a>.</p>
+            </div>
+               <div class="footnotes" data-type="footnotes">
+                   <p data-type="footnote" id="note8_1_1"> <sup><a href="#note8_1_1-marker">1</a></sup> With respect to the dating of the manuscript, see the <a href="/webbook/book/chapters/chap7_1.html" target="_blank">previous section 7.1</a>.</p>
+                       <p data-type="footnote" id="note8_1_2">
+                       <sup><a href="#note8_1_2-marker">2</a></sup> Aland’s critique of Von Soden: “Its theoretical presuppositions were false. Von Soden assumed that there were three major text types: the K (Koine) text, the H (Hesychian, Egyptian) text, and the I (Jerusalem) text. […] Von Soden ascribed to I nearly all the manuscripts and traditions which did not conform to the K text or the H text. Further, by placing the K text on a par with the other groups he ascribed to it a value it does not deserve” <a href="/webbook/book/chapters/bibliography.html#Ala95" target="_blank">[Aland 1995: 22-23]</a>.</p>
+                       <p data-type="footnote" id="note8_1_3"><sup><a href="#note8_1_3-marker">3</a></sup> Here the complete statement of Robert B. Waltz: “This is the largest group von Soden recognizes in Paul, and it is certainly true that some of the manuscripts are akin (e.g. 256 1319 2127 and probably 263 are all part of Family 2127). The manuscripts of Family 2127 also appear to show some kinship, at a greater distance, with other members of the <i>Ia3</i> group such as 330 and 436. But as usual with von Soden's classifications, the group contains certain Byzantine witnesses (e.g. 1, 177, 226, 319, 337). And even if the non-Byzantine witnesses form a group (which remains to be proved), it is not a "Western" group; the text of Family 2127 (which is probably the least Byzantine of all the witnesses listed here) consists mostly of Alexandrian and Byzantine readings, with very few that are characteristically "Western." If there is a "Cæsarean" text of Paul, this may be it; Family 2127 appears to be the closest Greek witness to the Armenian version.” See <a href="http://waltzmn.brainout.net/TextTypes.html">Text types</a> in <a href="/webbook/book/chapters/bibliography.html#Wal19" target="_blank">[Waltz 2019]</a>.</p>
+                       <p data-type="footnote" id="note8_1_4"> <sup><a href="#note8_1_4-marker">4</a></sup> 28 of 46 text passages are considered as Majority text in Romans, 21 of 26 in 2 Corinthians, 14 of 17 in Galatians, 4 of 5 in 1 Thessalonians. In Philippians, only 6 of 11 (54.5 %) but the number of text passages seems us to be too low to consider the percentage. <a href="/webbook/book/chapters/bibliography.html#Ala91" target="_blank">[Aland 1991]</a>.</p>
+                      <p data-type="footnote" id="note8_1_5"> <sup><a href="#note8_1_5-marker">5</a></sup> GA 460 and GA 049 are in 88% agreement in the <i>Supplementary List</i> for 26 passages, 89% in the <i>Mainlist</i>; GA 2772 81% in the <i>Supplementary List</i> for 26 passages, 67% in the <i>Mainlist</i>; GA 2516 78% in the <i>Supplementary List</i> for 27 passages, 80% in the <i>Mainlist</i>. </p>
+                      <p data-type="footnote" id="note8_1_6"> <sup><a href="#note8_1_6-marker">6</a></sup> GA 460 and GA 1501 agree 91% in the <i>Supplementary List</i> for 46 passages, 100% in the <i>Mainlist</i>.</p>
+                      <p data-type="footnote" id="note8_1_7"> <sup><a href="#note8_1_7-marker">7</a></sup> GA 460 agrees with GA 424, GA 479 and GA 1752 91% in the <i>Supplementary List</i> for 46 passages, 94% in the <i>Mainlist</i>.</p>
+                      <p data-type="footnote" id="note8_1_8"> <sup><a href="#note8_1_8-marker">8</a></sup> GA 2462 is in Aland’s category II but Romans is considered as very Byzantine (see the <a href="http://www.csntm.org/Manuscripts/2464/Codex2464-BackgroundCollationandTextualAnalysis.pdf">2018 thesis of Billy R. Todd, Jr.</a> available on the CSNTM website) – which is not reflected in this result. Waltz considers Paul in GA 1241 as Byzantine with Alexandrian and other early readings (see <a href="http://waltzmn.brainout.net/Manuscripts1001-1500.html#m1241">here</a> in <a href="/webbook/book/chapters/bibliography.html#Wal19" target="_blank">[Waltz 2019]</a>) and GA 1505 as a member of family 2138, which contains a significant number of non-Byzantine non-Alexandrian readings (see the <a href="http://waltzmn.brainout.net/Manuscripts1501-2000.html#m1505">page</a> in <a href="/webbook/book/chapters/bibliography.html#Wal19" target="_blank">[Waltz 2019]</a>). The diversity of this result shows the limitation of such comparisons.</p>
+
+                      <p data-type="footnote" id="note8_1_9"> <sup><a href="#note8_1_9-marker">9</a></sup> GA 020 (=α5) is in the <i>K</i> i.e. Byzantine category of von Soden <a href="/webbook/book/chapters/bibliography.html#Sod11" target="_blank">[von Soden 1911: 1919]</a>; GA 018 is listed as commentary. </p>
+
+                      <p data-type="footnote" id="note8_1_10"> <sup><a href="#note8_1_10-marker">10</a></sup>  I discuss this omission that occurs in the three columns in the <a href="/webbook/book/chapters/chap8_4.html".>chapter 8.4</a>. See also the blog article <a href="https://humarec.org/index.php/continuous-publications-blog/28-where-did-cilicia-go-about-gal-1-21">“Where did Cilicia go? About Gal 1:21”</a>. </p>
+
+                      <p data-type="footnote" id="note8_1_11"> <sup><a href="#note8_1_11-marker">11</a></sup> 4 = GA 2816. 109 = GA 460. dscr = GA 642. </p>
+
+                      <p data-type="footnote" id="note8_1_12"> <sup><a href="#note8_1_12-marker">12</a></sup> The transcription in the NA28 is in this case inaccurate and misses a few words; it says that 460 adds after χάριν: τα τεκνα οι τους ιδιους γονεις υβριζοντες ἢ τυπτοντες επιστομιζε και ελεγχε και νουθετει ως πατηρ τεκνα.</p>
+
+
+
+
+
+
+               </div>
+            </div>
+        </section>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="maia-aux">
+        <div class="previous">
+          <a href="/webbook/book/chapters/chap8.html">
+          <p class="footer-caption">
+            previous
+          </p>
+          <p class="chapter-link">
+            Chapter 8. The text of the letters of Paul
+          </p></a>
+        </div>
+        <div class="next">
+          <a href="/webbook/book/chapters/chap8_2.html">
+          <p class="footer-caption">
+            next
+          </p>
+          <p class="chapter-link">
+            8.2 The Latin text
+          </p></a>
+        </div>
+       <p class="footer-link">
+        Copyright © Digital Humanities + | Swiss Institute of Bioinformatics 2016 - 2018 | CC BY-NC-ND 4.0 International License. </p>
+       <div class="footer-link"><a href="https://github.com/humarec/webbook"><i class="fa fa-github" style="font-size:30px"></i></a></div>
+      </div>
+    </div>
+
+<script src="/webbook/book/js/main.min.js"></script>
+<script src="//www.google.com/js/maia.js"></script>
+  </body>
+</html>

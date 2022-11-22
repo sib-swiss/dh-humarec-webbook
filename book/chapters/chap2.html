@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>
+    (function (H) {
+      H.className = H.className.replace(/\bgoogle\b/, 'google-js')
+    })(document.documentElement)
+  </script>
+  <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+  <title>HumaReC Web Book</title>
+  <script src="//www.google.com/js/google.js">
+  </script>
+  <script src="/webbook/book/js/jquery-3.2.1.min.js"></script>
+  <script src="/webbook/book/js/custom.min.js"></script>
+  <script>$('img').bind('contextmenu', function (e) {return false;});</script>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet">
+  <link href="/webbook/book/css/main.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link href="/webbook/book/images/favicon.ico" rel="shortcut icon">
+  <link href="/webbook/book/css/custom.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/webbook/book/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" class="btn-round" title="Go to top"><i class="fa fa-angle-up fa-custom" style="color:#fff" aria-hidden="true"></i></button>
+    <div class="menu-closed" id="curtain"></div>
+    <div class="header clearfix">
+      <div class="header-wrraper">
+      <h2 class="title-book">A Trilingual Manuscript of the New Testament in Digital Research [Web Book]</h2>
+        <h2><a class="expand" id="burger-menu"></a></h2>
+        <h2 class="chapter-title">
+          Chapter 2. The next step: HumaReC (2016-2018)
+        </h2>
+      </div>
+    </div>
+    <div class="expands" id="overlay-element">
+      <div>
+        <a href="https://humarec.org/"><img alt="Humarec" src="/webbook/book/images/logo_home.jpg" style="width: 100%"></a>
+      </div>
+      <ol class="dropdown-content hide" id="drop-down">
+        <li><a class="menu-buttons" href="/webbook/book/index.html">Table of Contents</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/foreword.html">Foreword</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part1.html">Part I - Introduction</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap1.html">1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)</a></li>
+        <li class="active"><a class="menu-buttons" href="/webbook/book/chapters/chap2.html">2. The next step: HumaReC (2016-2018)</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part2.html">Part II - The Platform</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3.html">3. Manuscript transcription and visualization</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_1.html">- 3.1 The manuscript viewer: work with EVT</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_2.html">- 3.2 Towards handwritten text recognition</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4.html">4. Interactions and users</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_1.html">- 4.1 On the platform</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_2.html">- 4.2 Social media</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5.html">5. Continuous publication</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_1.html">- 5.1 On the platform: blog and transcriptions</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_2.html">- 5.2 Consolidation with the Web book</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap6.html">6. Reception and limitations</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part3.html">Part III - The Manuscript</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7.html">7. The object</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_1.html">- 7.1.Codicological and paleographical features</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_2.html">- 7.2 Remarks about the production context</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8.html">8. The text of the letters of Paul</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_1.html">- 8.1 The Greek text</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_2.html">- 8.2 The Latin text</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_3.html">- 8.3 The Arabic text</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_4.html">- 8.4 Mutual influences</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_5.html">- 8.5 Paratext</a></li>
+
+
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part4.html">Part IV - Conclusion</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/acknowledgement.html">Acknowledgement</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/bibliography.html">Bibliography</a></li>
+    <!--     <li><a class="menu-buttons" href="/webbook/book/chapters/annexe1.html">Annexe 1. List of alternative renderings</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/annexe2.html">Annexe 2. List of Islamic vocabulary</a></li> -->
+        <li><a class="menu-buttons"></a></li>
+        <li><a class="menu-buttons"></a></li>
+      </ol>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div class="content">
+        <section data-type="chapter" id="chapter2">
+          <h1 class="heading">
+            Chapter 2. The next step: HumaReC (2016-2018)<sup><a data-type="noteref" href="#note2_1"
+            id="note2_1-marker">1</a></sup>
+          </h1>
+
+           <div class="content chapter">
+         <div class="pagenumrestart page" data-type="part">
+        <p>  Given all the aforementioned aspects, the first project was an idea incubator, raising questions about the importance of open research for Arabic New Testament manuscripts. Further questions that came to light concern the status of institutional websites in comparison to other kinds of publications, the ways in which scholars deal with the challenge of OA and how research results are made increasingly available before project completion. These experiences encouraged an examination of continuous publication among Humanities research. It is clear that HumaReC is not a standalone case; it is part of a broad research shift, as touched upon earlier:</p>
+<aside class="highlight" data-type="sidebar">A two to three year research project in humanities has traditionally been characterised by the writing, editing and publication of a final, printed book, often delayed to a certain date after the end of the project. This delay was even considered proof of authentic, high-level research in humanities, certified by an established book series. The digital transition is creating a completely new research paradigm in part due to the publishing of formats such as videos, short messages or draft papers, social media and blogs, all before the research is even completed and peer-reviewed. <a href="/webbook/book/chapters/bibliography.html#Cli17" target="_blank">[Clivaz, Schulthess and Sankar 2017:21]</a></aside>
+<p>These changes relate to formats and the modes of publishing these new formats, two aspects that HumaReC specifically includes.</p>
+
+
+           <h2 class="subheaders">
+             The new formats...
+           </h2>
+           <p>
+Scholarly production can take many forms other than published articles and books: we are now faced with the rapid growth of media that differs markedly to written texts. As Kathleen Fitzpatrick already touched upon almost a decade ago, in 2009:</p>
+<aside class="highlight" data-type="sidebar">[T]here’s also the most obvious change that digital publishing encourages, the change that many academics leap to first when talking about the ability to publish via the web: the expansion of our toolset. Digital technologies in scholarly publishing will allow us to begin to shift our thinking about the mode of our work away from a uniform focus on the text-only formats that scholarship has traditionally taken, encouraging us instead to think about the ways that our work might interact with, include, and in fact be something more than just text. <a href="/webbook/book/chapters/bibliography.html#Fit09" target="_blank">[Fitzpatrick 2009:27]</a></aside>
+<p>The latter notion is an important part of our project, the ability of academic work to “interact with, include, and in fact be something more than just text”. This is achieved most notably thanks to the development of a manuscript viewer that corresponds to research needs: it provides a link between images and the text that facilitates reading; it also offers annotations to the images (see <a href="/webbook/book/chapters/chap3_1.html">chapter 3.1</a>). Of course, the manuscript viewer resources have been integrated into blog articles and the web book. </p>
+<p>Videos were also included at several occasions.<sup><a data-type="noteref" href="#note2_2"
+id="note2_2-marker">2</a></sup>  Until recently, oral presentations were part of the academic production of a scholar but these were not published unless they were written down. This is now changing to an increasing number of academic content making use of video formats – following the Internet traffic trend which may be 82% dominated by video by 2021.<sup><a data-type="noteref" href="#note2_3"
+id="note2_3-marker">3</a></sup>  At least one of the project videos will be converted into an ‘eTalk’. <a href="https://etalk.vital-it.ch" target="_blank">The ‘eTalks’</a> are an academic publishing tool developed at the Swiss Institute of Bioinformatics:</p>
+<aside class="highlight" data-type="sidebar">This permits the linking together of images, sounds and textual materials with hyperlinks, enriching it with relevant information [...] [and] allows complete ‘citability’ of its contents: each and every portion of the researchers’ talks can be precisely referred to and thus cited with a specific identifier, just like any traditional, paper-based academic publication but with all the potential for plural literacies. <a href="/webbook/book/chapters/bibliography.html#Cli16" target="_blank">[Clivaz et al. 2016]</a></aside>
+<p>However, the toolset expansion is not only in regards to the diversification of media and thereby the increase in multimodality, but also taking into account the research processes that are naturally involved when research is published. What can and should be published before research is complete? Should ‘incomplete’ research already be made available? Our collaboration with Life scientists has been influential in this context. With respect to the <a href=" https://en.wikipedia.org/wiki/Replication_crisis" target="_blank">replication crisis</a>,  the sharing of raw data in repositories is increasing.<sup><a data-type="noteref" href="#note2_4"
+id="note2_4-marker">4</a></sup>  Additionally, the concept of ‘storytelling’ for scientific articles, that tend to ‘embellish’ results, is called into question. An editorial in <i>Nature Methods</i> in 2013 posed the question: “Should scientists tell stories?”<sup><a data-type="noteref" href="#note2_5"
+id="note2_5-marker">5</a></sup> The <i>Sciencematters</i> initiative emerged as an answer to this question, with the motto “Stories can wait. Science cannot.” The <i>Sciencematters</i> journals – <i>Matters</i> and <i>Matters Select</i> – have the following aim:</p>
+<aside class="highlight" data-type="sidebar">“instead of publishing stories, [..] single, validated observations, thus highlighting the fundamental unit of scientific progress – the observation.” <a href="https://www.sciencematters.io/why-matters" target="_blank">Why matters</a></aside>
+<p>These interrogations are influencing the Humanities sphere: rhythms and processes have changed, as observed by many scholars:</p>
+<aside class="highlight" data-type="sidebar">Scholars traditionally begin projects by figuring out what the good research questions are in a given field, and connecting with others interested in the same topics; they then gather and organize data; then analyze it; and finally, disseminate their findings through teaching or publication. Scholarship in a digital environment raises questions about every aspect of this process. […] In some contexts, [the] database – because it allows information to be understood in relationship to other kinds of information – may be more valuable than the book. <a href="/webbook/book/chapters/bibliography.html#Sha12" target="_blank">[Shaw 2012]</a></aside>
+<p>The decision to publish materials continuously on the <a href="/webbook/book/chapters/chap3_1.html">manuscript viewer</a>, <a href="/webbook/book/chapters/chap5_1.html">on the blog</a><sup><a data-type="noteref" href="#note2_6"
+id="note2_6-marker">6</a></sup> and in this <a href="/webbook/book/chapters/chap5_2.html">web book</a>, is very much based on this idea. From the beginning of the project, the decision was made to publish folios of the manuscript and insights into the peculiarities encountered, without having the assurance that the ‘big picture’ would be of interest to our respective fields.</p>
+<p>The fact that dissemination occurs here before a complete analysis does not mean that this latter step can be dispensed with. In fact, considering all the changes that Humanists are facing, their primary skill remains interpretation according to Yves Citton <a href="/webbook/book/chapters/bibliography.html#Cit10" target="_blank">[Citton 2010]</a>.  This conviction is at the core of the web book (see <a href="/webbook/book/chapters/chap2.html#14">below</a>).
+           </p>
+           <h2 class="subheaders">
+             ...and new ways of publishing them
+           </h2>
+           <p>It is clear that not only has data changed but so have publishing models. Many of these evolutions are closely related to the question of Open Access (OA). If some scholars are still reluctant, especially when it comes to the Humanities <a href="/webbook/book/chapters/bibliography.html#Osb13" target="_blank">[Obsborne 2013]</a>, for many OA is not an option anymore. In Switzerland for example, the SNF signed the <a href="http://oa2020.org/" target="_blank">OA2020 international initiative</a> in March 2016 and, at the beginning of 2018, proposed <a href="http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy" target="_blank">an action plan</a> based on the idea that “grantees are required to publish the results of their research in the form of Open Access publications, either as articles in scientific journals or as books.” To implement OA and to promote the Gold Road in particular, the initiative defined a range of measures that came into effect in April 2018, including: the lifting of the previous CHF 3’000 limit for Article Processing Charges and the funding for Book Processing Charges and Book Chapter Processing Charges.<sup><a data-type="noteref" href="#note2_7"
+           id="note2_7-marker">7</a></sup>
+          The Green Road is also possible with the following time restriction:</p>
+        <aside class="highlight" data-type="sidebar">As until now, journal articles need to be archived in an institutional or disciplinary repository after six months at the latest. For books, there is a new deadline of 12 instead of 24 months. In terms of content, the works archived in the repository must correspond to the publisher’s version (mostly called post-print or accepted manuscript). <a href="http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy" target="_blank"> Open Access to Publications</a></aside>
+<p>That these two ‘roads’ are seen as the only options for scholars to publish their research is not a surprise. Academic research and publishing, particularly in the Humanities, is achieved in a “way in which considerations of the economics of scholarly publishing are bound to considerations of a parallel system of symbolic exchange” <a href="/webbook/book/chapters/bibliography.html#Eve14" target="_blank">[Eve 2014:55]</a>.  Although the system is rigid due to economic and symbolic reasons, many digital projects are taking alternative paths such as the use of the institutional websites. Many projects, and this is particularly true for text editions, are now ‘born digital’ and the research is available online in OA. A popular form is websites hosted by one institution or as a result from a collaboration between several institutions that evolve from a combination of specific institutional and national conditions, available infrastructures and different research questions. As examples,<sup><a data-type="noteref" href="#note2_8" id="note2_8-marker">8</a></sup> it is worth mentioning not only collaborative projects such as <a href="http://letters1916.maynoothuniversity.ie/" target="_blank">Letters of 1916</a> and <a href="http://copticscriptorium.org/" target="_blank">Coptic Scriptorium</a> but also more classical projects such as <a href="http://lumieres.unil.ch/" target="_blank">Lumières.Lausanne</a> and <a href="http://www.parzival.unibe.ch/home.html" target="_blank">Parzival-Projekt</a>.</p>
+<p>These examples come close to the idea of “platinum open access”, a term that is sometimes used when “[Article processing charges] are entirely financed by non-profit organisations such as research funders, societies or universities”.<sup><a data-type="noteref" href="#note2_9"
+id="note2_9-marker">9</a></sup> This definition is not completely appropriate because institutional websites are outside the publication system, however, the principles are the same and similar issues are raised.<sup><a data-type="noteref" href="#note2_10"
+id="note2_10-marker">10</a></sup> How can such a system respond to “the sustainability of the venture, the development of appropriate business models and the need to ensure quality and reputation and thereby to attract the leading authors in the field in question” <a href="/webbook/book/chapters/bibliography.html#Vin13" target="_blank">[Vincent 2013:115]</a>?</p>
+<p>The latter points in referring to quality and reputation, raise the burning question of authority in the world of OA science. The <a href="/webbook/book/chapters/chap2.html#14">next section</a> focuses on how the project dealt with this question, with the web book standing as an attempted response.
+</p>
+           <h2 class="subheaders">
+             What is authority? Peer-review, books and publishers
+           </h2>
+           <p>One of the most important arguments in favor of OA is the broad audience that it can reach. This is an ethical point: research that is funded by public money should be available to the public.<sup><a data-type="noteref" href="#note2_11"
+           id="note2_11-marker">11</a></sup> Moreover, reaching a broader audience might not only assist in reconnecting the Humanities to the general public<sup><a data-type="noteref" href="#note2_12"
+           id="note2_12-marker">12</a></sup> but also in bridging between disciplines within its own ranks: “open access can facilitate the healing of disciplinary fractures and reconnect academic scholarship to the wider public debate” <a href="/webbook/book/chapters/bibliography.html#Bea13" target="_blank">[Beals 2013:545]</a>.</p>
+<p>However, being read by as many people as possible cannot be the central objective of a scholar. As Zyan Marar points out: “In the world of scholarly knowledge ‘good’ means not popular but authoritative.” <a href="/webbook/book/chapters/bibliography.html#Mara13" target="_blank">[Marar 2013:83]</a> Scholarly knowledge, especially in the Humanities and Social Sciences, is a somewhat lengthy process: “it is created, recreated, contested, forgotten, reinvented, developed, distorted, amended by people with varying degrees of expertise and who, in winning arguments, build their credibility further” <a href="/webbook/book/chapters/bibliography.html#Mara13" target="_blank">[Marar 2013:90]</a>. This takes place in specific ‘ecosystems’ according to disciplines. </p>
+<p>In this context, the question of peer-review is all the more pertinent when we talk about OA and institutional websites in OA. OA is not about eliminating peer-review.<sup><a data-type="noteref" href="#note2_13"
+id="note2_13-marker">13</a></sup> Scholarly OA journals normally maintain peer-reviewing, often in a classical way despite some innovative trials.<sup><a data-type="noteref" href="#note2_14"
+id="note2_14-marker">14</a></sup> This raises questions regarding institutional websites and their research available outside the publication system. In fact, peer-reviewing is not mandatory in such cases – nor even very common. One could argue that the popularity of such academic websites among scholars as well as a broader audience is more important than peer-reviewing<sup><a data-type="noteref" href="#note2_15"
+id="note2_15-marker">15</a></sup> and it is indeed valuable for scholars to have access to the analytics of the website they contribute to (see <a href="/webbook/book/chapters/chap6.html">chapter 6</a>). Nonetheless, this does not solve the authority issue.</p>
+<p>For HumaReC, an editorial board was deemed a necessary part of the project. Since the board members cannot check every update on the platform, a calendar with reports on research progress was established (see the reports in the <a href="https://humarec.org/index.php/outputs" target="_blank">Outputs</a>). However, given that Humanities scholarship is in a transitional phase, authority cannot be fully guaranteed by these precautions. As Martin Paul Eve states: authority stands at the confluence of quality and prestige<sup><a data-type="noteref" href="#note2_16"
+id="note2_16-marker">16</a></sup> and “while academic quality may be determined entirely by academics conducting peer review, the economics of prestige work very differently” <a href="/webbook/book/chapters/bibliography.html#Eve14" target="_blank">[Eve 2014:49]</a>. If it is obvious that prestige in the academy is related to publishers and the reputation they have built over years, it is also part of the monograph problematic <a href="/webbook/book/chapters/bibliography.html#Wol02" target="_blank">[Wolfe Thompson 2002]</a> – monographs play an important part in the construction of a scholar’s reputation. While this is not true for every field in the Humanities,<sup><a data-type="noteref" href="#note2_17"
+id="note2_17-marker">17</a></sup> it is so for New Testament studies where book-length studies line the scholarly path. This is perhaps one of the mechanisms of this specific ‘ecosystem’ that should not be neglected if “creating scholarly knowledge in the digital age” <a href="/webbook/book/chapters/bibliography.html#Mara13" target="_blank">[Marar 2013]</a> is to remain a primary goal. Although this might seem to tend towards conservatism, there are good reasons as to why monographs should be part of Humanities portfolios. As Vincent explains: </p>
+<aside class="highlight" data-type="sidebar">[…] in the Humanities and Social Sciences, particularly the former, the writing is crucial since that is usually the principal way, and in many instances the only way, that the argument is conveyed. This is not to say that clear, coherent writing is not to be found in all fields, but in [Humanities and Social Sciences] it will not generally be complemented and augmented by equations, tabulated data-sets and the like, nor will it be pre-organised into sections labelled ‘results’, ‘discussion’ and the like. […] The intellectually creative act lies as much in the formulation and composition as in the conception of the experiment or the connecting of hitherto independent pieces of data. <a href="/webbook/book/chapters/bibliography.html#Vin13" target="_blank">[Vincent 2013:110-111]</a></aside>
+<p>This is why we developed a space for a longer writing alongside the contents available on the platform. The present web book aims to respect both the notion of a book-length study, it will eventually be published, as well as the continuous publication concept (see <a href="/webbook/book/chapters/chap5.html">chapter 5</a>).</p>
+<p>In fact, the collaboration with a publisher is an important endpoint for the HumaReC project. According to Marar, with respect to scholarly knowledge in the Humanities and Social Sciences: “This fragile ecosystem depends on the many filtering and enabling mechanisms provided by publishers.” <a href="/webbook/book/chapters/bibliography.html#Mara13" target="_blank">[Marar 2013:90]</a> Some of the mechanisms are concrete: the ability to organize a legitimate peer-review based on long-term networks within the Academic world; to make a work known in the field by presenting it at meetings or through specific advertising. As Eve points out, other mechanisms in the measure of scholarship are more symbolic such as the prestige of the publisher. <a href="/webbook/book/chapters/bibliography.html#Eve14" target="_blank">[Eve 2014:45-47]</a> The legitimacy of these mechanisms might be arguable but they are difficult to deny, especially for young scholars.</p>
+<p>For HumaReC, it was decided that there should be a dialog with a publisher, Brill, from the beginning. Brill’s feedback led to the idea of the web book being continuously written next to the research platform, peer-reviewed under their supervision and hopefully published by them. With the benefits that the web book format allows (see <a href="/webbook/book/chapters/chap5_2.html">chapter 5.2</a>), by the end of the project a book-length study in Gold Road standard OA will be published.
+</p>
+           <h2 class="subheaders">
+             Colorful publishing, collaboration and object of study!
+           </h2>
+           <p>The OA access debate has many facets because, as Beals points out, it “refers to a variety of concerns from a fluctuating body of stakeholders” <a href="/webbook/book/chapters/bibliography.html#Bea13" target="_blank">[Beals 2013:543]</a>. In the HumaReC project, OA takes the form of parallel roads. The project’s productions could thus be referred to as being ‘colorful’. The content on the platform could be described by some as ‘platinum’. The web book is aiming to follow the ‘Gold Road’ standard. Finally, the contributors to the project have published and will publish in journals that may also be Green (or Gold). We think that this variety of publication choices will be, or already is, the norm for scholarly projects in Humanities. </p>
+<p>One of the HumaReC goals was to investigate “best practices”.<sup><a data-type="noteref" href="#note2_18"
+id="note2_18-marker">18</a></sup> Many practices have been and will be tested throughout the project, this adaptability creates productivity when examining the content of the research platform, its reception and the findings during the course of the project (see <a href="/webbook/book/chapters/part2.html">Part II</a>).</p>
+<p>The collaboration aspect of the project must also be underlined, this includes the web book. Humanities monographs are often defined as a personal work in which “the individual scholar’s interpretation is paramount”.<sup><a data-type="noteref" href="#note2_19"
+id="note2_19-marker">19</a></sup> Although what is expressed here is indeed the fruit of the author’s own writing, it is also the result of intense discussion with colleagues such as Martial Sankar, Anastasia Chasapi and the project director Claire Clivaz. Some sections in <a href="/webbook/book/chapters/part2.html">Part II</a> may be taken from blog articles written by Martial Sankar and Anastasia Chasapi: these will be clearly identified as such.</p>
+<p>Finally, this introduction does not contain much about the manuscript itself, this is the subject of <a href="/webbook/book/chapters/part3.html">Part III</a>. The manuscript was part of the witnesses listed in the repertoire of Arabic manuscripts of letters of Paul create during the first project.<sup><a data-type="noteref" href="#note2_20"
+id="note2_20-marker">20</a></sup> The fact that it is multilingual proved to be intriguing. In the <i>COMSt Handbook</i>, Caroline Macé writes about manuscripts and texts: </p>
+  <aside class="highlight" data-type="sidebar">An essential distinction needs to be made between editing a text or a work and editing a document […]. In some cases, the unique character of a document preserving a text may prompt scholars to edit this document for its own sake. <a href="/webbook/book/chapters/bibliography.html#Mac15" target="_blank">[Macé et al. 2015:342]</a></aside>
+    <p>The study of the texts in Greek, Latin and Arabic will reveal that they are not strico sensu unique but their juxtaposition makes the document very special (see <a href="/webbook/book/chapters/part3.html">Part III</a>). Thanks to the project it is hoped that this manuscript’s visibility will be increased.
+</p>
+            </div>
+            </div>
+            <div class="footnotes" data-type="footnotes">
+              <p data-type="footnote" id="note2_1">
+               <sup><a href="#note2_1-marker">1</a></sup> Swiss National Science Foundation project's webpage: <a href="http://p3.snf.ch/Project-169869" target="_blank">http://p3.snf.ch/Project-169869</a>.
+              </p>
+              <p data-type="footnote" id="note2_2">
+               <sup><a href="#note2_2-marker">2</a></sup>
+               <a href="https://humarec.org/index.php/continuous-publications-blog/12-announcements/30-video-group-meeting" target="_blank">Talk at Vital-IT group meeting</a>, June 7th 2017: ; <a href="https://humarec.org/index.php/continuous-publications-blog/12-announcements/62-short-paper-at-the-dh-benelux-2018" target="_blank">Short Paper at the meeting DH Benelux 2018, June 8th 2018</a>; other videos in preparation.
+             </p>
+             <p data-type="footnote" id="note2_3">
+              <sup><a href="#note2_3-marker">3</a></sup> See the <a href="https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.html" target="_blank">2017 forecast by CISCO</a>.
+            </p>
+            <p data-type="footnote" id="note2_4">
+             <sup><a href="#note2_4-marker">4</a></sup>
+             See <a href="http://www.snf.ch/en/theSNSF/research-policies/open_research_data/" target="_blank">SNF policy on Open Research Data</a>.
+           </p>
+           <p data-type="footnote" id="note2_5">
+            <sup><a href="#note2_5-marker">5</a></sup><a href="http://dx.doi.org/10.1038/nmeth.2726" target="_blank"> ‘Should scientists tell stories?’</a>, <i>Nature Methods 10</i>, 30.10.2013.
+          </p>
+          <p data-type="footnote" id="note2_6">
+           <sup><a href="#note2_6-marker">6</a></sup> The platform received an ISSN (2504-5075): all the published material associated with the project can be referred to with this number. Another ISSN will be given in due time to the web book by the publisher.
+         </p>
+         <p data-type="footnote" id="note2_7">
+          <sup><a href="#note2_7-marker">7</a></sup>
+See the general disposition <a href="http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy" target="_blank">here</a>; and the financial details are to find in the SNF rules <a href="http://www.snf.ch/SiteCollectionDocuments/Reglement-ueber-OA-Publikationsfoerderung-D.pdf" target="_blank">here</a>.
+        </p>
+        <p data-type="footnote" id="note2_8">
+         <sup><a href="#note2_8-marker">8</a></sup>
+The list is very long. For digital editions, you can consult the <a href="https://dig-ed-cat.acdh.oeaw.ac.at/" target="_blank"><i>Catalogue of Digital Editions</a></i> by Greta Franzini.
+       </p>
+       <p data-type="footnote" id="note2_9">
+        <sup><a href="#note2_9-marker">9</a></sup>
+        <a href="https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/Open_Access/Open_Access_strategy_final_e.pdf" target="_blank">Open Access Strategy of Swissuniversities</a></p>
+        <p data-type="footnote" id="note2_10">
+         <sup><a href="#note2_10-marker">10</a></sup>Platinum OA is a term that is rejected by many, claiming that its definition is included in the Gold OA definition. See <a href="/webbook/book/chapters/bibliography.html#Eve13" target="_blank">[Eve 2013]</a></p>
+         <p data-type="footnote" id="note2_11">
+          <sup><a href="#note2_11-marker">11</a></sup>
+          It is intrinsically an economical and political issue. See <a href="/webbook/book/chapters/bibliography.html#Vin13b" target="_blank">[Vincent and Wickham 2013]</a> or Eve: “In reality, open access was born within various contexts of both corporate and radically anticorporate politics in which one side proclaims the benefits for freemarket business and the other believes ‘in an ethical pursuit [of] democratization, fundamental human rights, equality, and justice’. This means that it is extremely difficult to situate the entire phenomenon at such political polarities; different aspects of open access perform different functions that may align with different political agendas.” <a href="/webbook/book/chapters/bibliography.html#Eve14" target="_blank">[Eve 2014:7]</a> E.g. the whole issue of Article or Book Processing Charges is of course striking. See <a href="/webbook/book/chapters/bibliography.html#Riz14" target="_blank">[Rizor and Hailley 2014:321]</a>
+        </p>
+        <p data-type="footnote" id="note2_12">
+         <sup><a href="#note2_12-marker">12</a></sup>
+         It is not easy to evaluate the readership for non-OA and OA publication. Studies have shown the impact of OA on citation rate, see e.g. <a href="/webbook/book/chapters/bibliography.html#Piw18" target="_blank">[Piwowar and al. 2018]</a> “Our results confirm the Open Access Citation Advantage found by other studies: open articles receive 18% more citations than otherwise expected.” However the article did not include Humanities: “because they are underrepresented both in the Web of Science and in terms of DOI coverage”.
+       </p>
+       <p data-type="footnote" id="note2_13">
+        <sup><a href="#note2_13-marker">13</a></sup>
+        See the definition in the <a href="http://www.scienceeurope.org/wp-content/uploads/2015/10/SE_POA_Pos_Statement_WEB_FINAL_20150617.pdf" target="_blank">Science Europe Principles on Open Access to Research Publications</a>, 2015: OA “means unrestricted, online access to peer-reviewed, scholarly research papers for reading and productive re-use”. </p>
+        <p data-type="footnote" id="note2_14">
+         <sup><a href="#note2_14-marker">14</a></sup>
+          	About the open peer review: see ‘The Future of Peer Review’ in <a href="/webbook/book/chapters/bibliography.html#Fit09" target="_blank">[Fitzpatrick 2009:12]</a>.</p>
+            <p data-type="footnote" id="note2_15">
+             <sup><a href="#note2_15-marker">15</a></sup>
+See Fitzpatrick’s critic of the community-based filtering: <a href="/webbook/book/chapters/bibliography.html#Fit09" target="_blank">[Fitzpatrick 2009:16]</a>.</p>
+<p data-type="footnote" id="note2_16">
+ <sup><a href="#note2_16-marker">16</a></sup>
+ Vincent used “quality and reputation” <a href="/webbook/book/chapters/bibliography.html#Vin13" target="_blank">[Vincent 2013]</a>.
+</p>
+<p data-type="footnote" id="note2_17">
+ <sup><a href="#note2_17-marker">17</a></sup>
+ See the comparative data in <a href="/webbook/book/chapters/bibliography.html#Vin13" target="_blank">[Vincent 2013:108-109]</a>.
+</p>
+<p data-type="footnote" id="note2_18">
+ <sup><a href="#note2_18-marker">18</a></sup> Schulthess, Sara, Anastasia Chasapi, Ioannis Xenarios, Martial Sankar and Claire Clivaz. ‘HumaReC Project: Digital New Testament and Continuous Data Publishing’. <i>Proceedings DH2017, Poster Volume</i>. érudit, forthcoming.
+</p>
+<p data-type="footnote" id="note2_19">
+ <sup><a href="#note2_19-marker">19</a></sup>
+ Stone, Sue. ‘Progress in documentation. Humanities scholars: Information Needs and Uses’. <i>Journal of Documentation</i> 38/4 (1982): 292–313, here 294 (cited by <a href="/webbook/book/chapters/bibliography.html#Wol02" target="_blank">[Wolfe Thompson 2002]</a>.)
+</p>
+<p data-type="footnote" id="note2_20">
+ <sup><a href="#note2_20-marker">20</a></sup>
+See chapter 4 ‘Répertoire des manuscrits arabes des lettres de Paul’ in <a href="/webbook/book/chapters/bibliography.html#Sch19" target="_blank">[Schulthess 2019]</a>.</p>
+            </div>
+        </section>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="maia-aux">
+        <div class="previous">
+          <a href="/webbook/book/chapters/chap1.html">
+          <p class="footer-caption">
+            previous
+          </p>
+          <p class="chapter-link">
+            Chapter 1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)
+          </p></a>
+        </div>
+        <div class="next">
+          <a href="/webbook/book/chapters/part2.html">
+          <p class="footer-caption">
+            next
+          </p>
+          <p class="chapter-link">
+            Part II - The Platform
+          </p></a>
+        </div>
+        <p class="footer-link">
+          Copyright © Digital Humanities + | Swiss Institute of Bioinformatics 2016 - 2018 | CC BY-NC-ND 4.0 International License. </p>
+        <div class="footer-link"><a href="https://github.com/humarec/webbook"><i class="fa fa-github" style="font-size:30px"></i></a></div>
+      </div>
+    </div>
+
+    <script src="/webbook/book/js/main.min.js"></script>
+    <script src="//www.google.com/js/maia.js"></script>
+  </body>
+</html>

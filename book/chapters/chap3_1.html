@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (H) {
+            H.className = H.className.replace(/\bgoogle\b/, 'google-js')
+        })(document.documentElement)
+    </script>
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>HumaReC Web Book</title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script src="/webbook/book/js/jquery-3.2.1.min.js"></script>
+    <script src="/webbook/book/js/custom.min.js"></script>
+    <script>$('img').bind('contextmenu', function (e) {return false;});</script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet">
+    <link href="/webbook/book/css/main.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500|Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="/webbook/book/images/favicon.ico" rel="shortcut icon">
+    <link href="/webbook/book/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/webbook/book/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" class="btn-round" title="Go to top">
+    <i class="fa fa-angle-up fa-custom" style="color:#fff" aria-hidden="true"></i>
+</button>
+<div class="menu-closed" id="curtain"></div>
+<div class="header clearfix">
+    <div class="header-wrraper">
+        <h2 class="title-book">A Trilingual Manuscript of the New Testament in Digital Research [Web Book]</h2>
+        <h2><a class="expand" id="burger-menu"></a></h2>
+        <h2 class="chapter-title">3.1 The manuscript viewer: work with EVT</h2>
+    </div>
+</div>
+<div class="expands" id="overlay-element">
+    <div>
+        <a href="https://humarec.org/"><img alt="Humarec" src="/webbook/book/images/logo_home.jpg" style="width: 100%"></a>
+    </div>
+    <ol class="dropdown-content hide" id="drop-down">
+        <li><a class="menu-buttons" href="/webbook/book/index.html">Table of Contents</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/foreword.html">Foreword</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part1.html">Part I - Introduction</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap1.html">1. The starting point, a previous project: The Arabic Manuscripts of the Letters of Paul of Tarsus (2013-2016)</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap2.html">2. The next step: HumaReC (2016-2018)</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part2.html">Part II - The Platform</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3.html">3. Manuscript transcription and visualization</a></li>
+        <li class="active"><a class="menu-buttons" href="/webbook/book/chapters/chap3_1.html">- 3.1 The manuscript viewer: work with EVT</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap3_2.html">- 3.2 Towards handwritten text recognition</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4.html">4. Interactions and users</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_1.html">- 4.1 On the platform</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap4_2.html">- 4.2 Social media</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5.html">5. Continuous publication</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_1.html">- 5.1 On the platform: blog and transcriptions</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap5_2.html">- 5.2 Consolidation with the Web book</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap6.html">6. Reception and limitations</a></li>
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part3.html">Part III - The Manuscript</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7.html">7. The object</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_1.html">- 7.1.Codicological and paleographical features</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap7_2.html">- 7.2 Remarks about the production context</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8.html">8. The text of the letters of Paul</a></li>
+        
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_1.html">- 8.1 The Greek text</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_2.html">- 8.2 The Latin text</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_3.html">- 8.3 The Arabic text</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_4.html">- 8.4 Mutual influences</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/chap8_5.html">- 8.5 Paratext</a></li>
+
+
+
+        <li><a class="menu-buttons" href="/webbook/book/chapters/part4.html">Part IV - Conclusion</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/acknowledgement.html">Acknowledgement</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/bibliography.html">Bibliography</a></li>
+      <!--   <li><a class="menu-buttons" href="/webbook/book/chapters/annexe1.html">Annexe 1. List of alternative renderings</a></li>
+        <li><a class="menu-buttons" href="/webbook/book/chapters/annexe2.html">Annexe 2. List of Islamic vocabulary</a></li> -->
+        <li><a class="menu-buttons"></a></li>
+        <li><a class="menu-buttons"></a></li>
+    </ol>
+</div>
+
+<div id="maia-main" role="main">
+    <div class="maia-teleport" id="content"></div>
+    <div class="content">
+        <section data-type="chapter" id="chapter3_1">
+
+            <h1 class="heading">
+                3.1 The manuscript viewer: work with EVT
+            </h1>
+
+            <div class="content chapter">
+                <div class="pagenumrestart page" data-type="part">
+                    <h2 class="subheaders">
+                        Main principles</h2>
+
+                    <p>
+                        The manuscript viewer is freely accessible, equipped with quality images and features facilitating the
+                        consultation and the study of the manuscript.
+                    </p>
+                    <p>The viewer is based on the EVT technology. <a href="http://evt.labcd.unipi.it/" target="_blank">EVT is an open source
+                        software</a> and the experiences made with EVT for
+                        the <a href="http://tarsian.vital-it.ch" target="_blank">Tarsian edition</a> were very positive.<sup><a
+                                data-type="noteref" href="#note3_1_1" id="note3_1_1-marker">1</a></sup> The tool EVT is designed to
+                        create a manuscript viewer with a
+                        user-friendly interface from <a href="http://tei-c.org" target="_blank">XML TEI-encoded texts</a>.<sup><a
+                                data-type="noteref" href="#note3_1_2" id="note3_1_1-marker">2</a></sup>
+                    </p>
+                    <p>Given that we planned a diplomatic edition, we started with EVT 1 and not EVT 2, which is made to display
+                        critical editions (EVT 2 supports now diplomatic editions very well too). We started with the version EVT
+                        1.1.1. In March 2017, we updated for EVT 1.2 (see our <a
+                                href="https://humarec.org/index.php/continuous-publications-blog/20-from-evt-1-1-1-to-evt-1-2"
+                                target="_blank">blog article</a> about this). Minor adjustments were made, for the display of Arabic notably.
+
+                    </p>
+                    <p> Two complementary stages, transcription and encoding, are needed for the integration of folios into the
+                        manuscript player. The text is transcribed and afterwards encoded according to the XML TEI standards. The
+                        use of XML TEI makes the text readable by the software EVT but above all, it allows adding precious
+                        additional information to the transcription. We can mention physical aspects, such as line breaks or color
+                        of the text, but also other metadata like the separation into modern verses or informative notes (see the
+                        lists of features below). </p>
+                    <p>Moreover,
+                        the encoding also helps clarifying to clarify the choices made during the transcription: The transcription
+                        follows accurately the manuscript but we add information in order to normalize and standardize the text.
+                        For example, if we read in the Greek column the noun David abbreviated as δ͠αδ, we notify that the expanded
+                        noun is δαυὶδ. This is encoded that way:
+                    </p>
+
+                    <aside class="highlight" data-type="sidebar">
+                        &lt;choice>&lt;orig>&lt;am>δ&#x0360;αδ&lt;/am>&lt;/orig>&lt;reg>&lt;ex>δαυὶδ&lt;/ex>&lt;/reg> &lt;/choice>
+
+                    </aside>
+
+                    <p>
+                        The use of the tag &lt;choice> automatically creates to levels of edition:</p>
+
+                    <ol>
+                        <li>the “diplomatic” version corresponds to a transcription of the text that follows the spelling and other
+                            characteristics of the manuscript as closely as possible (&lt;orig>).
+                        </li>
+                        <li>the “normalized” version corresponds to a text that has been normalized and standardized for the reader
+                            (&lt;reg>).
+                            For the Greek, we write out the <i>nomina sacra</i> and we propose an alternative when there are important
+                            errors
+                            in the accentuation (mostly breathings). For the Arabic, we add diacritical points when they were missing
+                            or misplaced.
+                        </li>
+                    </ol>
+
+                    <aside class="highlight" data-type="sidebar">
+                        For now, two edition levels are only available for Greek and Arabic. Latin only have its “normalized” text published. In fact, due to the diversity and complexity of the abbreviations and the use of special characters,
+                        the elaboration of a diplomatic text for Latin is more complicated and much more time-consuming than for the Greek and the Arabic. We hope to have time during the course of the project to work further on encoding the Latin text.
+
+                    </aside>
+
+                    <p>In the interface of the manuscript viewer, the user can choose between both levels:</p>
+
+                    <figure class="vertical horizontal">
+                        <img class="image"
+                             src="../images/choice.png" width="400">
+                        <figcaption>
+                            Display options
+                        </figcaption>
+                    </figure>
+
+                    <p>Furthermore, in both cases the alternative is displayed when the user run the mouse over the word:
+                    </p>
+                    <figure class="vertical horizontal">
+                        <img class="image"
+                             src="../images/runover.png" width="300">
+                        <figcaption>
+                            Example "diplomatic"/"normalized"
+                        </figcaption>
+                    </figure>
+
+                    <p>Each column is treated independently in the current of our viewer. In this way, it is possible to display one language next to the images or two languages next to each other but not more.
+                        Since the release of EVT 1.2, it would have been possible to use column breaks:
+                    </p>
+
+                    <figure class="vertical horizontal">
+                        <img class="image"
+                             src="https://humarec.org/images/blog/threecb.png" width="500">
+                        <figcaption>
+                            The images of Marciana Gr. Z. 11 (379) are property of the Marciana Library, all rights reserved.
+                        </figcaption>
+                    </figure>
+
+
+
+                    <p>            However, readability is our outmost priority. In our case, we would have to use very small fonts in order to avoid unwanted line breaks. For the time being, the option of toggling among languages seems better suited to our needs, but we are actively working on this question.
+                    </p>
+
+                    <h2 class="subheaders">
+                        List of features</h2>
+
+                    <p>We can outline the following features for the time being:</p>
+                    <ul>
+                        <li>
+                            The user-friendly interface displaying the desired column next to the related folio or to display two
+                            columns next to each other (see also
+                            <a href="https://humarec.org/index.php/continuous-publications-blog/11-articles/16-use-manuscript-viewer"
+                               target="_blank">How
+                                to use the manuscript viewer</a>).
+                        </li>
+                        <li>
+                            Two levels of edition: diplomatic and normalized (forthcoming for Latin).
+                        </li>
+
+                        <li>
+                            The Image-text link option that allows to simplify the reading or the checking in the manuscript.
+                        </li>
+
+                        <figure>
+                            <img class="image"
+                                 src="../images/textlink.png" width="500">
+
+                        </figure>
+
+                        <li>
+                            An "Hotspot" function that displays alternative images, e.g. details, accompanied by a note.
+                        </li>
+                        <figure>
+                            <img class="image"
+                                 src="../images/hotspot.png" width="400">
+
+                        </figure>
+                        <li>
+                            Numerous informative notes about the text in the textbody.
+                        </li>
+                        <figure>
+                            <img class="image"
+                                 src="../images/note.png" width="350">
+
+                        </figure></ul>
+                    <p>We are constantly working to improve the viewer. The next development will be the implementation of an
+                        annotation tool.
+                    </p>
+                </div>
+            </div>
+            <div class="footnotes" data-type="footnotes">
+                <p data-type="footnote" id="note3_1_1">
+                    <sup><a href="#note3_1_1-marker">1</a></sup>
+                    On the development of Tarsian, see the article on JDMDH <a href="/webbook/book/chapters/bibliography.html#Cli17" target="_blank">[Clivaz, Schulthess and Sankar 2017].</a>
+                    </a>
+
+                </p>
+                <p data-type="footnote" id="note3_1_2">
+                    <sup><a href="#note3_1_1-marker">2</a></sup>
+                    The tool EVT was developed for the <a href="http://vbd.humnet.unipi.it/beta2/">Digital Vercelli Book project</a>. See also <a href="/webbook/book/chapters/bibliography.html#Ros14" target="_blank">[Rosselli Del Turco et al. 2014].</a>
+                    </a>
+
+                </p>
+            </div>
+
+        </section>
+    </div>
+</div>
+<div class="footer">
+    <div class="maia-aux">
+        <div class="previous">
+            <a href="/webbook/book/chapters/chap3.html">
+                <p class="footer-caption">
+                    previous
+                </p>
+                <p class="chapter-link">
+                    3. Manuscript transcription and visualization
+                </p></a>
+        </div>
+        <div class="next">
+            <a href="/webbook/book/chapters/chap3_2.html">
+                <p class="footer-caption">
+                    next
+                </p>
+                <p class="chapter-link">
+                    3.2 Towards handwritten text recognition
+                </p></a>
+        </div>
+        <p class="footer-link">
+            Copyright © Digital Humanities + | Swiss Institute of Bioinformatics 2016 - 2018 | CC BY-NC-ND 4.0 International License. </p>
+        <div class="footer-link"><a href="https://github.com/humarec/webbook"><i class="fa fa-github" style="font-size:30px"></i></a></div>
+    </div>
+</div>
+
+<script src="/webbook/book/js/main.min.js"></script>
+<script src="//www.google.com/js/maia.js"></script>
+</body>
+</html>
